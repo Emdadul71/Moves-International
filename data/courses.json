@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "name": "Architecture & Building",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    },
+    {
+      "name": "Business, Commerce & Management",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course-two.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    },
+    {
+      "name": "Business, Commerce & Management",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course-3.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    },
+    {
+      "name": "Business, Commerce & Management",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course-4.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    },
+    {
+      "name": "Business, Commerce & Management",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course-5.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    },
+    {
+      "name": "Business",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course-6.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    },
+    {
+      "name": "Business, Commerce & Management",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course-7.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    },
+    {
+      "name": "Business, Commerce",
+      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "imgSrc": "/home/popular-course-8.png",
+      "category": [
+        "Building & Construction",
+        "Plumbing",
+        "Painting & Decorating"
+      ],
+      "slug": "test"
+    }
+  ]
+}

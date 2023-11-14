@@ -1,0 +1,57 @@
+// dots
+ul.slick-dots {
+  bottom: -45px;
+  li {
+    button {
+      position: relative;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+    }
+    button:before {
+      box-sizing: content-box;
+      z-index: 2;
+      position: static;
+      width: 12px;
+      height: 12px;
+      opacity: 0.5;
+      color: transparent;
+      border-radius: 50%;
+      background-color: #f86011;
+      border-radius: 50%;
+    }
+    button:hover:before,
+    button:focus:before {
+      opacity: unset;
+    }
+
+    &.slick-active button:before {
+      color: transparent;
+      border: 2px solid #fff;
+      opacity: 1 !important;
+    }
+    &.slick-active {
+      button {
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+          margin: -1px; /* !importanté */
+          border-radius: 50%;
+          background: #f86011;
+        }
+      }
+    }
+  }
+}
+
+.slick-list {
+  padding: 0px 0px 24px 0 !important;
+}

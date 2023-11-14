@@ -1,0 +1,84 @@
+:where(.css-dev-only-do-not-override-pr0fja).ant-select-single.ant-select-lg
+  .ant-select-selector {
+  border-radius: 0 !important;
+  color: #9ca3af;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs
+  .ant-tabs-tab.ant-tabs-tab-active
+  .ant-tabs-tab-btn {
+  color: #f86011 !important;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs .ant-tabs-ink-bar {
+  background: #f86011 !important;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs .ant-tabs-tab:hover {
+  color: #f86011 !important;
+}
+
+:where(.css-dev-only-do-not-override-pr0fja).ant-tabs .ant-tabs-tab {
+  font-size: 18px !important;
+}
+:where(.css-dev-only-do-not-override-pr0fja).ant-collapse {
+  background-color: #fff !important;
+  font-weight: 500 !important;
+}
+
+@media (max-width: 768px) {
+  .registration_process {
+    .ant-collapse-header-text {
+      font-size: 18px !important;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .registration_process {
+    .ant-collapse-header-text {
+      font-size: 24px !important;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .registration_process {
+    .ant-collapse-header-text {
+      font-size: 24px !important;
+      font-weight: 600;
+    }
+  }
+}
+
+//Registration Process
+.registration_process {
+  .ant-collapse-header {
+    border: 1px solid #dbdbdb !important;
+    border-radius: 6px !important;
+    align-items: center !important;
+  }
+  .ant-collapse-item-active .ant-collapse-header {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  .ant-collapse-content {
+    border: 1px solid #dbdbdb;
+    border-bottom-left-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+  }
+  .ant-collapse-item-active .ant-collapse-header {
+    border-bottom-left-radius: none !important;
+  }
+}
+
+.custom_nav_drawer {
+  .ant-drawer-header-title {
+    flex-direction: row-reverse !important;
+  }
+  .ant-drawer-body {
+    padding: 16px !important;
+  }
+}

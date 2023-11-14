@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    scroll-behavior: smooth;
+    font-family: var(--font-ibm);
+    @apply text-body;
+  }
+  a {
+    &:hover {
+      @apply text-primary transition-all;
+    }
+  }
+  p {
+    @apply mb-4;
+  }
+  section {
+    @apply lg:pb-[80px] md:pb-[40px] pb-[30px];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-heading leading-[1.15] font-semibold mb-4;
+  }
+  h1 {
+    @apply lg:text-h1 md:text-h1-md text-h1-sm;
+  }
+  h2 {
+    @apply lg:text-h2 md:text-h2-md text-h2-sm;
+  }
+  h3 {
+    @apply lg:text-h3 md:text-h3-md text-h3-sm;
+  }
+  h4 {
+    @apply lg:text-h4 md:text-h4-md text-h4-sm;
+  }
+  h5 {
+    @apply lg:text-h5 md:text-h5-md text-h5-sm;
+  }
+  h6 {
+    @apply lg:text-h6 md:text-h6-md text-h6-sm;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1330px] px-5 mx-auto w-full;
+  }
+  .wrapper-small {
+    @apply max-w-[850px] mx-auto w-full;
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    @apply text-heading leading-[1.15] font-bold mb-4;
+  }
+  .h1 {
+    @apply lg:text-h1 md:text-h1-md text-h1-sm;
+  }
+  .h2 {
+    @apply lg:text-h2 md:text-h2-md text-h2-sm;
+  }
+  .h3 {
+    @apply lg:text-h3 md:text-h3-md text-h3-sm;
+  }
+  .h4 {
+    @apply lg:text-h4 md:text-h4-md text-h4-sm;
+  }
+  .h5 {
+    @apply lg:text-h5 md:text-h5-md text-h5-sm;
+  }
+  .h6 {
+    @apply lg:text-h6 md:text-h6-md text-h6-sm;
+  }
+
+  // buttons
+  .btn {
+    @apply cursor-pointer inline-flex gap-1.5 font-medium items-center justify-center py-1.5 px-4  whitespace-nowrap;
+  }
+  .btn-primary {
+    @apply border border-primary bg-primary text-white hover:bg-secondary hover:border-secondary hover:text-white transition-all;
+  }
+  .btn-secondary {
+    @apply border border-secondary bg-secondary text-white hover:bg-primary hover:border-primary hover:text-white transition-all;
+  }
+  .btn-white {
+    @apply border border-white bg-white  text-secondary transition-all;
+  }
+  .btn-grey {
+    @apply border border-[#ebebed] bg-[#ebebed]  text-grey hover:border-[#d3d3d3] hover:bg-[#d3d3d3] transition-all;
+  }
+  .btn-white-outline {
+    @apply text-white border border-white transition-all;
+  }
+}

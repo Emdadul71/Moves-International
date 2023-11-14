@@ -1,0 +1,26 @@
+[
+  {
+    "title": "About Us",
+    "link": "/about-us"
+  },
+  {
+    "title": "Team",
+    "link": "/team"
+  },
+  {
+    "title": "Testimonials",
+    "link": "/testimonials"
+  },
+  {
+    "title": "Events",
+    "link": "/events"
+  },
+  {
+    "title": "Virtual Counselling",
+    "link": "/virtual-counselling"
+  },
+  {
+    "title": "Contact Us",
+    "link": "/contact-us"
+  }
+]

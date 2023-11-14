@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "metaTitle": "",
+      "metaDescription": "",
+      "metaKeywords": "",
+      "metaImage": "",
+      "slug": "gsm-visa",
+      "counsellorSlug": "mizan",
+      "sectionHero": {
+        "title": "General Skilled Migration Visa",
+        "shortDescription": "The General Skilled Migration Visa (GSM) program is designed to attract skilled workers who wish to make Australia their permanent home and contribute to its workforce. This visa category also extends to individuals who can secure sponsorship from an Australian employer. Moves International  offers comprehensive consultation, assessment, and visa services for GSM applicants.",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "sectionVisaIssued": {
+        "imgSrc": "",
+        "alt": "",
+        "title": "The Australian visas available under this category include:",
+        "shortDescription": "If you are considering applying for an Australian visa within the GSM category, it is essential to participate in the SkillSelect program. This online program involves two key steps: submitting an Expression of Interest (EOI) and subsequently applying for the visa.",
+        "visaList": [
+          "Skilled Independent visa – subclass 189",
+          "Skilled Regional Sponsored Visa - Subclass 489 (with two distinct streams: State Regional Sponsored and Family Sponsored)",
+          "Skilled Nominated Visa - Subclass 190",
+          "Skilled Work Regional (Provisional) Visa - Subclass 491"
+        ]
+      },
+      "moreInfo": "<div class=\"flex flex-col gap-[60px] max-w-[1070px] w-full mx-auto\">\r\n          <div class=\"flex flex-col gap-[30px] migration\">\r\n            <h2 class=\"h3 mb-0\">\r\n              Basic information to be submitted with EOI\r\n            </h2>\r\n            <p class=\"text-lg mb-0\">\r\n              You are required to provide information that is required to submit\r\n              your expression of interest depending upon the type of visa that\r\n              you are eligible for. However, following are some of the basic\r\n              information that you need to successfully lodge your EOI\r\n            </p>\r\n            <ul class=\"flex flex-col gap-[14px] \">\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Basic personal information\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Work experience information\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Qualification documents\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                English Language Ability information (such as IELTS)\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Details of successful skills assessment, related to your\r\n                nominated occupation\r\n              </li>\r\n            </ul>\r\n            <p class=\"text-lg mb-0\">\r\n              1 July 2014, if a skills assessment is mandatory as part of a visa\r\n              application, that assessment will only be valid for a period of\r\n              three years from the date of issue, unless a shorter validity\r\n              period is specified on the assessment.\r\n            </p>\r\n          </div>\r\n          <div class=\"flex flex-col gap-[30px] migration\">\r\n            <h2 class=\"h3 mb-0\">\r\n              Basic information to be submitted with EOI\r\n            </h2>\r\n\r\n            <ul class=\"flex flex-col gap-[14px] \">\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Basic personal information\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Work experience information\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Qualification documents\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                English Language Ability information (such as IELTS)\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Details of successful skills assessment, related to your\r\n                nominated occupation\r\n              </li>\r\n            </ul>\r\n          </div>\r\n          <div class=\"flex flex-col gap-[30px] migration\">\r\n            <h2 class=\"h3 mb-0\">\r\n              Basic information to be submitted with EOI\r\n            </h2>\r\n\r\n            <ul class=\"flex flex-col gap-[14px] \">\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Basic personal information\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Work experience information\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Qualification documents\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                English Language Ability information (such as IELTS)\r\n              </li>\r\n              <li class=\"text-lg text-primary font-medium\">\r\n                Details of successful skills assessment, related to your\r\n                nominated occupation\r\n              </li>\r\n            </ul>\r\n          </div>\r\n        </div>",
+      "sectionVisaSubclass": {
+        "title": "Visa Subclass",
+        "shortDescription": "Moves International provides all types of Australia Immigration services and guide you to study, work or settle in Australia. Our Immigration Agents in Australia provide expert guidance on immigration processes. Rely on our Migrant Agents in Australia for accurate and professional advice."
+      }
+    },
+    {
+      "id": "2",
+      "metaTitle": "",
+      "metaDescription": "",
+      "metaKeywords": "",
+      "metaImage": "",
+      "slug": "employer-sponsored-visa",
+      "counsellorSlug": "mizan",
+      "sectionHero": {
+        "title": "Employer Sponsored Visa",
+        "shortDescription": "The General Skilled Migration Visa (GSM) program is designed to attract skilled workers who wish to make Australia their permanent home and contribute to its workforce. This visa category also extends to individuals who can secure sponsorship from an Australian employer. Moves International  offers comprehensive consultation, assessment, and visa services for GSM applicants.",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "sectionVisaIssued": {
+        "imgSrc": "",
+        "alt": "",
+        "title": "The Australian visas available under this category include:",
+        "shortDescription": "If you are considering applying for an Australian visa within the GSM category, it is essential to participate in the SkillSelect program. This online program involves two key steps: submitting an Expression of Interest (EOI) and subsequently applying for the visa.",
+        "visaList": [
+          "Skilled Independent visa – subclass 189",
+          "Skilled Regional Sponsored Visa - Subclass 489 (with two distinct streams: State Regional Sponsored and Family Sponsored)",
+          "Skilled Nominated Visa - Subclass 190",
+          "Skilled Work Regional (Provisional) Visa - Subclass 491"
+        ]
+      },
+      "moreInfo": "",
+      "sectionVisaSubclass": {
+        "title": "Visa Subclass",
+        "shortDescription": "Moves International provides all types of Australia Immigration services and guide you to study, work or settle in Australia. Our Immigration Agents in Australia provide expert guidance on immigration processes. Rely on our Migrant Agents in Australia for accurate and professional advice."
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "slug": "skilled-graduate",
+      "parentSlug": "gsm-visa",
+      "sectionHero": {
+        "title": "Temporary Graduate Visa <span class=text-secondary>  (Subclass 485)<span>",
+        "shortDescription": "The General Skilled Migration Visa (GSM) program is designed to attract skilled workers who wish to make Australia their permanent home and contribute to its workforce. This visa category also extends to individuals who can secure sponsorship from an Australian employer. Moves International  offers comprehensive consultation, assessment, and visa services for GSM applicants.",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      }
+    },
+    {
+      "id": "1",
+      "slug": "skilled-independent",
+      "parentSlug": "gsm-visa",
+      "sectionHero": {
+        "title": "Skilled Independent Visa <span class=text-secondary>(Subclass 189)<span>",
+        "shortDescription": "The General Skilled Migration Visa (GSM) program is designed to attract skilled workers who wish to make Australia their permanent home and contribute to its workforce. This visa category also extends to individuals who can secure sponsorship from an Australian employer. Moves International  offers comprehensive consultation, assessment, and visa services for GSM applicants.",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      }
+    }
+  ]
+}
