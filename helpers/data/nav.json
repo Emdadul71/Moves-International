@@ -5,15 +5,15 @@
     "children": [
       {
         "title": "University & College Admissions",
-        "link": "university-and-college-admissions"
+        "link": "/services/university-and-college-admissions"
       },
       {
         "title": "Education & Career Counselling",
-        "link": "education-and-career-counselling"
+        "link": "/services/education-and-career-counselling"
       },
       {
         "title": "Migration Advice & Visa Application",
-        "link": "migration-advice-and-visa-application"
+        "link": "/services/migration-advice-and-visa-application"
       },
       {
         "title": "Professional Year Courses",
@@ -25,7 +25,7 @@
       },
       {
         "title": "Health Insurance OSHC/OVHC",
-        "link": "health-insurance-oshc-ovhc"
+        "link": "/services/health-insurance-oshc-ovhc"
       },
       {
         "title": "RPL",
