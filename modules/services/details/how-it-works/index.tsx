@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
 
-const HowItWorks = () => {
+const HowItWorks = ({ data }: any) => {
+  const howItWorksData = data?.SectionHowItWorks;
   return (
     <section className="pt-5 lg:pt-[100px]">
       <div className="container">
@@ -13,42 +14,38 @@ const HowItWorks = () => {
               </h2>
             </div>
             <div className="max-w-[495px] ">
-              <p className="mb-0 text-p1">
-                Lorem ipsum dolor sit amet consectetur. Mauris id ipsum sed sed.
-                Vestibulum vel egestas pharetra maecenas tincidunt lacinia. Ut
-                nunc turpis tellus posuere sed molestie odio. Etiam praesent
-                rhoncus amet eu tempor cras lectus ipsum vitae. Non tempus hac
-                fermentum eu tristique tellus diam enim. Risus nisi tortor fusce
-                non dui bibendum. Pretium ac venenatis.
-              </p>
+              <p className="mb-0 text-p1">{howItWorksData?.shortDescription}</p>
             </div>
           </div>
 
           <div className="flex flex-col gap-5 lg:gap-[30px] ">
-            <div className="flex flex-col gap-[22px] p-4 lg:p-[30px] bg-grey">
-              <div>
-                <Image
-                  src="/misc/book-a-consultation.png"
-                  alt="Study International Logo"
-                  width={60}
-                  height={60}
-                  blurDataURL="/misc/book-a-consultation.png"
-                  placeholder="blur"
-                />
-              </div>
-              <div>
-                <p className="mb-0 text-[26px] font-semibold text-black mb-3">
-                  Book a Consultation with Us
-                </p>
-                <p className="text-lg">
-                  We'll determine your visa possibilities after a thorough
-                  discussion of your situation. We provide a variety of
-                  consultation alternatives so that you may obtain the finest
-                  advice that is personalized to your needs.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col gap-[22px] p-4 lg:p-[30px] bg-grey">
+            {howItWorksData?.process?.map((item: any, i: any) => {
+              return (
+                <div
+                  className="flex flex-col gap-[22px] p-4 lg:p-[30px] bg-grey"
+                  key={i}
+                >
+                  <div>
+                    <Image
+                      src={item?.iconSrc}
+                      alt={item?.alt}
+                      width={60}
+                      height={60}
+                      blurDataURL="/misc/book-a-consultation.png"
+                      placeholder="blur"
+                    />
+                  </div>
+                  <div>
+                    <p className="mb-0 text-[26px] font-semibold text-black mb-3">
+                      {item?.title}
+                    </p>
+                    <p className="text-lg">{item?.shortDescription}</p>
+                  </div>
+                </div>
+              );
+            })}
+
+            {/* <div className="flex flex-col gap-[22px] p-4 lg:p-[30px] bg-grey">
               <div>
                 <Image
                   src="/misc/engage.png"
@@ -70,6 +67,7 @@ const HowItWorks = () => {
                 </p>
               </div>
             </div>
+
             <div className="flex flex-col gap-[22px] p-4 lg:p-[30px] bg-grey">
               <div>
                 <Image
@@ -115,7 +113,7 @@ const HowItWorks = () => {
                   wonderful future together in Australia.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

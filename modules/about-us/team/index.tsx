@@ -100,8 +100,6 @@ const Team = () => {
                   alt="CEO"
                   width={300}
                   height={330}
-                  blurDataURL="/misc/team-1.jpg"
-                  placeholder="blur"
                   className="w-full"
                 />
                 <div className="flex flex-col h-full p-5 text-center  border-[0.5px] border-t-0 border-[#D9D9D9] rounded-b-md shadow-[0_10px_26px_0_rgba(0,0,0,0.05)] mt-auto">

@@ -22,7 +22,6 @@ export const Home = () => {
       <WebStories />
       <OurPartners classes={{ root: `pt-5 lg:pt-[50px]` }} />
       <ReadyToGo />
-      {/* test */}
     </>
   );
 };

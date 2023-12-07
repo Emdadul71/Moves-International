@@ -6,13 +6,13 @@ import HowItWorks from "./how-it-works";
 import ServiceMore from "./service-more";
 import ReadyToGo from "@/modules/@common/ready-to-go";
 
-const ServiceDetails = () => {
+const ServiceDetails = ({ data }: any) => {
   return (
     <>
-      <ServiceHero />
-      <CounsellingAndSupport />
+      <ServiceHero data={data} />
+      <CounsellingAndSupport data={data} />
       <LeadForm />
-      <HowItWorks />
+      <HowItWorks data={data} />
       <ServiceMore />
       <ReadyToGo />
     </>

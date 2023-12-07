@@ -71,3 +71,20 @@ blockquote {
   // margin-bottom: 10px;
   // padding-left: 10px;
 }
+
+.ant-select .ant-select-selection-placeholder {
+  color: #9ca3af;
+}
+.ant-select .ant-select-selection-item {
+  color: #575757;
+}
+
+.ant-select-selector,
+.ant-picker {
+  border-radius: 0 !important;
+}
+
+.react_phone_style {
+  width: 100% !important;
+  border-radius: 0 !important;
+}

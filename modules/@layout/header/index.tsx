@@ -320,16 +320,18 @@ const Header = () => {
                       if (item.link == path && item.link != "/#") {
                         p = true;
                       }
-                      item?.children?.map((itm: any) => {
-                        if (itm?.link == path && itm?.link != "/#") {
-                          p = true;
-                        }
-                        itm?.grandChld?.map((abc: any) => {
-                          if (abc.link == path && abc?.link != "/#") {
+                      item?.children &&
+                        item?.children.length > 0 &&
+                        item?.children?.map((itm: any) => {
+                          if (itm?.link == path && itm?.link != "/#") {
                             p = true;
                           }
+                          itm?.grandChld?.map((abc: any) => {
+                            if (abc.link == path && abc?.link != "/#") {
+                              p = true;
+                            }
+                          });
                         });
-                      });
 
                       if (item?.isHidden) {
                         return null;

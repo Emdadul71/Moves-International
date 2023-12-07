@@ -4,7 +4,8 @@ import React from "react";
 import { FiChevronRight } from "react-icons/fi";
 import { RiArrowRightLine } from "react-icons/ri";
 
-const CounsellingAndSupport = () => {
+const CounsellingAndSupport = ({ data }: any) => {
+  const CounsellingAndSupportData = data && data?.SectionCounsellingAndSupport;
   return (
     <section>
       <div className="container">
@@ -15,16 +16,10 @@ const CounsellingAndSupport = () => {
             </div>
           </div>
           <h2 className="h3 text-center mb-0">
-            Moves International: Elevating Students Through Expert Counselling
-            and Support
+            {CounsellingAndSupportData?.title}
           </h2>
           <p className="mb-0 text-center">
-            At Moves International, our Student Counselling service is dedicated
-            to providing comprehensive and empathetic support to students
-            navigating the challenges of academic and personal life. Our
-            experienced counsellors offer a safe and confidential space for
-            students to discuss their concerns, whether it's academic stress,
-            homesickness, career uncertainties, or mental health issues.{" "}
+            {CounsellingAndSupportData?.shortDescription}
           </p>
         </div>
 
@@ -40,18 +35,22 @@ const CounsellingAndSupport = () => {
               className="rounded-md"
             />
           </div>
+
           <div className="flex flex-col gap-[22px]">
             <div>
               <span className="inline-block bg-[#FEEFE7] px-4 py-[6px] rounded-full text-secondary">
                 Native Features
               </span>
             </div>
+
             <h2 className="mb-0 lg:leading-[55px]">
               Create stunning websites and landing pages in minutes!
             </h2>
+
             <p className="mb-0 text-p1">
               This is just a simple text made for Essentials.
             </p>
+
             <div>
               <ul className="flex flex-col gap-3.5">
                 <li>
@@ -82,6 +81,7 @@ const CounsellingAndSupport = () => {
             </div>
           </div>
         </div>
+
         <div className="grid lg:grid-cols-3 gap-[30px]">
           <div className="flex flex-col gap-4">
             <p className="mb-0 text-primary font-semibold text-[28px]">
@@ -98,6 +98,7 @@ const CounsellingAndSupport = () => {
               </div>
             </div>
           </div>
+
           <div className="flex flex-col gap-4">
             <p className="mb-0 text-primary font-semibold text-[28px]">
               Premium products
@@ -113,6 +114,7 @@ const CounsellingAndSupport = () => {
               </div>
             </div>
           </div>
+
           <div className="flex flex-col gap-4">
             <p className="mb-0 text-primary font-semibold text-[28px]">
               Unlimited Possibilities

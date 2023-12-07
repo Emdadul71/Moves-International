@@ -24,7 +24,6 @@ async function getData() {
 const BlogLandingPage = async () => {
   const data = await getData();
   const dataArray = data?.data;
-
   return <BlogLanding data={dataArray} />;
 };
 
