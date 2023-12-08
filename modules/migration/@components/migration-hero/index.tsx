@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const MigrationHero = ({ data }: any) => {
-  console.log("data asdc", data);
+  // console.log("data asdc", data);
 
   const Breadcrumb = data?.slug?.split("-");
   const finalBreadcrumb = Breadcrumb?.join(" ");

@@ -13,7 +13,7 @@ const MigrationDetails = ({ data }: any) => {
       <MigrationDetailInfo data={data} />
       <Eligibility data={data} />
       <KeyAdvantage data={data} />
-      <Faq />
+      <Faq data={data} />
       <ReadyToGo />
     </>
   );

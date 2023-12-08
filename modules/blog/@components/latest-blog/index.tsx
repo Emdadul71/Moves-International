@@ -12,8 +12,6 @@ const LatestBlog = ({ serverData, pageStart, postLimit }: any) => {
   const [error, setError] = useState("");
   const [nextPage, setNextPage] = useState(false);
 
-  console.log("data", data.length);
-
   useEffect(() => {
     const fetchData = async () => {
       try {
