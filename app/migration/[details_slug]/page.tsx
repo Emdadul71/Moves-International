@@ -1,7 +1,9 @@
 import React from "react";
-import { promises as fs } from "fs";
 import MigrationDetails from "@/modules/migration/details";
 import { notFound } from "next/navigation";
+
+import fsPromises from "fs/promises";
+import path from "path";
 
 // const fetchData = async (params: { details_slug: string }) => {
 //   try {
@@ -23,13 +25,12 @@ import { notFound } from "next/navigation";
 // };
 
 async function getData(params: any) {
-  const file = await fs.readFile(
-    process.cwd() + "/data/mirgration-sub-pages.json",
-    "utf8"
-  );
+  const filePath = path.join(process.cwd(), "/data/migration-sub-pages.json");
 
-  const data = JSON.parse(file);
-  const dataSingle = data?.data?.find(
+  const jsonData = await fsPromises.readFile(filePath);
+  const objectData = JSON.parse(jsonData.toString());
+
+  const dataSingle = objectData?.data?.find(
     (item: any) => item?.slug === params?.details_slug
   );
 
