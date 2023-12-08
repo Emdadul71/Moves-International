@@ -11,8 +11,9 @@ const fetchData = async (params: { details_slug: string }) => {
     );
     const data = JSON.parse(file);
     const dataSingle = data?.data?.find(
-      (item: any) => item?.slug == params?.details_slug
+      (item: any) => item?.slug === params?.details_slug
     );
+    console.log("dataSingle", dataSingle);
     if (!dataSingle) {
       return notFound();
     }
@@ -23,9 +24,6 @@ const fetchData = async (params: { details_slug: string }) => {
 };
 const MigrationDetailsPage = async ({ params }: any) => {
   const data = await fetchData(params);
-
-  console.log("params", params);
-  console.log("data", data);
 
   return <MigrationDetails data={data} />;
 };
