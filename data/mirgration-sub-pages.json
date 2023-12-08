@@ -2,20 +2,75 @@
   "data": [
     {
       "id": "1",
-      "slug": "skilled-graduate",
-      "parentSlug": "gsm-visa",
+      "slug": "student-visa-subclass-500",
       "sectionHero": {
-        "title": "Temporary Graduate Visa <span class=text-secondary>  (Subclass 485)<span>",
-        "shortDescription": "The General Skilled Migration Visa (GSM) program is designed to attract skilled workers who wish to make Australia their permanent home and contribute to its workforce. This visa category also extends to individuals who can secure sponsorship from an Australian employer. Moves International  offers comprehensive consultation, assessment, and visa services for GSM applicants.",
+        "title": "<span class=text-secondary>Subclass 500</span> <span>Student visa</span>",
+        "shortDescription": "Find out all you need to know about the subclass 500 Student Visa, including processing time, eligibility and estimated fees.",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Our Gateway to Studying in Australia",
+        "description": "The Subclass 500 Student visa is your key to unlocking a world-class education in Australia. This visa allows you to pursue a full-time course of study at a registered Australian educational institution, including: Higher education: Universities, colleges, and vocational institutions offering degrees, diplomas, and advanced diplomas. Vocational Education and Training (VET): Courses focused on developing specific skills for employment in various industries. English language courses: Programs designed to improve your English language proficiency to meet academic or professional requirements."
+      },
+      "sectionEligibility": {
+        "title": "Basic Requirements for Student visa Subclass 500 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Genuine student",
+            "desc": "You must genuinely intend to pursue full-time study in Australia."
+          },
+          {
+            "title": "Financial resources",
+            "desc": "Demonstrate sufficient financial resources to support yourself during your studies."
+          },
+          {
+            "title": "Health insurance",
+            "desc": "Have Overseas Student Health Cover (OSHC) for the duration of your visa."
+          },
+          {
+            "title": "English language proficiency",
+            "desc": "Meet the minimum English language requirements for your chosen course."
+          }
+        ]
+      },
+      "sectionBenefits": {
+        "title": "Key Benefits of the Subclass 500 Visa",
+        "benefits": [
+          {
+            "title": "Study at renowned institutions",
+            "desc": "Access a diverse range of educational opportunities from leading Australian universities and colleges."
+          },
+          {
+            "title": "Work while you study",
+            "desc": "Gain valuable work experience and supplement your income with up to 40 hours of work per fortnight (when your course is in session)."
+          },
+          {
+            "title": "Extend your stay",
+            "desc": "Apply for subsequent student visas to continue your studies or transition to a work visa."
+          },
+          {
+            "title": "Explore Australia",
+            "desc": "Meet the minimum English language requirements for your chosen course."
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "slug": "student-guardian-visa-subclass-590",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Subclass 590</span> <span>Student Guardian visa</span>",
+        "shortDescription": "Everything you need to know about the visa for being in Australia as a guardian, parent or relative.",
         "link": "",
         "imgSrc": "",
         "alt": ""
       }
     },
     {
-      "id": "1",
-      "slug": "skilled-independent",
-      "parentSlug": "gsm-visa",
+      "id": "3",
+      "slug": "training-visa-subclass-407",
       "sectionHero": {
         "title": "Skilled Independent Visa <span class=text-secondary>(Subclass 189)<span>",
         "shortDescription": "The General Skilled Migration Visa (GSM) program is designed to attract skilled workers who wish to make Australia their permanent home and contribute to its workforce. This visa category also extends to individuals who can secure sponsorship from an Australian employer. Moves International  offers comprehensive consultation, assessment, and visa services for GSM applicants.",

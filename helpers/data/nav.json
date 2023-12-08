@@ -35,24 +35,22 @@
   },
 
   {
-    "title": "Visa Service",
-    "link": "/migration",
+    "title": "Migration Service",
     "children": [
       {
         "title": "Studying & Training Visas",
-        "link": "/migration/gsm-visa",
         "grandChld": [
           {
             "title": "Student visa (subclass 500)",
-            "link": "/migration/gsm-visa/skilled-graduate"
+            "link": "/migration/student-visa-subclass-500"
           },
           {
             "title": "Student Guardian visa (subclass 590)",
-            "link": "/migration/gsm-visa/skilled-independent"
+            "link": "/migration/student-guardian-visa-subclass-590"
           },
           {
             "title": "Training visa (subclass 407)",
-            "link": "/migration/gsm/details"
+            "link": "/migration/training-visa-subclass-407"
           }
         ]
       },

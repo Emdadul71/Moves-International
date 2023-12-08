@@ -393,13 +393,26 @@ const Header = () => {
                                           </>
                                         ) : (
                                           <>
-                                            <Link
-                                              href={cldn?.link}
-                                              className="flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition"
-                                            >
-                                              <span className="w-5 h-[2px] bg-black"></span>
-                                              <span>{cldn?.title}</span>
-                                            </Link>
+                                            {cldn?.link ? (
+                                              <>
+                                                <Link
+                                                  href={`${
+                                                    cldn?.link ? cldn?.link : ""
+                                                  }`}
+                                                  className="flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition"
+                                                >
+                                                  <span className="w-5 h-[2px] bg-black"></span>
+                                                  <span>{cldn?.title}</span>
+                                                </Link>
+                                              </>
+                                            ) : (
+                                              <>
+                                                <div className="flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition cursor-pointer">
+                                                  <span className="w-5 h-[2px] bg-black"></span>
+                                                  <span>{cldn?.title}</span>
+                                                </div>
+                                              </>
+                                            )}
                                           </>
                                         )}
 

@@ -15,7 +15,7 @@ const CounsellingAndSupport = ({ data }: any) => {
               Diploma / Bachelor / Master Courses Available
             </div>
           </div>
-          <h2 className="h3 text-center mb-0">
+          <h2 className="h3 text-center mb-0 lg:leading-[48px]">
             {CounsellingAndSupportData?.title}
           </h2>
           <p className="mb-0 text-center">
