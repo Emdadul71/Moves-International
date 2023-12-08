@@ -71,30 +71,31 @@
         }
       ]
     },
+
     {
-      "id": "1",
+      "id": "2",
       "slug": "student-guardian-visa-subclass-590",
       "sectionHero": {
-        "title": "<span class=text-secondary>Subclass 500</span> <span>Student visa</span>",
-        "shortDescription": "Find out all you need to know about the subclass 500 Student Visa, including processing time, eligibility and estimated fees.",
+        "title": "<span class=text-secondary>Subclass 590</span> <span>Student Guardian visa</span>",
+        "shortDescription": "Everything you need to know about the visa for being in Australia as a guardian, parent or relative.",
         "link": "",
         "imgSrc": "",
         "alt": ""
       },
       "detailInfo": {
-        "title": "Our Gateway to Studying in Australia",
-        "description": "The Subclass 500 Student visa is your key to unlocking a world-class education in Australia. This visa allows you to pursue a full-time course of study at a registered Australian educational institution, including: Higher education: Universities, colleges, and vocational institutions offering degrees, diplomas, and advanced diplomas. Vocational Education and Training (VET): Courses focused on developing specific skills for employment in various industries. English language courses: Programs designed to improve your English language proficiency to meet academic or professional requirements."
+        "title": "Supporting Your Child's Education with the Student Guardian Visa",
+        "description": "The Subclass 590 Student Guardian Visa allows parents, legal guardians, or relatives to accompany and provide support to a student under 18 studying in Australia on a student visa. This visa ensures your child receives the necessary care and guidance while they pursue their educational goals in a new environment."
       },
       "sectionEligibility": {
-        "title": "Basic Requirements for Student visa Subclass 500 Eligibility ",
+        "title": "Basic Requirements for Student's Guardian visa Subclass 590 Eligibility ",
         "eligibility": [
           {
-            "title": "Genuine student",
-            "desc": "You must genuinely intend to pursue full-time study in Australia."
+            "title": "Relationship to the student",
+            "desc": "You must be a parent, legal guardian, or relative of the student under 18 studying in Australia on a student visa."
           },
           {
             "title": "Financial resources",
-            "desc": "Demonstrate sufficient financial resources to support yourself during your studies."
+            "desc": "Demonstrate sufficient financial resources to support yourself and your dependent family members during your stay in Australia."
           },
           {
             "title": "Health insurance",
@@ -102,43 +103,67 @@
           },
           {
             "title": "English language proficiency",
-            "desc": "Meet the minimum English language requirements for your chosen course."
+            "desc": "Meet the minimum English language requirements for the visa."
           }
         ]
       },
       "sectionBenefits": {
-        "title": "Key Benefits of the Subclass 500 Visa",
+        "title": "Key Benefits of the Subclass 590 Visa",
         "benefits": [
           {
-            "title": "Study at renowned institutions",
-            "desc": "Access a diverse range of educational opportunities from leading Australian universities and colleges."
+            "title": "Provide invaluable support",
+            "desc": " Assist your child with daily needs, ensuring their well-being and academic success."
           },
           {
-            "title": "Work while you study",
-            "desc": "Gain valuable work experience and supplement your income with up to 40 hours of work per fortnight (when your course is in session)."
+            "title": "Peace of mind",
+            "desc": "Have the comfort of knowing your child is safe and cared for while you are away."
           },
           {
             "title": "Extend your stay",
-            "desc": "Apply for subsequent student visas to continue your studies or transition to a work visa."
-          },
-          {
-            "title": "Explore Australia",
-            "desc": "Meet the minimum English language requirements for your chosen course."
+            "desc": "The visa duration is linked to the student visa holder's stay or until they turn 18, allowing you to be present throughout their academic journey."
           }
         ]
       },
       "faq": [
         {
-          "question": "What is the Subclass 500 Student Visa?",
-          "answer": "The Subclass 500 Student Visa allows international students to study full-time at a registered Australian educational institution. This includes universities, colleges, vocational institutions, and English language courses."
+          "question": "What is the Subclass 590 Student Guardian Visa?",
+          "answer": "The Subclass 590 Student Guardian Visa allows parents, legal guardians, or relatives to accompany and provide support to a student under 18 years old studying in Australia on a student visa."
         },
         {
-          "question": "Who is eligible for the Subclass 500 Student Visa?",
-          "answer": "To be eligible, you must: <ul class=list-disc><li>Be enrolled in a registered course at a CRICOS-registered institution.</li><li>Meet the English language requirements for your chosen course.</li><li>Have sufficient financial resources to support yourself during your studies.</li><li>Meet health and character requirements.</li></ul>"
+          "question": "Who is eligible for the Subclass 590 Student Guardian Visa?",
+          "answer": "To be eligible, you must: <ul class=list-disc><li>Be the parent, legal guardian, or a relative of the student under 18 studying in Australia on a student visa.</li><li>Meet the English language requirements for the visa.</li><li>Have sufficient financial resources to support yourself and your dependent family members during your stay in Australia.</li><li>Meet health and character requirements.</li></ul>"
         },
         {
-          "question": "What are the different types of Subclass 500 Student Visas?",
-          "answer": "There are several visa streams within Subclass 500, each catering to different student profiles: <ul class=list-disc><li><span class=font-semibold>Mainstream:</span> For students seeking full-time study in higher education or vocational education and training (VET) programs</li><li>Meet the English language requirements for your chosen course.</li><li>Have sufficient financial resources to support yourself during your studies.</li><li>Meet health and character requirements.</li></ul>"
+          "question": "What are the responsibilities of a Student Guardian?",
+          "answer": "He Student Guardian is responsible for the welfare and well-being of the student under their care. This includes: <ul class=list-disc><li>Providing accommodation and daily necessities.</li><li>Ensuring the student attends school regularly.</li><li>Monitoring the student's academic progress and welfare.</li><li>Making decisions regarding the student's health, education, and welfare.</li></ul>"
+        },
+        {
+          "question": "How long can I stay in Australia on a Subclass 590 Student Guardian Visa?",
+          "answer": "The visa duration is linked to the student visa holder's stay or until they turn 18, allowing you to be present throughout their academic journey."
+        },
+        {
+          "question": "Can I work while in Australia on a Subclass 590 Student Guardian Visa?",
+          "answer": "You can study English language courses for up to 20 hours per week if you lodged your application on or after March 24, 2012. However, you cannot engage in paid employment outside of this."
+        },
+        {
+          "question": "Do I need health insurance?",
+          "answer": "Yes, you must have Overseas Student Health Cover (OSHC) for the duration of your visa. OSHC provides access to essential medical services while residing in Australia."
+        },
+        {
+          "question": "What are the English language requirements?",
+          "answer": "The English language requirements for the Subclass 590 Student Guardian Visa are lower than those for other visa types. You can meet the requirements through tests like IELTS, TOEFL, or PTE."
+        },
+        {
+          "question": "How much does it cost to apply for the Subclass 590 Student Guardian Visa?",
+          "answer": "The visa application fee is currently AUD 370. Additional costs may include medical examinations, health insurance, and travel expenses."
+        },
+        {
+          "question": "How long does it take to process a Subclass 590 Student Guardian Visa?",
+          "answer": "Processing times can vary depending on individual circumstances and case complexity. Generally, it takes around 3-4 weeks to receive a decision."
+        },
+        {
+          "question": "Where can I get more information?",
+          "answer": "The Department of Home Affairs website provides comprehensive information about the Subclass 590 Student Guardian Visa: https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-590"
         }
       ]
     },
@@ -147,11 +172,483 @@
       "id": "3",
       "slug": "training-visa-subclass-407",
       "sectionHero": {
-        "title": "Skilled Independent Visa <span class=text-secondary>(Subclass 189)<span>",
-        "shortDescription": "The General Skilled Migration Visa (GSM) program is designed to attract skilled workers who wish to make Australia their permanent home and contribute to its workforce. This visa category also extends to individuals who can secure sponsorship from an Australian employer. Moves International  offers comprehensive consultation, assessment, and visa services for GSM applicants.",
+        "title": "<span class=text-secondary>Subclass 407</span> <span>Training visa</span>",
+        "shortDescription": "Gain valuable occupational skills and enhance your employability with workplace-based training and professional development opportunities.",
         "link": "",
         "imgSrc": "",
         "alt": ""
+      },
+      "detailInfo": {
+        "title": "Upskill and Advance Your Career in Australia with the Subclass 407 Training Visa",
+        "description": "The Subclass 407 Training Visa allows international individuals to acquire or enhance their skills through structured training in Australia. This visa is ideal for professionals seeking to:"
+      },
+      "sectionEligibility": {
+        "title": "Basic Requirements for Training visa Subclass 407 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Nominated by an Australian sponsor",
+            "desc": "You must have a sponsor in Australia who will provide the training program and offer employment opportunities."
+          },
+          {
+            "title": "Increase your career opportunities",
+            "desc": "Enhance your resume and become a more competitive candidate in the Australian job market."
+          },
+          {
+            "title": "Extend your stay",
+            "desc": "You may be eligible to extend your stay for up to 2 years depending on the type of training program and your circumstances."
+          },
+          {
+            "title": "Explore Australia",
+            "desc": "Immerse yourself in Australian culture and explore the country's diverse attractions during your stay."
+          }
+        ]
+      },
+      "sectionBenefits": {
+        "title": "Key Benefits of the Subclass 407 Visa",
+        "benefits": [
+          {
+            "title": "Improve your skills and knowledge",
+            "desc": "Gain valuable experience and qualifications recognized in Australia and overseas."
+          },
+          {
+            "title": "Increase your career opportunities",
+            "desc": "Enhance your resume and become a more competitive candidate in the Australian job market."
+          },
+          {
+            "title": "Extend your stay",
+            "desc": "You may be eligible to extend your stay for up to 2 years depending on the type of training program and your circumstances."
+          },
+          {
+            "title": "Explore Australia",
+            "desc": "Immerse yourself in Australian culture and explore the country's diverse attractions during your stay."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What is the Subclass 407 Training Visa?",
+          "answer": "The Subclass 407 Training Visa allows international individuals to acquire or enhance their skills through structured training programs in Australia. This visa is ideal for individuals seeking to:  <ul class=list-disc><li><span class=font-semibold>Gain valuable occupational skills:</span> Develop in-demand expertise in your chosen field through workplace-based training provided by Australian businesses and organizations.</li><li><span class=font-semibold>Meet occupational registration requirements:</span> Fulfill the necessary training components for professional registration in Australia.</li><li><span class=font-semibold>Boost your career prospects:</span> Enhance your employability and career advancement opportunities with specialized skills and experience.</li></ul>"
+        },
+        {
+          "question": "Who is eligible for the Subclass 407 Training Visa?",
+          "answer": "To be eligible, you must: <ul class=list-disc><li>Have a sponsor in Australia who will provide the training program and offer employment opportunities.</li><li>Meet skill requirements: Your skills and experience must be relevant to the training program and Australian job market.</li><li>Demonstrate sufficient financial resources to support yourself during your stay in Australia.</li><li>Meet health and character requirements.</li><li>Satisfy the English language requirements for the visa.</li></ul>"
+        },
+        {
+          "question": "What types of training activities are covered under the Subclass 407 visa?",
+          "answer": "A variety of training activities are eligible, including:  <ul class=list-disc><li><span class=font-semibold>Occupational training: </span> Improve skills in your chosen field, such as engineering, IT, healthcare, or hospitality.</li><li><span class=font-semibold>Professional development: </span> Participate in specialized training programs to enhance your knowledge and expertise in your current profession.</li><li><span class=font-semibold>Capacity building: </span> Undergo training programs designed to develop skills and expertise for overseas projects or initiatives.</li></ul>"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "slug": "visitor-subclass-600",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Subclass 600</span> <span>Visitor</span>",
+        "shortDescription": "Unlock the wonders of Australia with the Subclass 600 Visitor Visa. Discover diverse landscapes, vibrant cities, and enriching experiences, tailored to your specific travel purpose and duration.",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Explore Australia with the Subclass 600 Visitor Visa",
+        "description": "The Subclass 600 Visitor Visa is your key to unlocking the wonders of Australia. This visa allows you to visit Australia for various purposes, including:"
+      },
+
+      "sectionEligibility": {
+        "title": "Basic Requirements for Training visa Subclass 407 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Genuine visitor",
+            "desc": "You must demonstrate a genuine intention to visit Australia for tourism, business, or family reasons."
+          },
+          {
+            "title": "Financial resources: ",
+            "desc": "Show sufficient financial resources to support yourself during your stay in Australia."
+          },
+          {
+            "title": "Health insurance: ",
+            "desc": " Have Overseas Visitor Health Cover (OVHC) for the duration of your visa."
+          },
+          {
+            "title": "English language proficiency:",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+
+      "sectionBenefits": {
+        "title": "Key Benefits of the Subclass 600 Visa",
+        "benefits": [
+          {
+            "title": "Flexible visa options ",
+            "desc": "Choose from various visa streams tailored to your specific visit purpose and duration."
+          },
+          {
+            "title": "Explore diverse regions ",
+            "desc": "Discover the unique landscapes, cities, and cultural experiences across Australia."
+          },
+          {
+            "title": "Extend your stay ",
+            "desc": "You may be eligible to extend your visa for up to 12 months depending on your circumstances."
+          },
+          {
+            "title": "Multiple entries ",
+            "desc": "Some visa streams allow you to visit Australia multiple times within the validity period."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Determine your visa stream",
+            "desc": "Choose the visa stream that best suits your visit purpose and duration."
+          },
+          {
+            "title": "Meet eligibility requirements",
+            "desc": "Ensure you meet all the criteria for your chosen visa stream."
+          },
+          {
+            "title": "Gather documentation",
+            "desc": "Prepare the necessary documents, including your passport, travel itinerary, and evidence of financial resources."
+          },
+          {
+            "title": "Submit your visa application",
+            "desc": "Apply online through the Department of Home Affairs website."
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "slug": "work-and-holiday-visa-subclass-462",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Subclass 462</span> <span>Work and Holiday Visa</span>",
+        "shortDescription": "The Subclass 462 Work and Holiday visa opens doors to an exciting combination of travel and work in Australia. This visa allows young individuals from eligible countries to",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Embrace Adventure and Opportunity with the Subclass 462 Work and Holiday Visa",
+        "description": "The Subclass 600 Visitor Visa is your key to unlocking the wonders of Australia. This visa allows you to visit Australia for various purposes, including:"
+      },
+
+      "sectionEligibility": {
+        "title": "Basic Requirements for Work and Holiday Visa Subclass 462 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Hold a passport from an eligible country",
+            "desc": "Check the Department of Home Affairs website for the list of eligible countries"
+          },
+          {
+            "title": "Be aged 18-30 (or 35 for some countries)",
+            "desc": "Meet the age requirement for your specific nationality."
+          },
+          {
+            "title": "Meet health and character requirements",
+            "desc": "Pass health checks and demonstrate good character."
+          },
+          {
+            "title": "Financial resources",
+            "desc": "Show sufficient funds to support yourself during the initial stage of your stay."
+          },
+          {
+            "title": "English language proficiency",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+
+      "sectionBenefits": {
+        "title": "Key Benefits of the Subclass 462 Visa",
+        "benefits": [
+          {
+            "title": "Flexible travel and work",
+            "desc": " Enjoy up to 12 months of working holiday experience, allowing you to travel and work at your own pace."
+          },
+          {
+            "title": "Multiple work opportunities",
+            "desc": "Explore various job options in industries like tourism, hospitality, agriculture, and many more."
+          },
+          {
+            "title": "Open to young adults",
+            "desc": "Individuals aged 18-30 (or 35 for some countries) can apply for this visa."
+          },
+          {
+            "title": "Experience diverse regions",
+            "desc": "Discover the unique beauty and culture of different states and territories in Australia."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Check your eligibility",
+            "desc": "Confirm you meet all the requirements for the Subclass 462 visa."
+          },
+          {
+            "title": "Gather documentation",
+            "desc": "Prepare the necessary documents, including your passport, travel itinerary, and evidence of financial resources."
+          },
+          {
+            "title": "Register online",
+            "desc": "Create an ImmiAccount and lodge your visa application online."
+          },
+          {
+            "title": "Attend a visa appointment",
+            "desc": "You may be required to attend a visa appointment depending on your circumstances."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "slug": "working-holiday-visa-subclass-417",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Subclass 417</span> <span>Working Holiday visa</span>",
+        "shortDescription": "",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Fuel Your Wanderlust and Discover Yourself with the Subclass 417 Working Holiday Visa",
+        "description": "The Subclass 417 Working Holiday visa is your gateway to an unforgettable adventure in Australia. This visa allows young individuals from eligible countries to combine travel and work, offering a unique opportunity to:"
+      },
+
+      "sectionEligibility": {
+        "title": "Basic Requirements for Work and Holiday Visa Subclass 462 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Hold a passport from an eligible country",
+            "desc": "Check the Department of Home Affairs website for the list of eligible countries."
+          },
+          {
+            "title": "Be aged 18-30 (or 35 for some countries)",
+            "desc": "Meet the age requirement for your specific nationality."
+          },
+          {
+            "title": "Meet health and character requirements",
+            "desc": "Pass health checks and demonstrate good character."
+          },
+          {
+            "title": "Financial resources",
+            "desc": "Show sufficient funds to support yourself during the initial stage of your stay."
+          },
+          {
+            "title": "English language proficiency",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+
+      "sectionBenefits": {
+        "title": "Key Benefits of the Subclass 462 Visa",
+        "benefits": [
+          {
+            "title": "Extend your stay",
+            "desc": "Enjoy up to 12 months of exploring and working in Australia, allowing you to tailor your experience to your interests and travel plans."
+          },
+          {
+            "title": "Multiple work opportunities",
+            "desc": "Explore a diverse range of job options in various industries and discover your hidden talents and passions."
+          },
+          {
+            "title": "Open to young adults",
+            "desc": "Individuals aged 18-30 (or 35 for some countries) can apply for this visa, making it a perfect opportunity for young adventurers."
+          },
+          {
+            "title": "Experience different regions",
+            "desc": "Travel freely across different states and territories, each offering its unique charm and cultural experiences."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Check your eligibility",
+            "desc": "Confirm you meet all the requirements for the Subclass 462 visa."
+          },
+          {
+            "title": "Gather documentation",
+            "desc": "Prepare the necessary documents, including your passport, travel itinerary, and evidence of financial resources."
+          },
+          {
+            "title": "Register online",
+            "desc": "Create an ImmiAccount and lodge your visa application online."
+          },
+          {
+            "title": "Attend a visa appointment",
+            "desc": "You may be required to attend a visa appointment depending on your circumstances."
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "slug": "family-and-partner-visas",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Family </span> & <span class=text-secondary>Partner</span><span> visas</span>",
+        "shortDescription": "",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Reunite with Loved Ones: Your Guide to Australia's Family & Partner Visas",
+        "description": "Family and Partner Visas are designed to facilitate the reunion and permanent residence of families and loved ones in Australia. These visas allow individuals to:"
+      },
+
+      "sectionEligibility": {
+        "title": "Basic Requirements for Work and Holiday Visa Subclass 462 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Hold a passport from an eligible country",
+            "desc": "Check the Department of Home Affairs website for the list of eligible countries."
+          },
+          {
+            "title": "Be aged 18-30 (or 35 for some countries)",
+            "desc": "Meet the age requirement for your specific nationality."
+          },
+          {
+            "title": "Meet health and character requirements",
+            "desc": "Pass health checks and demonstrate good character."
+          },
+          {
+            "title": "Financial resources",
+            "desc": "Show sufficient funds to support yourself during the initial stage of your stay."
+          },
+          {
+            "title": "English language proficiency",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+
+      "sectionBenefits": {
+        "title": "Key Benefits of the Subclass 462 Visa",
+        "benefits": [
+          {
+            "title": "Extend your stay",
+            "desc": "Enjoy up to 12 months of exploring and working in Australia, allowing you to tailor your experience to your interests and travel plans."
+          },
+          {
+            "title": "Multiple work opportunities",
+            "desc": "Explore a diverse range of job options in various industries and discover your hidden talents and passions."
+          },
+          {
+            "title": "Open to young adults",
+            "desc": "Individuals aged 18-30 (or 35 for some countries) can apply for this visa, making it a perfect opportunity for young adventurers."
+          },
+          {
+            "title": "Experience different regions",
+            "desc": "Travel freely across different states and territories, each offering its unique charm and cultural experiences."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Check your eligibility",
+            "desc": "Confirm you meet all the requirements for the Subclass 462 visa."
+          },
+          {
+            "title": "Gather documentation",
+            "desc": "Prepare the necessary documents, including your passport, travel itinerary, and evidence of financial resources."
+          },
+          {
+            "title": "Register online",
+            "desc": "Create an ImmiAccount and lodge your visa application online."
+          },
+          {
+            "title": "Attend a visa appointment",
+            "desc": "You may be required to attend a visa appointment depending on your circumstances."
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "slug": "business-visa-subclass-456",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Subclass 456 </span><span> Business (Short Stay) visa</span>",
+        "shortDescription": "",
+        "link": "",
+        "imgSrc": "",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Streamline Your Business Ventures with the Subclass 456 Business (Short Stay) Visa",
+        "description": "The Subclass 456 Business (Short Stay) visa is your passport to conducting business activities efficiently and conveniently in Australia. This visa allows:"
+      },
+
+      "sectionEligibility": {
+        "title": "Basic Requirements for Business (Short Stay) visa Subclass 456 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Genuine business purpose",
+            "desc": "Demonstrate a genuine intention to conduct business activities in Australia."
+          },
+          {
+            "title": "Financial resources",
+            "desc": "Show sufficient financial resources to support yourself during your stay in Australia."
+          },
+          {
+            "title": "Health insurance",
+            "desc": "Have Overseas Visitor Health Cover (OVHC) for the duration of your visa."
+          },
+          {
+            "title": "English language proficiency",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+
+      "sectionBenefits": {
+        "title": "Key Benefits of the Subclass 456 Visa",
+        "benefits": [
+          {
+            "title": "Fast and flexible",
+            "desc": "Apply online and receive a decision within a short timeframe, allowing you to plan your business trip efficiently."
+          },
+          {
+            "title": "Multiple entry options",
+            "desc": "Choose visa durations ranging from three to twelve months, depending on your specific business needs."
+          },
+          {
+            "title": "Seamless business operations",
+            "desc": "Conduct your business activities with ease and confidence."
+          },
+          {
+            "title": "Multiple stays within validity period",
+            "desc": "Enjoy the flexibility to enter and exit Australia multiple times within the validity period of your visa."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Determine your business purpose",
+            "desc": "Identify the specific business activities you will be conducting in Australia."
+          },
+          {
+            "title": "Gather documentation",
+            "desc": "Prepare the necessary documents, including your passport, travel itinerary, evidence of financial resources, and business invitation letters."
+          },
+          {
+            "title": "Apply online",
+            "desc": "Submit your visa application electronically through the Department of Home Affairs website."
+          },
+          {
+            "title": "Await a decision",
+            "desc": "The Department of Home Affairs will assess your application and notify you of the outcome."
+          }
+        ]
       }
     }
   ]

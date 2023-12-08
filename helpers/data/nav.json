@@ -56,41 +56,37 @@
       },
       {
         "title": "Visitor Visas",
-        "link": "/migration/employer-sponsored-visa",
         "grandChld": [
           {
             "title": "Visitor (subclass 600)",
-            "link": "#"
+            "link": "visitor-subclass-600"
           },
           {
             "title": "Work and Holiday visa (subclass 462)",
-            "link": "#"
+            "link": "work-and-holiday-visa-subclass-462"
           },
           {
             "title": "Working Holiday visa (subclass 417)",
-            "link": "#"
+            "link": "working-holiday-visa-subclass-417"
           }
         ]
       },
       {
         "title": "Family & Partner Visas",
-        "link": "/migration/gsm"
+        "link": "family-and-partner-visas"
       },
       {
-        "title": "Working and Skilled Visa",
-        "link": "/migration/gsm"
+        "title": "Working and Skilled Visa"
       },
       {
-        "title": "Other Visas",
-        "link": "/migration/gsm"
+        "title": "Other Visas"
       },
       {
         "title": "Repealed Visas",
-        "link": "/migration/gsm",
         "grandChld": [
           {
             "title": "Business(Short Stay) visa (subclass 456)",
-            "link": "#"
+            "link": "business-visa-subclass-456"
           },
           {
             "title": "Business Skills (Provisional) visa (subclass 160 and 165)",
