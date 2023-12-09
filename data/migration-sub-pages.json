@@ -56,6 +56,27 @@
           }
         ]
       },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Choose your course and institution",
+            "desc": "Research and select your desired course and educational provider."
+          },
+          {
+            "title": "Receive a Confirmation of Enrolment (COE): ",
+            "desc": "Obtain a COE from your chosen institution."
+          },
+          {
+            "title": "Meet the visa requirements",
+            "desc": "Ensure you meet all eligibility criteria and gather the necessary documentation."
+          },
+          {
+            "title": "Submit your visa application",
+            "desc": "Apply online through the Department of Home Affairs website."
+          }
+        ]
+      },
       "faq": [
         {
           "question": "What is the Subclass 500 Student Visa?",
@@ -121,6 +142,23 @@
           {
             "title": "Extend your stay",
             "desc": "The visa duration is linked to the student visa holder's stay or until they turn 18, allowing you to be present throughout their academic journey."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Confirm your eligibility",
+            "desc": "Ensure you meet all the requirements for the visa."
+          },
+          {
+            "title": "Gather documentation ",
+            "desc": "Collect the necessary documents, including evidence of your relationship to the student, financial resources, and health insurance."
+          },
+          {
+            "title": "Submit your visa application",
+            "desc": "Apply online through the Department of Home Affairs website."
           }
         ]
       },
@@ -221,6 +259,27 @@
           {
             "title": "Explore Australia",
             "desc": "Immerse yourself in Australian culture and explore the country's diverse attractions during your stay."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "process": [
+          {
+            "title": "Find a sponsor",
+            "desc": "Identify an Australian organization offering a training program relevant to your skills and career goals."
+          },
+          {
+            "title": "Obtain a nomination",
+            "desc": "Secure a nomination from your sponsor confirming your training program and employment arrangement."
+          },
+          {
+            "title": "Meet visa requirements",
+            "desc": "Ensure you fulfill all eligibility criteria and gather required documentation."
+          },
+          {
+            "title": "Submit your visa application",
+            "desc": "Apply online through the Department of Home Affairs website."
           }
         ]
       },
@@ -488,7 +547,7 @@
       }
     },
     {
-      "id": "5",
+      "id": "6",
       "slug": "family-and-partner-visas",
       "sectionHero": {
         "title": "<span class=text-secondary>Family </span> & <span class=text-secondary>Partner</span><span> visas</span>",
@@ -572,7 +631,7 @@
       }
     },
     {
-      "id": "6",
+      "id": "7",
       "slug": "business-visa-subclass-456",
       "sectionHero": {
         "title": "<span class=text-secondary>Subclass 456 </span><span> Business (Short Stay) visa</span>",

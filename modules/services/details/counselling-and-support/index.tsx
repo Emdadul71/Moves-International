@@ -10,17 +10,15 @@ const CounsellingAndSupport = ({ data }: any) => {
     <section>
       <div className="container">
         <div className="flex flex-col gap-4 max-w-[830px] mx-auto w-full mb-[100px]">
-          <div className="flex justify-center ">
+          <div className="flex">
             <div className="bg-[#F7F9F9] px-4 py-[6px] rounded-full">
               Diploma / Bachelor / Master Courses Available
             </div>
           </div>
-          <h2 className="h3 text-center mb-0 lg:leading-[48px]">
+          <h2 className="h3  mb-0 lg:leading-[48px]">
             {CounsellingAndSupportData?.title}
           </h2>
-          <p className="mb-0 text-center">
-            {CounsellingAndSupportData?.shortDescription}
-          </p>
+          <p className="mb-0 ">{CounsellingAndSupportData?.shortDescription}</p>
         </div>
 
         <div className="grid lg:grid-cols-[630px_1fr] items-center gap-[45px] mb-[60px]">

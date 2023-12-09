@@ -14,7 +14,7 @@ const Faq = ({ data }: any) => {
     setSelected(i);
   };
   return (
-    <section>
+    <section className="pt-[80px]">
       <div className="container">
         {data?.faq?.length > 0 ? (
           <>

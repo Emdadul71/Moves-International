@@ -1,8 +1,17 @@
-import ServiceDetails from "@/modules/services/details";
+import ServiceDetailsTempleteOne from "@/modules/services/details/templete-one";
 import { notFound } from "next/navigation";
 // Fetching data from the JSON file
 import fsPromises from "fs/promises";
 import path from "path";
+import ServiceDetailsTempleteTwo from "@/modules/services/details/templete-two";
+
+const render = (data: any) => {
+  if (data.type == "professional") {
+    return <ServiceDetailsTempleteTwo data={data} />;
+  }
+
+  return <ServiceDetailsTempleteOne data={data} />;
+};
 
 async function getData(params: any) {
   const filePath = path.join(
@@ -27,7 +36,7 @@ async function getData(params: any) {
 const ServiceDetailPage = async ({ params }: any) => {
   const data = await getData(params);
 
-  return <ServiceDetails data={data} />;
+  return <> {render(data)}</>;
 };
 
 export default ServiceDetailPage;

@@ -159,7 +159,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Health Insurance OSHC/OVHC",
       "metaTitle": "Health Insurance OSHC/OVHC",
       "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
@@ -230,7 +230,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Health Insurance OSHC/OVHC",
       "metaTitle": "Health Insurance OSHC/OVHC",
       "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
@@ -250,6 +250,161 @@
         "shortDescription": "Move International is your one-stop shop to achieve your dream of studying, working, or settling in Australia. We are leading education and migration agents with over 14+ years of experience guiding international students and migrants towards their goals. Combining our expertise in both education and visa applications, we offer comprehensive support, from finding the perfect course to securing the right visa. Make your Australian dream a reality with Move International."
       },
 
+      "SectionHowItWorks": {
+        "shortDescription": "Test",
+        "process": [
+          {
+            "iconSrc": "/misc/book-a-consultation.png",
+            "alt": "Health Coverage",
+            "title": "What is OSHC or Overseas Student Health Coverage?",
+            "shortDescription": "OSHC is a mandatory requirement for student visas in Australia. Whether you are continuing your studies or arriving as a visitor or tourist, OSHC, also known as overseas visitors' health cover (OVHC), is imperative for your stay."
+          },
+          {
+            "iconSrc": "/misc/book-a-consultation.png",
+            "alt": "Response from the Study Provider",
+            "title": "What is OVHC or Overseas Student Health Coverage?",
+            "shortDescription": "For those visiting Australia for travel purposes, OVHC is a prerequisite. It emphasizes the need for appropriate health insurance before entering Australia, ensuring your safety and granting access to medical services throughout your stay. Partner with us to secure OVHC from premier health insurance agencies."
+          },
+          {
+            "iconSrc": "/misc/book-a-consultation.png",
+            "alt": "Acceptance and Payment",
+            "title": "Moves International: Your Partner in Health Coverage",
+            "shortDescription": "Moves International connects you with leading insurance providers, ensuring you secure the best OSHC or OVHC plan for your needs. Contact us today to start your journey towards comprehensive health coverage in Australia."
+          }
+        ]
+      },
+
+      "sectionOtherService": {
+        "services": [
+          {
+            "title": "Student Loan & Scholarship ",
+            "shortDescription": "With thorough guidance in seeking funding and finance opportunities, from student loans to scholarships, we make study abroad opportunities more accessible.",
+            "featuredImage": "/images/services/cost-of-living-Calculation.jpg",
+            "alt": "Student Loan & Scholarship ",
+            "slug": "student-loan-and-scholarship"
+          },
+          {
+            "title": "Application Process",
+            "shortDescription": "Access step-by-step support in building complete application packages with the strongest shot of admissions success with our specialists.",
+            "featuredImage": "/images/services/application-process-details.jpg",
+            "alt": "Application Process",
+            "slug": "application-process"
+          },
+          {
+            "title": "Accommodation Booking",
+            "shortDescription": "Find your home away from home through Study International’s international accommodation provider partners.",
+            "featuredImage": "/images/services/accommodation-booking.png",
+            "alt": "Accommodation Booking",
+            "slug": "accommodation-search-and-booking"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Health Insurance OSHC/OVHC",
+      "metaTitle": "Health Insurance OSHC/OVHC",
+      "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
+      "metaImage": "images/services/free-education-counselling-details.jpg",
+      "metaKeywords": "free education, counselling",
+      "slug": "professional-year-program",
+      "type": "professional",
+      "sectionHero": {
+        "title": "PROFESSIONAL YEAR Program in Australia",
+        "shortDescription": "Your Trusted Partner for Visa, Migration, and Education in Australia",
+        "secondTitle": "Discover the Right Study Abroad Opportunity for You",
+        "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
+        "featuredImage": "/images/services/free-education-counselling-details.jpg",
+        "alt": "Course and University Guidance for International Students"
+      },
+      "detailInfo": {
+        "title": "Unlock Your Potential and Achieve Your Career Aspirations through the Professional Year Program",
+        "description": "<p>Tailored for graduates in Engineering, IT, and Accounting, the Professional Year Program is designed to empower you with essential skills for excellence in your chosen field, paving the way for your future professional endeavors.</p><p>For international students aspiring to enter the Australian job market, the Professional Year Program stands out as an optimal choice, especially in key cities such as Melbourne, Perth, Sydney, Adelaide, Brisbane, Canberra, Darwin, and Hobart.</p><p>Completion of the Professional Year Program not only provides a competitive edge for Engineering, IT, and Accounting graduates but also contributes five valuable points towards their Australian Permanent Residency application. The program spans 44 weeks, incorporating a 12-week internship period that facilitates a seamless transition into the workplace environment.</p><p>If you are a graduate in Engineering, IT, or Accounting aiming to enhance your skill set and elevate your prospects for suitable employment, enrolling in the Professional Year Program is a strategic move. It ensures you acquire indispensable skills and hands-on experience, positioning you for success in your future career endeavors.</p>"
+      },
+      "sectionEligibility": {
+        "title": "Basic Requirements for Training visa Subclass 407 Eligibility ",
+        "eligibility": [
+          {
+            "title": "Genuine visitor",
+            "desc": "You must demonstrate a genuine intention to visit Australia for tourism, business, or family reasons."
+          },
+          {
+            "title": "Financial resources: ",
+            "desc": "Show sufficient financial resources to support yourself during your stay in Australia."
+          },
+          {
+            "title": "Health insurance: ",
+            "desc": " Have Overseas Visitor Health Cover (OVHC) for the duration of your visa."
+          },
+          {
+            "title": "English language proficiency:",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+      "keyAdvantage": {
+        "title": "Key Advantages of the Professional Year Program",
+        "advantage": [
+          {
+            "title": "Australian Permanent Residency Points",
+            "desc": " A pivotal benefit of completing the Professional Year Program is the acquisition of five valuable points towards the Australian Permanent Residency (PR) application, enhancing your prospects for long-term residency."
+          },
+          {
+            "title": "Cultural Insight",
+            "desc": "The program offers a unique opportunity to gain a comprehensive understanding of Australian culture, fostering cultural adaptability and enriching your global perspective."
+          },
+          {
+            "title": "Enhanced CV Value",
+            "desc": "Participation in the Professional Year Program significantly elevates the value of your Curriculum Vitae (CV), showcasing your commitment to professional development and your proactive approach to career advancement."
+          },
+          {
+            "title": "Professional Skill Development",
+            "desc": "The internship component of the program plays a crucial role in building and refining your professional skills. Practical experience in a real-world work environment ensures you are well-equipped for the challenges of your chosen industry."
+          },
+          {
+            "title": "Professional Year Certificate",
+            "desc": "Successful completion of the internship program culminates in the attainment of a Professional Year certificate, a tangible recognition of your dedication and achievement during the program."
+          },
+          {
+            "title": "Networking Opportunities",
+            "desc": "Engaging in the internship aspect allows you to establish connections with industry professionals. This networking opportunity can be instrumental in creating valuable contacts and opening doors to potential career advancements."
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What is the Professional Year (PY) Program?",
+          "answer": "The Professional Year (PY) Program is a 44-week program that provides international graduates with the opportunity to gain practical work experience and develop the skills they need to succeed in the Australian workplace. The program is designed to bridge the gap between full-time study and employment in Australia."
+        },
+        {
+          "question": "Who is eligible for the PY Program?",
+          "answer": "To be eligible for the PY Program, you must have graduated from an Australian university with a qualification in one of the following fields:<ul><li>Accounting</li><li>Engineering</li><li>Information technology</li></ul>"
+        },
+        {
+          "question": "What are the benefits of completing the PY program in engineering?",
+          "answer": "There are many benefits to completing the PY program in engineering, including: <ul class=list-disc><li>Gaining practical work experience in the Australian engineering industry.</li><li>Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
+        },
+        {
+          "question": "What is the internship placement component of the PY program in engineering?",
+          "answer": "The internship placement is a 12-week component of the PY program in engineering that allows graduates to apply their skills and knowledge in a real-world setting. The internship placement is typically in an area related to the graduate's field of study."
+        },
+        {
+          "question": "What kind of support is available to me during the PY program in engineering?",
+          "answer": "Registered PY providers offer a range of support services to their students, including:<ul><li>Academic support.</li><li>Career guidance.</li><li>Visa and immigration advice.</li><li>Personal support.</li></ul>"
+        },
+        {
+          "question": "What are the job prospects for PY program graduates in engineering?",
+          "answer": "PY program graduates in engineering have a high rate of employment success. In fact, a recent study found that 80% of PY program graduates in engineering were employed within six months of completing the program."
+        },
+        {
+          "question": "What is the migration pathway for PY program graduates in engineering?",
+          "answer": "PY program graduates in engineering can earn five points towards their Australian permanent residency application. These points can be valuable for graduates who are looking to stay in Australia after completing their studies."
+        },
+        {
+          "question": "Where can I find more information about the PY program in engineering?",
+          "answer": "For more information about the PY program in engineering, you can visit the website of the Australian Department of Home Affairs."
+        }
+      ],
       "SectionHowItWorks": {
         "shortDescription": "Test",
         "process": [
