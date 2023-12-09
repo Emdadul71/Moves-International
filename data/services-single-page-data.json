@@ -321,6 +321,7 @@
         "title": "Unlock Your Potential and Achieve Your Career Aspirations through the Professional Year Program",
         "description": "<p>Tailored for graduates in Engineering, IT, and Accounting, the Professional Year Program is designed to empower you with essential skills for excellence in your chosen field, paving the way for your future professional endeavors.</p><p>For international students aspiring to enter the Australian job market, the Professional Year Program stands out as an optimal choice, especially in key cities such as Melbourne, Perth, Sydney, Adelaide, Brisbane, Canberra, Darwin, and Hobart.</p><p>Completion of the Professional Year Program not only provides a competitive edge for Engineering, IT, and Accounting graduates but also contributes five valuable points towards their Australian Permanent Residency application. The program spans 44 weeks, incorporating a 12-week internship period that facilitates a seamless transition into the workplace environment.</p><p>If you are a graduate in Engineering, IT, or Accounting aiming to enhance your skill set and elevate your prospects for suitable employment, enrolling in the Professional Year Program is a strategic move. It ensures you acquire indispensable skills and hands-on experience, positioning you for success in your future career endeavors.</p>"
       },
+
       "sectionEligibility": {
         "title": "Basic Requirements for Training visa Subclass 407 Eligibility ",
         "eligibility": [
@@ -457,8 +458,8 @@
     },
     {
       "id": 5,
-      "title": "Health Insurance OSHC/OVHC",
-      "metaTitle": "Health Insurance OSHC/OVHC",
+      "title": "What is RPL and how does it work?",
+      "metaTitle": "What is RPL and how does it work?",
       "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
@@ -476,88 +477,161 @@
         "title": "Unlock Your Potential and Achieve Your Career Aspirations through the Professional Year Program",
         "description": "<p>Tailored for graduates in Engineering, IT, and Accounting, the Professional Year Program is designed to empower you with essential skills for excellence in your chosen field, paving the way for your future professional endeavors.</p><p>For international students aspiring to enter the Australian job market, the Professional Year Program stands out as an optimal choice, especially in key cities such as Melbourne, Perth, Sydney, Adelaide, Brisbane, Canberra, Darwin, and Hobart.</p><p>Completion of the Professional Year Program not only provides a competitive edge for Engineering, IT, and Accounting graduates but also contributes five valuable points towards their Australian Permanent Residency application. The program spans 44 weeks, incorporating a 12-week internship period that facilitates a seamless transition into the workplace environment.</p><p>If you are a graduate in Engineering, IT, or Accounting aiming to enhance your skill set and elevate your prospects for suitable employment, enrolling in the Professional Year Program is a strategic move. It ensures you acquire indispensable skills and hands-on experience, positioning you for success in your future career endeavors.</p>"
       },
-      "sectionEligibility": {
-        "title": "Basic Requirements for Training visa Subclass 407 Eligibility ",
-        "eligibility": [
+      "rplCertificate": [
+        {
+          "iconSrc": "/icons/skill-assessment.png",
+          "iconBg": "#FFEEE7",
+          "title": "Free Skills Assessment",
+          "desc": "Speak to Moves International about your goals, and allow us to guide you towards the qualification that will help you reach them."
+        },
+        {
+          "iconSrc": "/icons/portfolio.png",
+          "title": "Portfolio of Experience",
+          "desc": "Your dedicated consultant will guide you through the process of putting together a portfolio of evidence. This can contain overseas qualifications, transcripts, certificates, photos and videos, samples or work examples, letters of reference, your current resume, etc."
+        },
+        {
+          "iconSrc": "/icons/evidence-review.png",
+          "title": "Evidence Review",
+          "desc": "Once one of our partner registered training organisations (RTOs) has assessed your portfolio, the assessor assigned to your case may be in touch if any additional evidence is required. If you have any weak areas, the RTO may assign a trainer to upskill you at no cost to you."
+        },
+        {
+          "iconSrc": "/icons/qualified.png",
+          "title": "You’re qualified",
+          "desc": "Moves International is partnered with Registered Training Organisations whose qualifications are nationally recognised in Australia, and are the same as the qualification you would receive from full time study. Qualifications can also be useful for licensing or immigration purposes."
+        }
+      ],
+      "sectionProcess": {
+        "title": "The RPL Process",
+        "shortDesc": "The RPL (Recognition of Prior Learning) process typically involves the following steps:",
+        "process": [
           {
-            "title": "Genuine visitor",
-            "desc": "You must demonstrate a genuine intention to visit Australia for tourism, business, or family reasons."
+            "title": "Free Skills Assessment",
+            "desc": "You start by taking a free 60-second skills assessment to determine your eligibility for an RPL qualification."
           },
           {
-            "title": "Financial resources: ",
-            "desc": "Show sufficient financial resources to support yourself during your stay in Australia."
+            "title": "Evidence Submission",
+            "desc": "You’ll need to submit evidence of your work experience, such as a resume, reference letters, work examples, photos, and any overseas qualifications."
           },
           {
-            "title": "Health insurance: ",
-            "desc": " Have Overseas Visitor Health Cover (OVHC) for the duration of your visa."
+            "title": "Competency Conversation",
+            "desc": "A licensed trade assessor will conduct a competency conversation with you to discuss your skills and experience."
           },
           {
-            "title": "English language proficiency:",
-            "desc": "Meet the minimum English language requirements for the visa."
+            "title": "Practical Observation",
+            "desc": "If required, a practical observation will be conducted to assess your competencies in a real-world setting."
+          },
+          {
+            "title": "Review Process",
+            "desc": "Your portfolio of evidence will be reviewed by a licensed trade assessor to ensure it meets the required standards."
+          },
+          {
+            "title": "Qualification Issuance",
+            "desc": "Once the review process is completed, you’ll receive a nationally recognised qualification issued by a Qualify Me! partner college."
+          },
+          {
+            "title": "Further Assistance",
+            "desc": "If needed, you’ll receive assistance with license applications or starting up a business."
           }
         ]
       },
+
       "keyAdvantage": {
-        "title": "Key Advantages of the Professional Year Program",
+        "title": "How employers use RPL to benefit",
+        "shortDesc": "The benefits of Recognition of Prior Learning (RPL) are significant, especially for individuals with extensive work experience but without formal qualifications. Here are some key advantages:",
         "advantage": [
           {
-            "title": "Australian Permanent Residency Points",
-            "desc": " A pivotal benefit of completing the Professional Year Program is the acquisition of five valuable points towards the Australian Permanent Residency (PR) application, enhancing your prospects for long-term residency."
+            "title": "Career Advancement",
+            "desc": " RPL can lead to a formal qualification that may be required for certain job roles, promotions, or industry licenses, thus opening up new career opportunities."
           },
           {
-            "title": "Cultural Insight",
-            "desc": "The program offers a unique opportunity to gain a comprehensive understanding of Australian culture, fostering cultural adaptability and enriching your global perspective."
+            "title": "Time and Cost Efficiency",
+            "desc": "Since RPL assesses your existing skills and knowledge, it can reduce or eliminate the need for additional study, saving you both time and money."
           },
           {
-            "title": "Enhanced CV Value",
-            "desc": "Participation in the Professional Year Program significantly elevates the value of your Curriculum Vitae (CV), showcasing your commitment to professional development and your proactive approach to career advancement."
+            "title": "Validation of Skills",
+            "desc": "It provides official recognition of your skills and experience, validating your capabilities to employers and industry bodies."
           },
           {
-            "title": "Professional Skill Development",
-            "desc": "The internship component of the program plays a crucial role in building and refining your professional skills. Practical experience in a real-world work environment ensures you are well-equipped for the challenges of your chosen industry."
+            "title": "Personal Development",
+            "desc": "Achieving a qualification through RPL can boost your confidence and motivation by acknowledging your hard work and expertise."
           },
           {
-            "title": "Professional Year Certificate",
-            "desc": "Successful completion of the internship program culminates in the attainment of a Professional Year certificate, a tangible recognition of your dedication and achievement during the program."
+            "title": "Flexibility",
+            "desc": "The RPL process is designed to be flexible, allowing you to continue working while you complete your qualification."
           },
           {
-            "title": "Networking Opportunities",
-            "desc": "Engaging in the internship aspect allows you to establish connections with industry professionals. This networking opportunity can be instrumental in creating valuable contacts and opening doors to potential career advancements."
+            "title": "Business Opportunities",
+            "desc": "With the right qualification, you might be able to start your own business or take on higher-level responsibilities within your current role."
+          }
+        ]
+      },
+      "whoUse": {
+        "title": "Who uses RPL?",
+        "shortDesc": "Recognition of Prior Learning (RPL) is utilized by a diverse group of individuals, including:",
+        "useCradData": [
+          {
+            "iconSrc": "/icons/working-professionals.png",
+            "title": "Working Professionals",
+            "desc": "Those who have gained significant industry experience and wish to have their skills formally recognized to advance their careers."
+          },
+          {
+            "iconSrc": "/icons/skill-tradespeople.png",
+            "title": "Skilled Tradespeople",
+            "desc": "Individuals in trades who have learned their skills on the job and seek formal qualifications to obtain a trade license or certification."
+          },
+          {
+            "iconSrc": "/icons/overseas-worker.png",
+            "title": "Overseas Workers",
+            "desc": "People who have gained relevant skills and experience outside of Australia and want to have their competencies recognized within the Australian system."
+          },
+          {
+            "iconSrc": "/icons/career-changers.png",
+            "title": "Career Changers",
+            "desc": "Those looking to transition into a new field and want to leverage their existing skills and experience for a qualification in their new chosen profession."
+          },
+          {
+            "iconSrc": "/icons/lifelong-learners.png",
+            "title": "Lifelong Learners",
+            "desc": "Individuals who have engaged in continuous learning through various non-formal or informal means and wish to have this learning acknowledged in a formal qualification."
           }
         ]
       },
       "faq": [
         {
-          "question": "What is the Professional Year (PY) Program?",
-          "answer": "The Professional Year (PY) Program is a 44-week program that provides international graduates with the opportunity to gain practical work experience and develop the skills they need to succeed in the Australian workplace. The program is designed to bridge the gap between full-time study and employment in Australia."
+          "question": "What is Recognition of Prior Learning (RPL)?",
+          "answer": "RPL is an assessment process that evaluates your skills, knowledge, and experience against the criteria of a formal qualification."
         },
         {
-          "question": "Who is eligible for the PY Program?",
-          "answer": "To be eligible for the PY Program, you must have graduated from an Australian university with a qualification in one of the following fields:<ul><li>Accounting</li><li>Engineering</li><li>Information technology</li></ul>"
+          "question": "How does the RPL process work?",
+          "answer": " The process includes a free skills assessment, evidence submission, competency conversation, practical observation, and a review process leading to a nationally recognised qualification."
         },
         {
-          "question": "What are the benefits of completing the PY program in engineering?",
-          "answer": "There are many benefits to completing the PY program in engineering, including: <ul class=list-disc><li>Gaining practical work experience in the Australian engineering industry.</li><li>Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
+          "question": "What kind of evidence do I need to provide?",
+          "answer": "You’ll need to submit a portfolio that includes a resume, reference letters, work examples, photos, and any relevant certificates or qualifications."
         },
         {
-          "question": "What is the internship placement component of the PY program in engineering?",
-          "answer": "The internship placement is a 12-week component of the PY program in engineering that allows graduates to apply their skills and knowledge in a real-world setting. The internship placement is typically in an area related to the graduate's field of study."
+          "question": "How long does the RPL process take?",
+          "answer": "The duration varies depending on the individual’s experience and the evidence provided but is generally faster than traditional study methods."
         },
         {
-          "question": "What kind of support is available to me during the PY program in engineering?",
-          "answer": "Registered PY providers offer a range of support services to their students, including:<ul><li>Academic support.</li><li>Career guidance.</li><li>Visa and immigration advice.</li><li>Personal support.</li></ul>"
+          "question": "Is the RPL qualification recognised nationally?",
+          "answer": "Yes, the qualifications obtained through RPL are nationally recognised and issued by Qualify Me! partner colleges."
         },
         {
-          "question": "What are the job prospects for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering have a high rate of employment success. In fact, a recent study found that 80% of PY program graduates in engineering were employed within six months of completing the program."
+          "question": "Can RPL help me get a trade license?",
+          "answer": "Absolutely, RPL can provide the qualifications necessary to apply for various trade licenses and certifications."
         },
         {
-          "question": "What is the migration pathway for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering can earn five points towards their Australian permanent residency application. These points can be valuable for graduates who are looking to stay in Australia after completing their studies."
+          "question": "What if I don’t have enough experience for a full qualification?",
+          "answer": "Absolutely, RPL can provide the qualifications necessary to apply for various trade licenses and certifications."
         },
         {
-          "question": "Where can I find more information about the PY program in engineering?",
-          "answer": "For more information about the PY program in engineering, you can visit the website of the Australian Department of Home Affairs."
+          "question": "Are there any payment plans available for RPL?",
+          "answer": "Moves International! offers flexible payment options, discounts, and a best price guarantee to make the RPL process affordable."
+        },
+        {
+          "question": "What are the benefits of obtaining an RPL qualification?",
+          "answer": "RPL qualifications can lead to career advancement, time and cost savings, validation of skills, personal development, and new business opportunities."
         }
       ],
       "SectionHowItWorks": {

@@ -1,22 +1,25 @@
-import React from "react";
-import ServiceHero from "../@components/services-hero";
-import ServiceDetailInfo from "../@components/service-detail-info";
-import Eligibility from "@/modules/@common/eligibility";
-import KeyAdvantage from "../@components/key-advantage";
 import Faq from "@/modules/@common/faq";
-import Provider from "../@components/provider-service";
+import Process from "@/modules/migration/@components/process";
+import KeyAdvantage from "../@components/key-advantage";
 import ProviderService from "../@components/provider-service";
+import ServiceHero from "../@components/services-hero";
 import ServiceSection from "../@components/services-section";
+import RPLKeyAdvantage from "../@components/rpl-key-advantage";
+import WhoUse from "../@components/who-use";
+import Recognition from "../@components/recognition";
+import RPLCertificate from "../rpl-certificate";
 
 const ServiceDetailsTempleteRPL = ({ data }: any) => {
   return (
     <>
       <ServiceHero data={data} />
-      <ServiceDetailInfo data={data} />
-      <Eligibility data={data} />
-      <KeyAdvantage data={data} />
-      <ProviderService />
-      <ServiceSection />
+      <RPLCertificate data={data} />
+      <Recognition />
+      <Process data={data} />
+      <RPLKeyAdvantage data={data} />
+      <WhoUse data={data} />
+      {/* <ProviderService />
+      <ServiceSection /> */}
       <Faq data={data} />
     </>
   );

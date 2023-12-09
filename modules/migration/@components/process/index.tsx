@@ -19,6 +19,11 @@ const Process = ({ data }: any) => {
           </div>
           <div>
             <h2>{processData?.title}</h2>
+            {processData?.shortDesc ? (
+              <>
+                <p className="text-xl">{processData?.shortDesc}</p>
+              </>
+            ) : null}
             <div className="flex flex-col gap-5 lg:gap-[30px] ">
               {processData?.process?.map((item: any, i: any) => {
                 return (
