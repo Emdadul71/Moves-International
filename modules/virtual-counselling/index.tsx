@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "./hero";
 import ReadyToGo from "../@common/ready-to-go";
-import LeadForm from "../services/details/lead-form";
+import LeadForm from "../services/details/@components/lead-form";
 
 const VirtualCounselling = () => {
   return (

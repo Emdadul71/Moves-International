@@ -8,7 +8,7 @@ import Provider from "../@components/provider-service";
 import ProviderService from "../@components/provider-service";
 import ServiceSection from "../@components/services-section";
 
-const ServiceDetailsTempleteTwo = ({ data }: any) => {
+const ServiceDetailsTempleteRPL = ({ data }: any) => {
   return (
     <>
       <ServiceHero data={data} />
@@ -22,4 +22,4 @@ const ServiceDetailsTempleteTwo = ({ data }: any) => {
   );
 };
 
-export default ServiceDetailsTempleteTwo;
+export default ServiceDetailsTempleteRPL;

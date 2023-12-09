@@ -30,8 +30,8 @@ const ServiceHero = ({ data }: any) => {
       <div className="grid place-items-center col-span-full	row-span-full	z-10">
         <div className="container h-full">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center h-full">
-            <div className="flex flex-col justify-between h-full max-w-[526px] w-full p-5 lg:pb-20">
-              <div className="flex flex-col items-center justify-center h-full">
+            <div className="flex flex-col justify-between h-full max-w-[580px] w-full p-5 lg:pb-20">
+              <div className="flex flex-col items-start justify-center h-full">
                 <h1 className="text-white lg:text-[64px]">
                   {htmlParse(data?.sectionHero?.title)}
                 </h1>

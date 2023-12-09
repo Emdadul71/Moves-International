@@ -1,5 +1,5 @@
 import React from "react";
-import AdvantageCard from "../../../migration/@components/advantage-card";
+import AdvantageCard from "../../../../migration/@components/advantage-card";
 
 const KeyAdvantage = ({ data }: any) => {
   const advantageData = data?.keyAdvantage;

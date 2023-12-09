@@ -4,12 +4,15 @@ import { notFound } from "next/navigation";
 import fsPromises from "fs/promises";
 import path from "path";
 import ServiceDetailsTempleteTwo from "@/modules/services/details/templete-two";
+import ServiceDetailsTempleteRPL from "@/modules/services/details/templete-rpl";
 
 const render = (data: any) => {
   if (data.type == "professional") {
     return <ServiceDetailsTempleteTwo data={data} />;
   }
-
+  if (data.type == "rpl") {
+    return <ServiceDetailsTempleteRPL data={data} />;
+  }
   return <ServiceDetailsTempleteOne data={data} />;
 };
 

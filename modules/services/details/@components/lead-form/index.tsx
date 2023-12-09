@@ -17,7 +17,7 @@ import { useEffect, useState } from "react";
 import { BsFillExclamationCircleFill } from "react-icons/bs";
 import Swal from "sweetalert2";
 import * as Yup from "yup";
-import countryData from "../../../@data/country.json";
+import countryData from "../../../../@data/country.json";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
