@@ -8,8 +8,9 @@
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
       "slug": "university-and-college-admissions",
+      "path": "University and College Admissions",
       "sectionHero": {
-        "title": "Course and University Guidance for International Students",
+        "title": "<span class=text-secondary>University</span> & <span class=text-secondary>College Admissions</span>",
         "shortDescription": "Embark on your educational journey in Australia with our dedicated support. If you're eager to explore study and visa options, we're here to help you navigate every step of the way.",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
@@ -18,7 +19,17 @@
       },
       "SectionCounsellingAndSupport": {
         "title": "Course Selection and Application",
-        "shortDescription": "Australia houses world-renowned universities and colleges, offering a plethora of study options. Choosing where and what to study can be a challenge, but as experts in international student placements, our consultants are ready to assist. We'll help you select a course that aligns with your aspirations and maximize your chances of acceptance."
+        "shortDescription": "Australia houses world-renowned universities and colleges, offering a plethora of study options. Choosing where and what to study can be a challenge, but as experts in international student placements, our consultants are ready to assist. We'll help you select a course that aligns with your aspirations and maximize your chances of acceptance.",
+        "nativeService": {
+          "title": "Course and University Guidance for International Students",
+          "services": [
+            "Your education and experience",
+            "Interests, timeline, budget, and career goals",
+            "Courses that match your needs",
+            "Application processes",
+            "Upcoming information events relevant to you"
+          ]
+        }
       },
       "SectionHowItWorks": {
         "shortDescription": "When you connect with our agents, we'll engage in a comprehensive discussion covering:",
@@ -43,6 +54,7 @@
           }
         ]
       },
+
       "sectionOtherService": {
         "services": [
           {
@@ -308,13 +320,14 @@
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
       "slug": "professional-year-program",
+      "path": "Professional Year Program",
       "type": "professional",
       "sectionHero": {
         "title": "PROFESSIONAL YEAR Program in Australia",
         "shortDescription": "Your Trusted Partner for Visa, Migration, and Education in Australia",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
-        "featuredImage": "/images/services/free-education-counselling-details.jpg",
+        "featuredImage": "/service/professional-year.png",
         "alt": "Course and University Guidance for International Students"
       },
       "detailInfo": {
@@ -323,23 +336,23 @@
       },
 
       "sectionEligibility": {
-        "title": "Basic Requirements for Training visa Subclass 407 Eligibility ",
+        "title": "Basic Requirements for Professional Year Program Eligibility:",
+        "shortDesc": "To be eligible for enrollment in a Professional Year Program, candidates must meet specific criteria:",
         "eligibility": [
           {
+            "iconSrc": "/icons/certificate.png",
             "title": "Genuine visitor",
-            "desc": "You must demonstrate a genuine intention to visit Australia for tourism, business, or family reasons."
+            "desc": "Prospective candidates should hold a Bachelor's or Master's degree in the disciplines of Accounting, IT, or Engineering."
           },
           {
-            "title": "Financial resources: ",
-            "desc": "Show sufficient financial resources to support yourself during your stay in Australia."
+            "iconSrc": "/icons/language.png",
+            "title": "Language Proficiency",
+            "desc": "Applicants are required to demonstrate language proficiency, with a minimum overall score of 6 bands in IELTS or a score of 50 overall in PTE to qualify for the Post Study Work Stream 485."
           },
           {
-            "title": "Health insurance: ",
-            "desc": " Have Overseas Visitor Health Cover (OVHC) for the duration of your visa."
-          },
-          {
-            "title": "English language proficiency:",
-            "desc": "Meet the minimum English language requirements for the visa."
+            "iconSrc": "/icons/accounting.png",
+            "title": "Accounting Professional Year Program Specifics",
+            "desc": " For those pursuing the Accounting Professional Year Program, additional criteria apply. Applicants must achieve a score of six bands in each module of the IELTS exam for the Temporary Graduate Visa Subclass 485. Furthermore, candidates should have more than 12 months remaining on their 485 visa to be eligible for registration in a Professional Year Program."
           }
         ]
       },
@@ -430,28 +443,23 @@
         ]
       },
 
-      "sectionOtherService": {
+      "sectionOtherProfessionalYear": {
+        "title": "Other Professional Year Programs",
         "services": [
           {
-            "title": "Student Loan & Scholarship ",
-            "shortDescription": "With thorough guidance in seeking funding and finance opportunities, from student loans to scholarships, we make study abroad opportunities more accessible.",
-            "featuredImage": "/images/services/cost-of-living-Calculation.jpg",
-            "alt": "Student Loan & Scholarship ",
-            "slug": "student-loan-and-scholarship"
+            "imgSrc": "/service/other-professional.png",
+            "title": "IT Professional",
+            "desc": "The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP..."
           },
           {
-            "title": "Application Process",
-            "shortDescription": "Access step-by-step support in building complete application packages with the strongest shot of admissions success with our specialists.",
-            "featuredImage": "/images/services/application-process-details.jpg",
-            "alt": "Application Process",
-            "slug": "application-process"
+            "imgSrc": "/service/other-professional-1.png",
+            "title": "Engineering",
+            "desc": "The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP..."
           },
           {
-            "title": "Accommodation Booking",
-            "shortDescription": "Find your home away from home through Study International’s international accommodation provider partners.",
-            "featuredImage": "/images/services/accommodation-booking.png",
-            "alt": "Accommodation Booking",
-            "slug": "accommodation-search-and-booking"
+            "imgSrc": "/service/other-professional-2.png",
+            "title": "Accounting",
+            "desc": "The Accounting Professional Year Program is developed by three organizations, The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP"
           }
         ]
       }

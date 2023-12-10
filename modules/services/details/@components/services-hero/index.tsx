@@ -4,10 +4,7 @@ import Link from "next/link";
 import React from "react";
 
 const ServiceHero = ({ data }: any) => {
-  // console.log("data asdc", data);
-
-  const Breadcrumb = data?.slug?.split("-");
-  const finalBreadcrumb = Breadcrumb?.join(" ");
+  const sectionHeroData = data && data?.sectionHero && data?.sectionHero;
 
   return (
     <section className="grid grid-cols-1 h-full">
@@ -16,8 +13,8 @@ const ServiceHero = ({ data }: any) => {
 
         <div className="hidden md:block w-full">
           <Image
-            src="/misc/life-in-austalia.png"
-            alt="Study International Logo"
+            src={sectionHeroData?.featuredImage || `/misc/life-in-austalia.png`}
+            alt={sectionHeroData?.title}
             width={960}
             height={540}
             blurDataURL="/misc/services-hero.jpg"
@@ -30,7 +27,7 @@ const ServiceHero = ({ data }: any) => {
       <div className="grid place-items-center col-span-full	row-span-full	z-10">
         <div className="container h-full">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center h-full">
-            <div className="flex flex-col justify-between h-full max-w-[580px] w-full p-5 lg:pb-20">
+            <div className="flex flex-col justify-between h-full max-w-[620px] w-full p-5 lg:pb-20">
               <div className="flex flex-col items-start justify-center h-full">
                 <h1 className="text-white lg:text-[64px]">
                   {htmlParse(data?.sectionHero?.title)}
@@ -55,13 +52,18 @@ const ServiceHero = ({ data }: any) => {
                 >
                   Service
                 </Link>
-                <span className="w-[4px] h-[4px] bg-grey rounded-full"></span>
-                <Link
-                  href=""
-                  className="text-white text-lg hover:text-secondary"
-                >
-                  {finalBreadcrumb}
-                </Link>
+                {data?.path ? (
+                  <>
+                    <span className="w-[4px] h-[4px] bg-grey rounded-full"></span>
+
+                    <Link
+                      href=""
+                      className="text-white text-lg hover:text-secondary"
+                    >
+                      {data?.path}
+                    </Link>
+                  </>
+                ) : null}
               </div>
             </div>
             <div className="hidden md:block"></div>

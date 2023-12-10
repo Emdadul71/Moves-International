@@ -16,7 +16,7 @@ const ServiceDetailsTempleteTwo = ({ data }: any) => {
       <Eligibility data={data} />
       <KeyAdvantage data={data} />
       <ProviderService />
-      <ServiceSection />
+      <ServiceSection data={data} />
       <Faq data={data} />
     </>
   );

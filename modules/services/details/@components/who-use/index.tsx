@@ -2,8 +2,7 @@ import React from "react";
 import WhoUseCard from "@/modules/@common/who-use-card";
 
 const WhoUse = ({ data }: any) => {
-  const whoUseData = data && data?.whoUse;
-  console.log("who", data);
+  const whoUseData = data && data?.whoUse && data?.whoUse;
 
   return (
     <section className="pb-0">
@@ -16,11 +15,11 @@ const WhoUse = ({ data }: any) => {
         </div>
         <div className="grid lg:grid-cols-3 gap-[30px] mb-5 lg:mb-10">
           {whoUseData?.useCradData?.map((item: any, i: any) => {
-            const isFour = i == 4;
+            const isLast = i == 4;
             return (
               <>
                 <WhoUseCard key={i} data={item} />
-                {isFour ? (
+                {isLast ? (
                   <div className="flex justify-center items-center ">
                     <p className="mb-0 text-lg text-primary">
                       RPL is a valuable tool for anyone who has developed

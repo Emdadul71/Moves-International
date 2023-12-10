@@ -9,7 +9,7 @@ interface propsType {
 
 const ServiceCard = ({ data }: propsType) => {
   return (
-    <Link href="/knowledge" className="flex flex-col gap-6 group ">
+    <Link href="#" className="flex flex-col gap-6 group ">
       <div>
         <Image
           src={data?.imgSrc}
@@ -25,7 +25,9 @@ const ServiceCard = ({ data }: propsType) => {
           <h4 className="lg:text-[28px] mb-5 group-hover:text-primary transition-all ">
             {data?.title}
           </h4>
-          <p className="mb-0 mt-auto group-hover:text-body">{data?.desc}</p>
+          <p className="mb-0 mt-auto group-hover:text-body line-clamp-4">
+            {data?.desc}
+          </p>
         </div>
         <div className="relative  mt-auto">
           <div className="flex items-center mt-auto relative">
