@@ -7,8 +7,6 @@ const ServiceSection = ({ data }: any) => {
     data?.sectionOtherProfessionalYear &&
     data?.sectionOtherProfessionalYear;
 
-  console.log("otherPYData", otherPYData);
-
   return (
     <section>
       <div className="container">

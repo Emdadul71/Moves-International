@@ -338,6 +338,7 @@
       "sectionEligibility": {
         "title": "Basic Requirements for Professional Year Program Eligibility:",
         "shortDesc": "To be eligible for enrollment in a Professional Year Program, candidates must meet specific criteria:",
+        "isLanding": true,
         "eligibility": [
           {
             "iconSrc": "/icons/certificate.png",
@@ -449,23 +450,26 @@
           {
             "imgSrc": "/service/other-professional.png",
             "title": "IT Professional",
+            "slug": "it-professional",
             "desc": "The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP..."
           },
           {
             "imgSrc": "/service/other-professional-1.png",
             "title": "Engineering",
+            "slug": "engineering",
             "desc": "The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP..."
           },
           {
             "imgSrc": "/service/other-professional-2.png",
             "title": "Accounting",
+            "slug": "accounting",
             "desc": "The Accounting Professional Year Program is developed by three organizations, The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP"
           }
         ]
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "What is RPL and how does it work?",
       "metaTitle": "What is RPL and how does it work?",
       "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",

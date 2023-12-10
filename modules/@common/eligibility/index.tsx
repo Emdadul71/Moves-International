@@ -28,7 +28,7 @@ const Eligibility = ({ data }: any) => {
 
             <div className="flex flex-col gap-5 lg:gap-[30px] ">
               {eligibilityData?.eligibility?.map((item: any, i: any) => {
-                const isLast = i == 2;
+                const isLast = i == 2 && eligibilityData?.isLanding;
                 return (
                   <>
                     <div

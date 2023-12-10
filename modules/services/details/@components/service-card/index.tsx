@@ -9,7 +9,10 @@ interface propsType {
 
 const ServiceCard = ({ data }: propsType) => {
   return (
-    <Link href="#" className="flex flex-col gap-6 group ">
+    <Link
+      href={`/services/professional-year-program/${data?.slug}`}
+      className="flex flex-col gap-6 group "
+    >
       <div>
         <Image
           src={data?.imgSrc}
