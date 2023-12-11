@@ -9,8 +9,8 @@ const Process = ({ data }: any) => {
         <div className="grid lg:grid-cols-2 gap-[30px]">
           <div className="self-start lg:sticky top-[140px]">
             <Image
-              src="/migration/eligibility.jpg"
-              alt="Study International Logo"
+              src={processData?.imgSrc}
+              alt="Process"
               width={630}
               height={540}
               blurDataURL="/misc/engage.png"
@@ -33,12 +33,10 @@ const Process = ({ data }: any) => {
                   >
                     <div>
                       <Image
-                        src="/misc/engage.png"
-                        alt="Study International Logo"
+                        src={item?.iconSrc}
+                        alt={item?.title}
                         width={60}
                         height={60}
-                        blurDataURL="/misc/engage.png"
-                        placeholder="blur"
                       />
                     </div>
                     <div>

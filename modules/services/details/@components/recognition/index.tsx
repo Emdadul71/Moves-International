@@ -25,7 +25,7 @@ const Recognition = () => {
           </div>
           <div>
             <Image
-              src="/service/recognition.png"
+              src="/service/rpl-recognition.png"
               alt="Recognition"
               width={960}
               height={540}

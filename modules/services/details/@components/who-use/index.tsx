@@ -5,7 +5,7 @@ const WhoUse = ({ data }: any) => {
   const whoUseData = data && data?.whoUse && data?.whoUse;
 
   return (
-    <section className="pb-0">
+    <section>
       <div className="container">
         <div className="max-w-[790px] w-full mx-auto mb-5 lg:mb-[60px]">
           <h2 className="text-center mb-5">{whoUseData?.title}</h2>

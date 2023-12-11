@@ -506,14 +506,14 @@
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
       "slug": "rpl",
-      "path": "RPL",
+      "path": "What is RPL and how does it work?",
       "type": "rpl",
       "sectionHero": {
         "title": "What is RPL and how does it work?",
         "shortDescription": "Begin your journey towards a brighter future by leveraging your knowledge and skills to obtain an RPL qualification today. Get started now with a complimentary skills assessment!",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
-        "featuredImage": "/images/services/free-education-counselling-details.jpg",
+        "featuredImage": "/service/rpl-hero.png",
         "alt": "Course and University Guidance for International Students"
       },
       "detailInfo": {
@@ -545,33 +545,41 @@
       ],
       "sectionProcess": {
         "title": "The RPL Process",
+        "imgSrc": "/service/rpl-process.jpg",
         "shortDesc": "The RPL (Recognition of Prior Learning) process typically involves the following steps:",
         "process": [
           {
+            "iconSrc": "/icons/rpl-Skills-Assessment.png",
             "title": "Free Skills Assessment",
             "desc": "You start by taking a free 60-second skills assessment to determine your eligibility for an RPL qualification."
           },
           {
+            "iconSrc": "/icons/rpl-Evidence.png",
             "title": "Evidence Submission",
             "desc": "You’ll need to submit evidence of your work experience, such as a resume, reference letters, work examples, photos, and any overseas qualifications."
           },
           {
+            "iconSrc": "/icons/rpl-Competency.png",
             "title": "Competency Conversation",
             "desc": "A licensed trade assessor will conduct a competency conversation with you to discuss your skills and experience."
           },
           {
+            "iconSrc": "/icons/rpl-Practical.png",
             "title": "Practical Observation",
             "desc": "If required, a practical observation will be conducted to assess your competencies in a real-world setting."
           },
           {
+            "iconSrc": "/icons/rpl-Review-Process.png",
             "title": "Review Process",
             "desc": "Your portfolio of evidence will be reviewed by a licensed trade assessor to ensure it meets the required standards."
           },
           {
+            "iconSrc": "/icons/rpl-Qualification.png",
             "title": "Qualification Issuance",
             "desc": "Once the review process is completed, you’ll receive a nationally recognised qualification issued by a Qualify Me! partner college."
           },
           {
+            "iconSrc": "/icons/rpl-Further-Assistance.png",
             "title": "Further Assistance",
             "desc": "If needed, you’ll receive assistance with license applications or starting up a business."
           }
@@ -639,9 +647,79 @@
           }
         ]
       },
+      "rplIndustries": {
+        "title": "RPL Industries",
+        "shortDesc": "Pioneering Excellence in Moves International Innovating Tomorrow's Solutions, Today, for a Sustainable and Dynamic Future.",
+        "rplServices": [
+          {
+            "imgSrc": "/service/automative.jpg",
+            "title": "Automotive"
+          },
+          {
+            "imgSrc": "/service/Building-Construction.jpg",
+            "title": "Building & Construction"
+          },
+          {
+            "imgSrc": "/service/Business-Finance.jpg",
+            "title": "Business & Finance"
+          },
+          {
+            "imgSrc": "/service/Civil-Construction.jpg",
+            "title": "Civil Construction"
+          },
+          {
+            "imgSrc": "/service/Community-Services.jpg",
+            "title": "Community Services"
+          },
+          {
+            "imgSrc": "/service/Engineering.jpg",
+            "title": "Engineering"
+          },
+          {
+            "imgSrc": "/service/Hair-Beauty.jpg",
+            "title": "Hair & Beauty"
+          },
+          {
+            "imgSrc": "/service/Horticulture.jpg",
+            "title": "Horticulture & Land Management"
+          },
+          {
+            "imgSrc": "/service/Information-Technology.jpg",
+            "title": "Information Technology"
+          },
+          {
+            "imgSrc": "/service/Mining-Resources.jpg",
+            "title": "Mining & Resources"
+          },
+          {
+            "imgSrc": "/service/Plumbing-Services.jpg",
+            "title": "Plumbing Services"
+          },
+          {
+            "imgSrc": "/service/Security-Cleaning.jpg",
+            "title": "Security & Cleaning"
+          },
+          {
+            "imgSrc": "/service/Transport-Logistics.jpg",
+            "title": "Transport & Logistics"
+          },
+          {
+            "imgSrc": "/service/Vocational-Education.jpg",
+            "title": "Vocational Education"
+          },
+          {
+            "imgSrc": "/service/Retail-Services.jpg",
+            "title": "Retail Services"
+          },
+          {
+            "imgSrc": "/service/Events-Entertainment.jpg",
+            "title": "Events & Entertainment"
+          }
+        ]
+      },
       "faq": [
         {
-          "question": "What is Recognition of Prior Learning (RPL)?",
+          "question": "What is Recognition of Prior Learning (RPL)? ",
           "answer": "RPL is an assessment process that evaluates your skills, knowledge, and experience against the criteria of a formal qualification."
         },
         {
