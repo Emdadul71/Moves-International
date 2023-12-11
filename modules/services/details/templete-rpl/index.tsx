@@ -7,6 +7,7 @@ import RPLKeyAdvantage from "../@components/rpl-key-advantage";
 import WhoUse from "../@components/who-use";
 import RPLCertificate from "../rpl-certificate";
 import ReadyToGo from "@/modules/@common/ready-to-go";
+import LeadForm from "../@components/lead-form";
 
 const ServiceDetailsTempleteRPL = ({ data, params }: any) => {
   return (
@@ -20,6 +21,7 @@ const ServiceDetailsTempleteRPL = ({ data, params }: any) => {
       <RplIndustries data={data} />
       {/* <ProviderService />
       <ServiceSection /> */}
+      <LeadForm />
       <Faq data={data} />
       <ReadyToGo />
     </>

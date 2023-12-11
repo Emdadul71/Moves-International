@@ -13,7 +13,7 @@ const RplHero = ({ data, params }: any) => {
         <div className="grid grid-cols-2 items-center gap-[30px] pb-20">
           <div className="flex flex-col justify-between h-full max-w-[620px] w-full ">
             <div className="flex flex-col items-start justify-center ">
-              <h1 className="text-white lg:text-[64px]">
+              <h1 className="text-white lg:text-[64px] pt-10">
                 {htmlParse(data?.sectionHero?.title)}
               </h1>
               <div className="max-w-[510px]">
