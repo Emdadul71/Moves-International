@@ -2,25 +2,23 @@ import Image from "next/image";
 import React from "react";
 
 const Eligibility = ({ data }: any) => {
-  const eligibilityData = data?.sectionEligibility;
+  const eligibilityData = data && data?.sectionEligibility;
   return (
     <section>
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-[30px]">
           <div className="self-start lg:sticky top-[140px]">
             <Image
-              src="/migration/eligibility.jpg"
-              alt="Study International Logo"
+              src={eligibilityData?.featureImage}
+              alt={eligibilityData?.alt}
               width={630}
               height={540}
-              blurDataURL="/misc/engage.png"
-              placeholder="blur"
             />
           </div>
 
           <div>
             {eligibilityData?.title && (
-              <h2 className="mb-4 lg:mb-[22px]">{eligibilityData?.title}</h2>
+              <h3 className="mb-4 lg:mb-[22px]">{eligibilityData?.title}</h3>
             )}
             {eligibilityData?.shortDesc && (
               <p className="text-lg lg:mb-8">{eligibilityData?.shortDesc}</p>

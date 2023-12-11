@@ -323,8 +323,8 @@
       "path": "Professional Year Program",
       "type": "professional",
       "sectionHero": {
-        "title": "PROFESSIONAL YEAR Program in Australia",
-        "shortDescription": "Your Trusted Partner for Visa, Migration, and Education in Australia",
+        "title": "<span class=text-secondary>PROFESSIONAL YEAR Program </span> in Australia",
+        "shortDescription": "",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
         "featuredImage": "/service/professional-year.png",
@@ -337,6 +337,8 @@
 
       "sectionEligibility": {
         "title": "Basic Requirements for Professional Year Program Eligibility:",
+        "featureImage": "/service/eligibility.jpg",
+        "alt": "Professional Year Program Eligibility",
         "shortDesc": "To be eligible for enrollment in a Professional Year Program, candidates must meet specific criteria:",
         "isLanding": true,
         "eligibility": [
@@ -454,13 +456,13 @@
             "desc": "The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP..."
           },
           {
-            "imgSrc": "/service/other-professional-1.png",
+            "imgSrc": "/service/other-professional-2.png",
             "title": "Engineering",
             "slug": "engineering",
             "desc": "The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP..."
           },
           {
-            "imgSrc": "/service/other-professional-2.png",
+            "imgSrc": "/service/other-professional-1.png",
             "title": "Accounting",
             "slug": "accounting",
             "desc": "The Accounting Professional Year Program is developed by three organizations, The Accounting Professional Year Program is developed by three organizations, namely the CPA Australia, ICA (Institute of Chartered Accountants) and IPA (Institute of Public Accountants. The Accounting PYP"
@@ -476,6 +478,7 @@
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
       "slug": "rpl",
+      "path": "RPL",
       "type": "rpl",
       "sectionHero": {
         "title": "What is RPL and how does it work?",

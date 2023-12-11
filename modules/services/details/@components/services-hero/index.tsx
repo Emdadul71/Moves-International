@@ -3,8 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const ServiceHero = ({ data }: any) => {
+const ServiceHero = ({ data, params }: any) => {
   const sectionHeroData = data && data?.sectionHero && data?.sectionHero;
+  // const serviceSlug = params?.service_slug;
 
   return (
     <section className="grid grid-cols-1 h-full">
@@ -23,7 +24,6 @@ const ServiceHero = ({ data }: any) => {
           />
         </div>
       </div>
-
       <div className="grid place-items-center col-span-full	row-span-full	z-10">
         <div className="container h-full">
           <div className="grid grid-cols-1 md:grid-cols-2 items-center h-full">
@@ -40,25 +40,39 @@ const ServiceHero = ({ data }: any) => {
               </div>
               <div className="flex items-center gap-5">
                 <Link
-                  href=""
+                  href="/"
                   className="text-white text-lg hover:text-secondary"
                 >
                   Home
                 </Link>
                 <span className="w-[4px] h-[4px] bg-grey rounded-full"></span>
                 <Link
-                  href=""
+                  href="/services"
                   className="text-white text-lg hover:text-secondary"
                 >
                   Service
                 </Link>
+                {data?.parentPath ? (
+                  <>
+                    <span className="w-[4px] h-[4px] bg-grey rounded-full"></span>
+
+                    <Link
+                      href={`${data?.parentSlug}`}
+                      className={`text-lg hover:text-secondary text-white`}
+                    >
+                      {data?.parentPath}
+                    </Link>
+                  </>
+                ) : null}
                 {data?.path ? (
                   <>
                     <span className="w-[4px] h-[4px] bg-grey rounded-full"></span>
 
                     <Link
                       href=""
-                      className="text-white text-lg hover:text-secondary"
+                      className={`text-lg hover:text-secondary ${
+                        data?.slug == params ? `text-secondary` : ``
+                      }`}
                     >
                       {data?.path}
                     </Link>

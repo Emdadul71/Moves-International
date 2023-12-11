@@ -4,7 +4,7 @@ import AdvantageCard from "../../../../migration/@components/advantage-card";
 const KeyAdvantage = ({ data }: any) => {
   const advantageData = data?.keyAdvantage;
   return (
-    <section>
+    <section className="pt-5 lg:pt-[40px]">
       <div className="container">
         <div className="max-w-[600px] mx-auto mb-5 lg:mb-[60px]">
           <h2 className="text-center mb-0">{advantageData?.title}</h2>

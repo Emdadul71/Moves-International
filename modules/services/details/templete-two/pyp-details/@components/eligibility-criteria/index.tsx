@@ -7,7 +7,7 @@ const EligibilityCriteria = ({ data }: any) => {
   const eligibilityCriteriaData =
     data && data?.eligibilityCriteria && data?.eligibilityCriteria;
   return (
-    <section>
+    <section className="lg:pt-[60px]">
       <div className="container">
         <div className="grid grid-cols-2 gap-[30px]">
           <div className="flex flex-col gap-[30px]">

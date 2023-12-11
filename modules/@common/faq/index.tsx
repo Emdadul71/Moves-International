@@ -4,7 +4,13 @@ import React, { useState } from "react";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-const Faq = ({ data }: any) => {
+interface propTypes {
+  classes?: {
+    root?: any;
+  };
+  data: any;
+}
+const Faq = ({ data, classes }: propTypes) => {
   const [animationParent] = useAutoAnimate();
   const [selected, setSelected] = useState(null);
   const toggle = (i: any) => {
@@ -14,7 +20,7 @@ const Faq = ({ data }: any) => {
     setSelected(i);
   };
   return (
-    <section className="pt-[80px]">
+    <section className={`${classes?.root ? classes.root : ``}`}>
       <div className="container">
         {data?.faq?.length > 0 ? (
           <>
@@ -42,7 +48,7 @@ const Faq = ({ data }: any) => {
 
                     <div ref={animationParent}>
                       {selected == i && (
-                        <div className="p-4 pt-0 block text-left">
+                        <div className="p-4  block text-left bg-grey">
                           {htmlParse(item.answer)}
                         </div>
                       )}

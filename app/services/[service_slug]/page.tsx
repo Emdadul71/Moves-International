@@ -6,14 +6,20 @@ import path from "path";
 import ServiceDetailsTempleteTwo from "@/modules/services/details/templete-two";
 import ServiceDetailsTempleteRPL from "@/modules/services/details/templete-rpl";
 
-const render = (data: any) => {
+const render = (data: any, params: any) => {
   if (data.type == "professional") {
-    return <ServiceDetailsTempleteTwo data={data} />;
+    return (
+      <ServiceDetailsTempleteTwo data={data} params={params?.service_slug} />
+    );
   }
   if (data.type == "rpl") {
-    return <ServiceDetailsTempleteRPL data={data} />;
+    return (
+      <ServiceDetailsTempleteRPL data={data} params={params?.service_slug} />
+    );
   }
-  return <ServiceDetailsTempleteOne data={data} />;
+  return (
+    <ServiceDetailsTempleteOne data={data} params={params?.service_slug} />
+  );
 };
 
 async function getData(params: any) {
@@ -39,7 +45,7 @@ async function getData(params: any) {
 const ServiceDetailPage = async ({ params }: any) => {
   const data = await getData(params);
 
-  return <> {render(data)}</>;
+  return <> {render(data, params)}</>;
 };
 
 export default ServiceDetailPage;

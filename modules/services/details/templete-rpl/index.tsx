@@ -9,10 +9,10 @@ import WhoUse from "../@components/who-use";
 import Recognition from "../@components/recognition";
 import RPLCertificate from "../rpl-certificate";
 
-const ServiceDetailsTempleteRPL = ({ data }: any) => {
+const ServiceDetailsTempleteRPL = ({ data, params }: any) => {
   return (
     <>
-      <ServiceHero data={data} />
+      <ServiceHero data={data} params={params} />
       <RPLCertificate data={data} />
       <Recognition />
       <Process data={data} />

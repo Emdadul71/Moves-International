@@ -7,12 +7,13 @@
       "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
+      "parentSlug": "/services/professional-year-program",
       "slug": "it-professional",
+      "parentPath": "Professional Year Program",
       "path": "It Professional",
-      "type": "professional",
       "sectionHero": {
         "title": "Professional Year in<span class=text-secondary> Information Technology</span>",
-        "shortDescription": "Your Trusted Partner for Visa, Migration, and Education in Australia",
+        "shortDescription": "",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
         "featuredImage": "/service/pyp-it.jpg",
@@ -24,32 +25,34 @@
       },
       "sectionEligibility": {
         "title": "Key Program Highlights",
+        "featureImage": "/service/it-key-program.jpg",
+        "alt": "Key Program Highlights",
         "isLanding": false,
         "eligibility": [
           {
-            "iconSrc": "/icons/certificate.png",
+            "iconSrc": "/icons/practical.png",
             "title": "Practical Skill Development",
             "desc": "The IT PY Program emphasizes hands-on learning, equipping graduates with the practical skills and knowledge required to navigate the intricacies of the Australian IT industry."
           },
           {
-            "iconSrc": "/icons/language.png",
+            "iconSrc": "/icons/fundamental.png",
             "title": "Fundamental Training",
             "desc": "The program delves into the fundamentals of Australian IT practices, including project management, software development methodologies, and industry-specific standards."
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/regular-counselling.png",
             "title": "Regular Counseling and Support",
             "desc": " Throughout the program, graduates receive regular counseling and support from experienced professionals, ensuring they gain a comprehensive understanding of the Australian IT landscape and career development strategies."
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/internship.png",
             "title": "Internship Placement",
             "desc": "The program culminates in a 12-week internship placement, where graduates apply their acquired knowledge and skills in a real-world IT setting. This exposure fosters practical experience, problem-solving abilities, and professional networking opportunities."
           }
         ]
       },
       "eligibilityCriteria": {
-        "imageSrc": "/service/eligibility-criteria.png",
+        "imageSrc": "/service/it-eligibility-criteria.png",
         "shortDesc": "To be eligible for the IT PY Program, applicants must possess:",
         "criteria": [
           "An ICT-related qualification from an Australian university or an overseas institution recognized by ACS.",
@@ -119,7 +122,9 @@
       "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
+      "parentSlug": "/services/professional-year-program",
       "slug": "engineering",
+      "parentPath": "Professional Year Program",
       "path": "Engineering",
       "type": "professional",
       "sectionHero": {
@@ -137,47 +142,49 @@
 
       "sectionEligibility": {
         "title": "Key Program Highlights",
+        "featureImage": "/service/engineering-key-program.png",
+        "alt": "Key Program Highlights",
         "isLanding": false,
         "eligibility": [
           {
-            "iconSrc": "/icons/certificate.png",
+            "iconSrc": "/icons/Extensive-Training.png",
             "title": "Extensive Training",
             "desc": "The PYP-E curriculum delves into the intricacies of the Australian engineering workplace, providing participants with in-depth knowledge of industry-specific standards, practices, and regulations."
           },
           {
-            "iconSrc": "/icons/language.png",
+            "iconSrc": "/icons/internship.png",
             "title": "Internship Placement",
             "desc": "A crucial component of the program, the internship placement provides graduates with invaluable hands-on experience in a real-world engineering setting. This exposure allows them to apply their theoretical knowledge to practical scenarios, fostering problem-solving and critical thinking skills."
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/Employability-Enhancement.png",
             "title": "Employability Enhancement",
             "desc": " The PYP-E curriculum is designed to enhance graduates' employability by equipping them with essential workplace skills, including communication, teamwork, and project management."
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/Migration-Points.png",
             "title": "Migration Points",
             "desc": "Upon successful completion of the PYP-E, graduates are eligible for 5 extra points towards the Department of Home Affairs points test, making them more competitive for Australian permanent residency."
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/Program-Structure-and-Duration.png",
             "title": "Program Structure and Duration",
             "desc": "The PYP-E is a comprehensive program structured over 44 weeks, encompassing both theoretical and practical learning experiences. The program typically consists of:"
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/Classroom-Training.png",
             "title": "Classroom Training",
             "desc": "32 weeks of intensive classroom training covering a wide range of engineering topics, industry standards, and workplace skills."
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/Internship-Placement.png",
             "title": "Internship Placement",
             "desc": "A 12-week internship placement in a relevant engineering field, providing graduates with hands-on experience and networking opportunities."
           }
         ]
       },
       "eligibilityCriteria": {
-        "imageSrc": "/service/eligibility-criteria.png",
+        "imageSrc": "/service/engineering-eligibility-criteria.png",
         "shortDesc": "To be eligible for the IT PY Program, applicants must possess:",
         "criteria": [
           "An ICT-related qualification from an Australian university or an overseas institution recognized by ACS.",
@@ -246,7 +253,9 @@
       "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
+      "parentSlug": "/services/professional-year-program",
       "slug": "accounting",
+      "parentPath": "Professional Year Program",
       "path": "Accounting",
       "type": "professional",
       "sectionHero": {
@@ -264,27 +273,29 @@
 
       "sectionEligibility": {
         "title": "Key Program Highlights",
+        "featureImage": "/service/accounting-key-program.png",
+        "alt": "Key Program Highlights",
         "isLanding": false,
         "eligibility": [
           {
-            "iconSrc": "/icons/certificate.png",
+            "iconSrc": "/icons/Skill-Development.png",
             "title": "Skill Development and Refinement",
             "desc": "The Accounting PYP emphasizes hands-on learning, equipping graduates with the practical skills and knowledge required to navigate the complexities of the Australian accounting landscape."
           },
           {
-            "iconSrc": "/icons/language.png",
+            "iconSrc": "/icons/Industry-Specific-Training.png",
             "title": "Industry-Specific Training",
             "desc": "The program delves into the intricacies of Australian accounting practices, including financial reporting, taxation, auditing, and corporate governance."
           },
           {
-            "iconSrc": "/icons/accounting.png",
+            "iconSrc": "/icons/Real-World-Internship.png",
             "title": "Real-World Internship Experience",
             "desc": " The program culminates in a 12-week internship placement, where graduates apply their acquired knowledge and skills in a real-world accounting setting. This exposure fosters practical experience, problem-solving abilities, and professional networking opportunities."
           }
         ]
       },
       "eligibilityCriteria": {
-        "imageSrc": "/service/eligibility-criteria.png",
+        "imageSrc": "/service/accounting-eligibility-criteria.png",
         "shortDesc": "To be eligible for the Accounting PYP, applicants must possess:",
         "criteria": [
           "An accounting qualification from an Australian university or an overseas institution recognized by CPA Australia, ICA, or IPA.",

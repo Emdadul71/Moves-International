@@ -7,17 +7,19 @@ import ProviderService from "../../@components/provider-service";
 import EligibilityCriteria from "./@components/eligibility-criteria";
 import ProgramStructure from "./@components/program-structure";
 import ReadyToGo from "@/modules/@common/ready-to-go";
+import LeadForm from "../../@components/lead-form";
 
-const PYPDetails = ({ data }: any) => {
+const PYPDetails = ({ data, params }: any) => {
   return (
     <>
-      <ServiceHero data={data} />
+      <ServiceHero data={data} params={params} />
       <ServiceDetailInfo data={data} />
       <Eligibility data={data} />
       <EligibilityCriteria data={data} />
       <ProgramStructure data={data} />
       <ProviderService />
-      <Faq data={data} />
+      <LeadForm />
+      <Faq data={data} classes={{ root: `pt-5 lg:pt-[80px]` }} />
       <ReadyToGo />
     </>
   );

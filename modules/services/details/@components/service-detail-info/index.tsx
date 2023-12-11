@@ -10,14 +10,14 @@ const ServiceDetailInfo = ({ data }: any) => {
           {data?.path ? (
             <>
               <div className="flex ">
-                <div className="bg-[#F7F9F9] px-4 py-[6px] rounded-full">
+                <div className="bg-[#FEEFE7] text-secondary px-4 py-[6px] rounded-full">
                   {data?.path}
                 </div>
               </div>
             </>
           ) : null}
 
-          <h2 className="h3 mb-0 lg:leading-[48px]">{detailInfoData?.title}</h2>
+          <h2 className=" mb-0">{detailInfoData?.title}</h2>
           <div>{htmlParse(detailInfoData?.description)}</div>
         </div>
       </div>

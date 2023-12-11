@@ -27,7 +27,7 @@ async function getData(params: any) {
 const PYPDetailsPage = async ({ params }: any) => {
   const data = await getData(params);
 
-  return <PYPDetails data={data} />;
+  return <PYPDetails data={data} params={params?.details_slug} />;
 };
 
 export default PYPDetailsPage;
