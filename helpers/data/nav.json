@@ -17,7 +17,22 @@
       },
       {
         "title": "Professional Year Courses",
-        "link": "/services/professional-year-program"
+        "link": "/services/professional-year-program",
+
+        "grandChld": [
+          {
+            "title": "IT Professional",
+            "link": "/services/professional-year-program/it-professional"
+          },
+          {
+            "title": "Engineering Professional",
+            "link": "/services/professional-year-program/engineering"
+          },
+          {
+            "title": "Accounting Professional",
+            "link": "/services/professional-year-program/accounting"
+          }
+        ]
       },
       {
         "title": "Skill Assessment",
