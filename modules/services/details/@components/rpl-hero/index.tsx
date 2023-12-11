@@ -10,7 +10,7 @@ const RplHero = ({ data, params }: any) => {
   return (
     <section className="bg-primary py-5 lg:pt-[100px] mb-5 lg:mb-[80px]">
       <div className="container">
-        <div className="grid grid-cols-2 gap-[30px] pb-10">
+        <div className="grid grid-cols-2 items-center gap-[30px] pb-20">
           <div className="flex flex-col justify-between h-full max-w-[620px] w-full ">
             <div className="flex flex-col items-start justify-center ">
               <h1 className="text-white lg:text-[64px]">
