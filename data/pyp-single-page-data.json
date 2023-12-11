@@ -13,7 +13,7 @@
       "path": "It Professional",
       "sectionHero": {
         "title": "Professional Year in<span class=text-secondary> Information Technology</span>",
-        "shortDescription": "",
+        "shortDescription": "Bridge the gap between academia and industry with the Professional Year in IT program. Gain valuable hands-on experience and boost your employability in Australia.",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
         "featuredImage": "/service/pyp-it.jpg",
@@ -25,6 +25,7 @@
       },
       "sectionEligibility": {
         "title": "Key Program Highlights",
+        "shortDesc": "Gain hands-on IT skills, learn industry standards, and build your network with the Professional Year program. Land a job in Australia's thriving IT industry.",
         "featureImage": "/service/it-key-program.jpg",
         "alt": "Key Program Highlights",
         "isLanding": false,
@@ -82,36 +83,44 @@
       },
       "faq": [
         {
-          "question": "What is the Professional Year (PY) Program?",
-          "answer": "The Professional Year (PY) Program is a 44-week program that provides international graduates with the opportunity to gain practical work experience and develop the skills they need to succeed in the Australian workplace. The program is designed to bridge the gap between full-time study and employment in Australia."
+          "question": "What is the IT Professional Year program?",
+          "answer": "The IT Professional Year program is a structured 44-week program designed by the Australian Computer Society (ACS) to help overseas ICT graduates gain the practical skills and knowledge they need to succeed in the Australian IT industry."
         },
         {
-          "question": "Who is eligible for the PY Program?",
-          "answer": "To be eligible for the PY Program, you must have graduated from an Australian university with a qualification in one of the following fields:<ul><li>Accounting</li><li>Engineering</li><li>Information technology</li></ul>"
+          "question": "Who is eligible for the program?",
+          "answer": "<p class=mb-2>To be eligible for the program, you must have:</p><ul><li>An ICT-related qualification from an Australian university or an overseas institution recognized by ACS.</li><li>A valid student visa or eligibility for a graduate visa.</li><li>Proficient English language skills.</li><li>A strong academic record.</li></ul>"
         },
         {
           "question": "What are the benefits of completing the PY program in engineering?",
           "answer": "There are many benefits to completing the PY program in engineering, including: <ul class=list-disc><li>Gaining practical work experience in the Australian engineering industry.</li><li>Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
         },
         {
-          "question": "What is the internship placement component of the PY program in engineering?",
-          "answer": "The internship placement is a 12-week component of the PY program in engineering that allows graduates to apply their skills and knowledge in a real-world setting. The internship placement is typically in an area related to the graduate's field of study."
+          "question": "What are the key highlights of the program?",
+          "answer": "<ul><li><span class=font-semibold>Practical skill development:</span> The program emphasizes hands-on learning, equipping graduates with the practical skills and knowledge needed to work in the Australian IT industry.</li><li><span class=font-semibold>Fundamental training:</span> The program covers the fundamentals of Australian IT practices, including project management, software development methodologies, and industry-specific standards.</li><li><span class=font-semibold>Regular counseling and support:</span> Graduates receive regular counseling and support from experienced professionals throughout the program.</li><li><span class=font-semibold>Internship placement:</span> The program culminates in a 12-week internship placement, where graduates apply their acquired skills in a real-world IT setting.</li></ul>"
         },
         {
-          "question": "What kind of support is available to me during the PY program in engineering?",
-          "answer": "Registered PY providers offer a range of support services to their students, including:<ul><li>Academic support.</li><li>Career guidance.</li><li>Visa and immigration advice.</li><li>Personal support.</li></ul>"
+          "question": "What is the program structure and duration?",
+          "answer": "<p class=mb-2>The program consists of two phases:</p><ul><li><span class=font-semibold>Theoretical Knowledge and Communication Skills Training (32 weeks):</span> This phase focuses on imparting theoretical knowledge and developing communication skills.</li><li><span class=font-semibold>Internship Placement (12 weeks):</span> This phase provides graduates with hands-on experience through a 12-week internship in a relevant IT field.</li></ul>"
         },
         {
-          "question": "What are the job prospects for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering have a high rate of employment success. In fact, a recent study found that 80% of PY program graduates in engineering were employed within six months of completing the program."
+          "question": "How does the program help graduates find jobs?",
+          "answer": "The program provides graduates with valuable industry exposure and networking opportunities, which can help them find jobs in the Australian IT industry."
         },
         {
-          "question": "What is the migration pathway for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering can earn five points towards their Australian permanent residency application. These points can be valuable for graduates who are looking to stay in Australia after completing their studies."
+          "question": "What are the benefits of completing the program?",
+          "answer": "<p class=mb-2>Graduates who complete the program:</p><ul><li>Gain the practical skills and knowledge needed to succeed in the Australian IT industry.</li><li>Develop their professional network.</li><li>Improve their employability.</li><li>Are eligible to apply for the Skilled Independent visa (subclass 189), which can lead to permanent residency in Australia.</li></ul>"
         },
         {
-          "question": "Where can I find more information about the PY program in engineering?",
-          "answer": "For more information about the PY program in engineering, you can visit the website of the Australian Department of Home Affairs."
+          "question": "How much does the program cost?",
+          "answer": "The program fees vary depending on the provider. However, the average cost is between AUD $15,000 and AUD $20,000."
+        },
+        {
+          "question": "How do I apply for the program?",
+          "answer": "You can apply for the program through an ACS-accredited provider."
+        },
+        {
+          "question": "What are the job prospects for ICT graduates in Australia?",
+          "answer": "The job outlook for ICT graduates in Australia is positive. The Australian government estimates that there will be 122,400 new jobs in the ICT industry by 2024."
         }
       ]
     },
@@ -126,10 +135,9 @@
       "slug": "engineering",
       "parentPath": "Professional Year Program",
       "path": "Engineering",
-      "type": "professional",
       "sectionHero": {
         "title": "Professional Year in <span class=text-secondary> ENGINEERING</span>",
-
+        "shortDescription": "Gain practical engineering skills and boost your PR chances with the Professional Year program.",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
         "featuredImage": "/service/pyp-engineering.png",
@@ -142,6 +150,7 @@
 
       "sectionEligibility": {
         "title": "Key Program Highlights",
+        "shortDesc": "Gain real-world engineering experience and boost your employability with the Professional Year program. Earn 5 extra points towards Australian PR.",
         "featureImage": "/service/engineering-key-program.png",
         "alt": "Key Program Highlights",
         "isLanding": false,
@@ -185,9 +194,10 @@
       },
       "eligibilityCriteria": {
         "imageSrc": "/service/engineering-eligibility-criteria.png",
-        "shortDesc": "To be eligible for the IT PY Program, applicants must possess:",
+        "shortDesc": "To be eligible for the PYP-E, applicants must possess:",
         "criteria": [
-          "An ICT-related qualification from an Australian university or an overseas institution recognized by ACS.",
+          "An engineering qualification from an Australian university at the level of Technologist or Professional Engineer completed within 4 years of application.",
+          "A minimum of two years (94 weeks) study duration.",
           "A valid student visa or eligibility for a graduate visa.",
           "Proficient English language skills.",
           "A strong academic record."
@@ -213,16 +223,16 @@
       },
       "faq": [
         {
-          "question": "What is the Professional Year (PY) Program?",
-          "answer": "The Professional Year (PY) Program is a 44-week program that provides international graduates with the opportunity to gain practical work experience and develop the skills they need to succeed in the Australian workplace. The program is designed to bridge the gap between full-time study and employment in Australia."
+          "question": "What is the Professional Year (PY) Program in Engineering?",
+          "answer": "The Engineering Professional Year (PY) program is a 44-week program that is designed to help international engineering graduates gain the practical experience and skills they need to succeed in the Australian engineering industry. The program is accredited by Engineers Australia and is designed to bridge the gap between full-time study and employment in Australia."
         },
         {
-          "question": "Who is eligible for the PY Program?",
-          "answer": "To be eligible for the PY Program, you must have graduated from an Australian university with a qualification in one of the following fields:<ul><li>Accounting</li><li>Engineering</li><li>Information technology</li></ul>"
+          "question": "Who is eligible for the PY program in engineering?",
+          "answer": "<p class=mb-2>To be eligible for the PY program in engineering, you must have:</p> <ul class=list-disc><li>Graduated from an Australian university with a qualification in engineering at the level of Technologist or Professional Engineer completed within 4 years of the date of application</li><li>A minimum of two years (94 weeks) study duration.</li><li>Have a valid student visa or be eligible for a graduate visa.</li><li>Have a good command of English.</li><li>Have a strong academic record.</li></ul>"
         },
         {
           "question": "What are the benefits of completing the PY program in engineering?",
-          "answer": "There are many benefits to completing the PY program in engineering, including: <ul class=list-disc><li>Gaining practical work experience in the Australian engineering industry.</li><li>Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
+          "answer": "<p>There are many benefits to completing the PY program in engineering, including:</p> <ul class=list-disc><li>Gaining practical work experience in the Australian engineering industry.</li><li>   Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
         },
         {
           "question": "What is the internship placement component of the PY program in engineering?",
@@ -230,7 +240,7 @@
         },
         {
           "question": "What kind of support is available to me during the PY program in engineering?",
-          "answer": "Registered PY providers offer a range of support services to their students, including:<ul><li>Academic support.</li><li>Career guidance.</li><li>Visa and immigration advice.</li><li>Personal support.</li></ul>"
+          "answer": "<p class=mb-2>Registered PY providers offer a range of support services to their students, including:<ul><li>Academic support.</li><li>Career guidance.</li><li>Visa and immigration advice.</li><li>Personal support.</li></ul>"
         },
         {
           "question": "What are the job prospects for PY program graduates in engineering?",
@@ -243,6 +253,22 @@
         {
           "question": "Where can I find more information about the PY program in engineering?",
           "answer": "For more information about the PY program in engineering, you can visit the website of the Australian Department of Home Affairs."
+        },
+        {
+          "question": "Additional things to consider before applying for the PY program in engineering",
+          "answer": "<p class=mb-2>Before applying for the PY Program, you should make sure that:</p><ul><li>You are interested in gaining practical work experience in Australia</li><li>You want to develop the skills you need to succeed in the Australian workplace</li><li>You are committed to completing the 44-week program</li><li>You are able to afford the cost of the program</li></ul>"
+        },
+        {
+          "question": "Typical schedule for a PY program student in engineering",
+          "answer": "<p class=mb-2>The typical schedule for a PY Program student will vary depending on the provider and the field of study. However, a typical schedule will include:</p><ul><li>Classroom training</li><li>Internship placement</li><li>Work on assignments</li></ul>"
+        },
+        {
+          "question": "Assessment methods used in the PY program in engineering",
+          "answer": "<p class=mb-2>The assessment methods used in the PY Program will vary depending on the provider and the field of study. However, assessment methods may include:</p><ul><li>Essays</li><li>Reports</li><li>Presentations</li><li>Exams</li></ul>"
+        },
+        {
+          "question": "How to increase your chances of getting into the PY program in engineering",
+          "answer": "<p class=mb-2>To increase your chances of getting into the PY Program, you should:</p><ul><li>Apply early</li><li>Have a strong academic record</li><li>Have a good command of English</li><li>Have relevant work experience</li></ul>"
         }
       ]
     },
@@ -260,7 +286,7 @@
       "type": "professional",
       "sectionHero": {
         "title": "Professional Year in <span class=text-secondary> ACCOUNTING</span>",
-
+        "shortDescription": "Bridge the gap between accounting studies and practice with the Professional Year program. Gain valuable industry experience and boost your employability in Australia",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
         "featuredImage": "/service/pyp-accounting.png",
@@ -273,6 +299,7 @@
 
       "sectionEligibility": {
         "title": "Key Program Highlights",
+        "shortDesc": "Gain hands-on accounting skills, master industry standards, and build your network with the Professional Year program. Secure your accounting career in Australia.",
         "featureImage": "/service/accounting-key-program.png",
         "alt": "Key Program Highlights",
         "isLanding": false,
@@ -325,36 +352,40 @@
       },
       "faq": [
         {
-          "question": "What is the Professional Year (PY) Program?",
-          "answer": "The Professional Year (PY) Program is a 44-week program that provides international graduates with the opportunity to gain practical work experience and develop the skills they need to succeed in the Australian workplace. The program is designed to bridge the gap between full-time study and employment in Australia."
+          "question": "What is the Accounting Professional Year program?",
+          "answer": "The Accounting Professional Year program is a 44-week program designed by CPA Australia, ICA, and IPA to help international accounting graduates gain the practical skills and knowledge they need to succeed in the Australian accounting profession."
         },
         {
-          "question": "Who is eligible for the PY Program?",
-          "answer": "To be eligible for the PY Program, you must have graduated from an Australian university with a qualification in one of the following fields:<ul><li>Accounting</li><li>Engineering</li><li>Information technology</li></ul>"
+          "question": "Who is eligible for the program?",
+          "answer": "<p>To be eligible for the program, you must have:</p> <ul class=list-disc><li>An accounting qualification from an Australian university or an overseas institution recognized by CPA Australia, ICA, or IPA.</li><li> Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
         },
         {
-          "question": "What are the benefits of completing the PY program in engineering?",
-          "answer": "There are many benefits to completing the PY program in engineering, including: <ul class=list-disc><li>Gaining practical work experience in the Australian engineering industry.</li><li>Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
+          "question": "What are the key highlights of the program?",
+          "answer": "<ul class=list-disc><li><span class=font-semibold>Skill development and refinement:</span> The program emphasizes hands-on learning, equipping graduates with the practical skills and knowledge they need to work in the Australian accounting industry.</li><li><span class=font-semibold>Industry-specific training:</span> The program covers the intricacies of Australian accounting practices, including financial reporting, taxation, auditing, and corporate governance.</li><li><span class=font-semibold>Real-world internship experience:</span> The program culminates in a 12-week internship placement, where graduates apply their skills in a real-world accounting setting.</li></ul>"
         },
         {
-          "question": "What is the internship placement component of the PY program in engineering?",
-          "answer": "The internship placement is a 12-week component of the PY program in engineering that allows graduates to apply their skills and knowledge in a real-world setting. The internship placement is typically in an area related to the graduate's field of study."
+          "question": "What is the program structure and duration?",
+          "answer": "<ul class=list-disc><li><span class=font-semibold>Classroom training (32 weeks):</span> This phase focuses on imparting theoretical knowledge and professional ethics.</li><li><span class=font-semibold>Internship placement (12 weeks):</span> This phase provides hands-on experience in a relevant accounting firm or organization.</li></ul>"
         },
         {
-          "question": "What kind of support is available to me during the PY program in engineering?",
-          "answer": "Registered PY providers offer a range of support services to their students, including:<ul><li>Academic support.</li><li>Career guidance.</li><li>Visa and immigration advice.</li><li>Personal support.</li></ul>"
+          "question": "How does the program help graduates find jobs?",
+          "answer": "The program provides graduates with valuable industry exposure and networking opportunities, which can help them find jobs in the Australian accounting industry."
         },
         {
-          "question": "What are the job prospects for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering have a high rate of employment success. In fact, a recent study found that 80% of PY program graduates in engineering were employed within six months of completing the program."
+          "question": "What are the benefits of completing the program?",
+          "answer": "<p class=mb-2>Graduates who complete the program:</p> <ul class=list-disc><li>Gain the practical skills and knowledge needed to succeed in the Australian accounting industry.</li><li> Develop their professional network.</li><li>Improve their employability.</li><li>Are eligible to apply for skilled migration visas.</li></ul>"
         },
         {
-          "question": "What is the migration pathway for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering can earn five points towards their Australian permanent residency application. These points can be valuable for graduates who are looking to stay in Australia after completing their studies."
+          "question": "How much does the program cost?",
+          "answer": "The program fees vary depending on the provider. However, the average cost is between AUD $15,000 and AUD $20,000."
         },
         {
-          "question": "Where can I find more information about the PY program in engineering?",
-          "answer": "For more information about the PY program in engineering, you can visit the website of the Australian Department of Home Affairs."
+          "question": "How do I apply for the program?",
+          "answer": "You can apply for the program through a CPA Australia, ICA, or IPA accredited provider."
+        },
+        {
+          "question": "What are the job prospects for accounting graduates in Australia?",
+          "answer": "The job outlook for accounting graduates in Australia is positive. The Australian government estimates that there will be 67,000 job openings in the accounting industry by 2024."
         }
       ]
     }

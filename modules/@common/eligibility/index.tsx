@@ -52,13 +52,11 @@ const Eligibility = ({ data }: any) => {
                     {isLast ? (
                       <div className="flex justify-center items-center ">
                         <p className="mb-0 text-lg text-primary">
-                          RPL is a valuable tool for anyone who has developed
-                          competencies through practical experience and wants to
-                          receive formal recognition without undergoing
-                          additional training or education. It’s especially
-                          beneficial for those aiming to meet specific industry
-                          standards or seeking to validate their expertise for
-                          career progression.
+                          These outlined requirements ensure that candidates
+                          possess the necessary educational background and
+                          language skills to actively participate in and benefit
+                          from the Professional Year Program, setting them on a
+                          path towards successful career development.
                         </p>
                       </div>
                     ) : null}

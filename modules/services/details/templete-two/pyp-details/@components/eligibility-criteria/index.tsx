@@ -13,13 +13,15 @@ const EligibilityCriteria = ({ data }: any) => {
           <div className="flex flex-col gap-[30px]">
             <h2 className="mb-0">Eligibility Criteria</h2>
             <div>
-              <p>{eligibilityCriteriaData?.shortDesc}</p>
+              <p className="font-medium text-lg">
+                {eligibilityCriteriaData?.shortDesc}
+              </p>
               <ul className="flex flex-col gap-4">
                 {eligibilityCriteriaData?.criteria?.map((item: any, i: any) => {
                   return (
                     <li key={i}>
                       <div className="flex items-start gap-3">
-                        <FaArrowRight />
+                        <FaArrowRight className="mt-1.5 shrink-0	" />
                         <p className="mb-0 text-lg text-primary">{item}</p>
                       </div>
                     </li>
@@ -27,11 +29,11 @@ const EligibilityCriteria = ({ data }: any) => {
                 })}
               </ul>
             </div>
-            <div>
+            {/* <div>
               <Link href="" className="btn btn-primary rounded-md">
                 Learn More
               </Link>
-            </div>
+            </div> */}
           </div>
           <div>
             <Image

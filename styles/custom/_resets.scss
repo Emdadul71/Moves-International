@@ -94,3 +94,10 @@
 .active {
   color: #f86011;
 }
+
+.custom_list ul {
+  padding-left: 24px !important;
+  li {
+    list-style: disc !important;
+  }
+}

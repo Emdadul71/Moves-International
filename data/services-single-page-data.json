@@ -324,7 +324,7 @@
       "type": "professional",
       "sectionHero": {
         "title": "<span class=text-secondary>PROFESSIONAL YEAR Program </span> in Australia",
-        "shortDescription": "",
+        "shortDescription": "If you're a recent international graduate in Australia studying Accounting, IT, or Engineering, gaining a Professional Year certificate can significantly enhance your chances of securing Permanent Residency (PR).",
         "secondTitle": "Discover the Right Study Abroad Opportunity for You",
         "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
         "featuredImage": "/service/professional-year.png",
@@ -344,7 +344,7 @@
         "eligibility": [
           {
             "iconSrc": "/icons/certificate.png",
-            "title": "Genuine visitor",
+            "title": "Educational Qualifications",
             "desc": "Prospective candidates should hold a Bachelor's or Master's degree in the disciplines of Accounting, IT, or Engineering."
           },
           {
@@ -395,31 +395,59 @@
         },
         {
           "question": "Who is eligible for the PY Program?",
-          "answer": "To be eligible for the PY Program, you must have graduated from an Australian university with a qualification in one of the following fields:<ul><li>Accounting</li><li>Engineering</li><li>Information technology</li></ul>"
+          "answer": "<p class=mb-2>To be eligible for the PY Program, you must have graduated from an Australian university with a qualification in one of the following fields:<p/><ul class=mb-3><li>Accounting</li><li>Engineering</li><li>Information technology</li></ul><p class=mb-2>You must also meet the following requirements:</p><ul><li>Have a valid student visa</li><li>Have a good command of English</li><li>Have a strong academic record</li></ul>"
         },
         {
-          "question": "What are the benefits of completing the PY program in engineering?",
-          "answer": "There are many benefits to completing the PY program in engineering, including: <ul class=list-disc><li>Gaining practical work experience in the Australian engineering industry.</li><li>Developing essential engineering workplace skills.</li><li>Enhancing your employability in the Australian engineering sector.</li><li>Earning valuable migration points towards Australian permanent residency.</li></ul>"
+          "question": "How can I apply for the PY Program?",
+          "answer": "<p class=mb-2>To apply for the PY Program, you must contact a registered PY provider. There are a number of registered PY providers located throughout Australia.</p><span class=inline-block>The application process will vary depending on the provider, but it will typically involve submitting the following documents:</span> <ul class=list-disc><li>Completed application form</li><li>Copy of your passport</li><li>Copy of your student visa</li><li>Copy of your academic transcript</li><li>Copy of your English language proficiency test results</li></ul>"
         },
         {
-          "question": "What is the internship placement component of the PY program in engineering?",
-          "answer": "The internship placement is a 12-week component of the PY program in engineering that allows graduates to apply their skills and knowledge in a real-world setting. The internship placement is typically in an area related to the graduate's field of study."
+          "question": "How much does the PY Program cost?",
+          "answer": "The cost of the PY Program varies depending on the provider and the field of study. However, you can expect to pay between $15,000 and $25,000 for the program."
         },
         {
-          "question": "What kind of support is available to me during the PY program in engineering?",
-          "answer": "Registered PY providers offer a range of support services to their students, including:<ul><li>Academic support.</li><li>Career guidance.</li><li>Visa and immigration advice.</li><li>Personal support.</li></ul>"
+          "question": "Are there any scholarships or funding options available to help me pay for the PY Program?",
+          "answer": "<p class=mb-2>Registered PY providers offer a range of support services to their students, including:</p><ul><li>Scholarships</li><li>Grants</li><li>Loans</li></ul>"
         },
         {
-          "question": "What are the job prospects for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering have a high rate of employment success. In fact, a recent study found that 80% of PY program graduates in engineering were employed within six months of completing the program."
+          "question": "What are the benefits of completing the PY Program?",
+          "answer": "<p class=mb-2>There are many benefits to completing the PY Program, including:</p><ul><li>Gaining practical work experience</li><li>Developing essential workplace skills</li><li>Enhancing your employability</li><li>Earning valuable migration points</li></ul>"
         },
         {
-          "question": "What is the migration pathway for PY program graduates in engineering?",
-          "answer": "PY program graduates in engineering can earn five points towards their Australian permanent residency application. These points can be valuable for graduates who are looking to stay in Australia after completing their studies."
+          "question": "What is the internship placement component of the PY Program?",
+          "answer": "The internship placement is a 12-week component of the PY Program that allows graduates to apply their skills and knowledge in a real-world setting. The internship placement is typically in an area related to the graduate's field of study."
         },
         {
-          "question": "Where can I find more information about the PY program in engineering?",
-          "answer": "For more information about the PY program in engineering, you can visit the website of the Australian Department of Home Affairs."
+          "question": "What kind of support is available to me during the PY Program?",
+          "answer": "<p class=mb-2>Registered PY providers offer a range of support services to their students, including:</p><ul><li>Academic support</li><li>Career guidance</li><li>Visa and immigration advice</li><li>Personal support</li></ul>"
+        },
+        {
+          "question": "What are the job prospects for PY Program graduates?",
+          "answer": "PY Program graduates have a high rate of employment success. In fact, a recent study found that 80% of PY Program graduates were employed within six months of completing the program."
+        },
+        {
+          "question": "What is the migration pathway for PY Program graduates?",
+          "answer": "PY Program graduates can earn five points towards their Australian permanent residency application. These points can be valuable for graduates who are looking to stay in Australia after completing their studies."
+        },
+        {
+          "question": "Where can I find more information about the PY Program?",
+          "answer": "For more information about the PY Program, you can visit the website of the Australian Department of Home Affairs."
+        },
+        {
+          "question": "Are there any additional things I should consider before applying for the PY Program?",
+          "answer": "<p class=mb-2>Before applying for the PY Program, you should make sure that:</p><ul><li>You are interested in gaining practical work experience in Australia</li><li>You want to develop the skills you need to succeed in the Australian workplace</li><li>You are committed to completing the 44-week program</li><li>You are able to afford the cost of the program</li></ul>"
+        },
+        {
+          "question": "What is the typical schedule for a PY Program student?",
+          "answer": "<p class=mb-2>The typical schedule for a PY Program student will vary depending on the provider and the field of study. However, a typical schedule will include:</p><ul><li>Classroom training</li><li>Internship placement</li><li>Work on assignments</li></ul>"
+        },
+        {
+          "question": "What are the assessment methods used in the PY Program?",
+          "answer": "<p class=mb-2>The assessment methods used in the PY Program will vary depending on the provider and the field of study. However, assessment methods may include:</p><ul><li>Essays</li><li>Reports</li><li>Presentations</li><li>Exams</li></ul>"
+        },
+        {
+          "question": "What can I do to increase my chances of getting into the PY Program?",
+          "answer": "<p class=mb-2>To increase your chances of getting into the PY Program, you should:</p><ul><li>Apply early</li><li>Have a strong academic record</li><li>Have a good command of English</li><li>Have relevant work experience</li></ul>"
         }
       ],
       "SectionHowItWorks": {

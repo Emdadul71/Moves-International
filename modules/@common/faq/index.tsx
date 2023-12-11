@@ -48,7 +48,7 @@ const Faq = ({ data, classes }: propTypes) => {
 
                     <div ref={animationParent}>
                       {selected == i && (
-                        <div className="p-4  block text-left bg-grey">
+                        <div className="p-4  block text-left bg-grey custom_list">
                           {htmlParse(item.answer)}
                         </div>
                       )}
