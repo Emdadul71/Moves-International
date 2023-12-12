@@ -14,39 +14,36 @@ const render = (data: any, params: any) => {
     return (
       <ServiceDetailsTempleteTwo data={data} params={params?.service_slug} />
     );
-  }
-  if (data.type == "rpl") {
+  } else if (data.type == "rpl") {
     return (
       <ServiceDetailsTempleteRPL data={data} params={params?.service_slug} />
     );
-  }
-  if (data.type == "career-counselling") {
+  } else if (data.type == "career-counselling") {
     return (
       <ServiceDetailsCareerCounselling
         data={data}
         params={params?.service_slug}
       />
     );
-  }
-  if (data.type == "migration") {
+  } else if (data.type == "migration") {
     return (
       <ServiceDetailsTempleteMigration
         data={data}
         params={params?.service_slug}
       />
     );
-  }
-  if (data.type == "health") {
+  } else if (data.type == "health") {
     return (
       <ServiceDetailsTempleteHealthInsurance
         data={data}
         params={params?.service_slug}
       />
     );
+  } else {
+    return (
+      <ServiceDetailsTempleteOne data={data} params={params?.service_slug} />
+    );
   }
-  return (
-    <ServiceDetailsTempleteOne data={data} params={params?.service_slug} />
-  );
 };
 
 async function getData(params: any) {
