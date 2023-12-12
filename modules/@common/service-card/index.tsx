@@ -5,7 +5,7 @@ import { RiArrowRightLine } from "react-icons/ri";
 const ServiceCard = ({ data }: any) => {
   return (
     <Link
-      href="services/your-student-consultancy-partner"
+      href={data?.slug}
       className="w-full mb-5 relative block service_card_parent group/test"
     >
       <div className="w-full h-full absolute service_card_overley rounded-md"></div>
@@ -25,7 +25,7 @@ const ServiceCard = ({ data }: any) => {
           </div>
         </div>
         <div className="mt-auto ">
-          <h2 className="text-white mb-0">{data?.shortDesc}</h2>
+          <h3 className="text-white mb-0">{data?.shortDesc}</h3>
           <div className="flex justify-start items-center btn px-0 text-white  mt-auto transition-all">
             <span className="text-base"> Read More</span>
             <RiArrowRightLine className="text-base" />

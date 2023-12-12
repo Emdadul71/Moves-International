@@ -13,8 +13,6 @@ interface DataType {
 }
 
 const CourseDetails = ({ data: courseData }: any) => {
-  console.log("courseData", courseData);
-
   const [activeSection, setActiveSection] = useState(null);
   const sectionRefs: any = useRef([]);
 

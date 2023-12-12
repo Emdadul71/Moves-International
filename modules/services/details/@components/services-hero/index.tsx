@@ -18,8 +18,6 @@ const ServiceHero = ({ data, params }: any) => {
             alt={sectionHeroData?.title}
             width={960}
             height={540}
-            blurDataURL="/misc/services-hero.jpg"
-            placeholder="blur"
             className="w-full"
           />
         </div>

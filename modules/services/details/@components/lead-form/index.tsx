@@ -21,7 +21,12 @@ import countryData from "../../../../@data/country.json";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
-const LeadForm = () => {
+interface propTypes {
+  classes?: {
+    root?: any;
+  };
+}
+const LeadForm = ({ classes }: propTypes) => {
   //states
   const [service, setService] = useState(null);
   const [appointmentDateData, setAppointmentDateData] = useState<any>(
@@ -160,7 +165,11 @@ const LeadForm = () => {
   };
 
   return (
-    <section className="bg-grey pt-5 lg:pt-[80px]">
+    <section
+      className={`bg-grey pt-5 lg:pt-[80px] ${
+        classes?.root ? classes.root : ``
+      }`}
+    >
       <div className="container">
         <div className="flex flex-col gap-7 max-w-[850px] mx-auto w-full bg-white p-5 lg:p-[50px]">
           <div className="max-w-[355px] mx-auto">
