@@ -1,3 +1,4 @@
+import { htmlParse } from "@/helpers/utils";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -21,7 +22,9 @@ const CounsellingAndSupport = ({ data }: any) => {
           <h2 className="h3  mb-0 lg:leading-[48px]">
             {CounsellingAndSupportData?.title}
           </h2>
-          <p className="mb-0 ">{CounsellingAndSupportData?.shortDescription}</p>
+          <div className="mb-0 ">
+            {htmlParse(CounsellingAndSupportData?.shortDescription)}
+          </div>
         </div>
       </div>
     </section>

@@ -43,7 +43,7 @@ const Header = () => {
   }));
 
   const topCourse = [
-    { title: "Nursing Course", link: "/nursing-course" },
+    { title: "Nursing Course", link: "/courses/top-courses/nursing-course" },
     { title: "Health Course", link: "/health-course" },
     {
       title: "Information Technology Course",

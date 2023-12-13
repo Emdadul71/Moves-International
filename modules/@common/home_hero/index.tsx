@@ -116,8 +116,7 @@ const HomeHero = () => {
               alt="Study International Logo"
               width={760}
               height={730}
-              blurDataURL="/misc/home-hero.png"
-              placeholder="blur"
+              priority={true}
             />
           </div>
         </div>

@@ -6,7 +6,7 @@ import WebStories from "../home/web-stories";
 import ReadyToGo from "../@common/ready-to-go";
 import StudyFeature from "./study-feature";
 import WhyStudy from "./why-study";
-import CourseInfo from "./course-info";
+import CourseInfo from "../courses/top-courses/@components/course-info";
 import RegistrationProcess from "./registration-process";
 import SectionFaq from "./section-faq";
 

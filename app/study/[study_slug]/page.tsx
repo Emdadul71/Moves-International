@@ -1,5 +1,7 @@
+import CourseInfo from "@/modules/courses/top-courses/@components/course-info";
+
 const StudyDetailPage = () => {
-  return <div>StudyDetailPage</div>;
+  return <CourseInfo />;
 };
 
 export default StudyDetailPage;

@@ -1,0 +1,316 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "University & College Admissions",
+      "metaTitle": "Free Education Counselling",
+      "metaDescription": "Our highly qualified and certified Immigration and Education Consultants specialising in key destinations match your profile and preferences to your right-fit universities",
+      "metaImage": "images/services/free-education-counselling-details.jpg",
+      "metaKeywords": "free education, counselling",
+      "slug": "nursing-course",
+      "type": "sdfd",
+      "path": "Nursing Course",
+      "sectionHero": {
+        "title": "Unlock Your Calling: Become a <span class=text-secondary>Nurse</span>  in Australia",
+        "shortDescription": "Pursue your passion for helping others and build a rewarding career with nursing courses in Australia.",
+        "secondTitle": "Discover the Right Study Abroad Opportunity for You",
+        "description": " We believe that every student has the right to access a global education. However, discovering the best fit can be an overwhelming task, considering all the information out there. Our expert education consultants simplify this task to a far more stress-free and intuitive process. We work one-to-one with students to thoroughly understand their academic profiles and preferences, personalising program and university recommendations that best suit your needs. With this shortlist, students can confidently begin applications knowing they have found their perfect university fit.",
+        "featuredImage": "/course/nursing/nursing-hero.png",
+        "alt": "Course and University Guidance for International Students"
+      },
+      "SectionCounsellingAndSupport": {
+        "title": "From Compassion to Career: Your Guide to Nursing in Australia",
+        "shortDescription": "<p>Do you have a desire to help others and make a positive impact on the world? Are you drawn to a career that offers stability, flexibility, and endless opportunities for growth? If so, then nursing in Australia might be your ideal calling.</p></p>Australia boasts a world-class healthcare system and a thriving nursing industry, creating a perfect environment to launch your nursing journey. With internationally recognized universities, diverse program options, and a high demand for skilled professionals, Australia offers an unparalleled experience for aspiring nurses.</p>",
+        "nativeService": {
+          "title": "Course and University Guidance for International Students",
+          "services": [
+            "Your education and experience",
+            "Interests, timeline, budget, and career goals",
+            "Courses that match your needs",
+            "Application processes",
+            "Upcoming information events relevant to you"
+          ]
+        }
+      },
+      "sectionKeyReasons": {
+        "title": "Key reasons to consider nursing courses in Australia",
+        "featureImage": "/service/uni-college-how-it-works.png",
+        "alt": "Key Reasons",
+        "shortDesc": "Become a nurse in Australia and embark on a fulfilling career filled with opportunity and impact.",
+        "isLanding": false,
+        "eligibility": [
+          {
+            "iconSrc": "/icons/course/High-demand.png",
+            "title": "High demand",
+            "desc": "Australia faces a critical shortage of nurses, guaranteeing you exceptional job prospects upon graduation."
+          },
+          {
+            "iconSrc": "/icons/course/World-class-education.png",
+            "title": "World-class education",
+            "desc": "Renowned universities provide comprehensive programs equipped with cutting-edge facilities and dedicated faculty."
+          },
+          {
+            "iconSrc": "/icons/course/Multicultural-environment.png",
+            "title": "Multicultural environment",
+            "desc": "Immerse yourself in a diverse learning experience while gaining valuable cultural understanding."
+          },
+          {
+            "iconSrc": "/icons/course/Pathway.png",
+            "title": "Pathway to permanent residency",
+            "desc": "Australia's attractive immigration policies make it easier to build your future in this beautiful country."
+          },
+          {
+            "iconSrc": "/icons/course/Variety-of-specializations.png",
+            "title": "Variety of specializations",
+            "desc": "Choose from a wide range of nursing specialties, from pediatrics and gerontology to mental health and emergency care."
+          },
+          {
+            "iconSrc": "/icons/course/Flexible-work-options.png",
+            "title": "Flexible work options",
+            "desc": "Enjoy diverse work schedules to suit your lifestyle, from full-time to part-time and day or night shifts."
+          },
+          {
+            "iconSrc": "/icons/course/Stable-and-rewarding-career.png",
+            "title": "Stable and rewarding career",
+            "desc": "Nursing offers a secure income and the immense satisfaction of contributing to the well-being of others."
+          }
+        ]
+      },
+      "sectionCourseInfo": {
+        "title": "All there is to Know about Nursing",
+        "shortDesc": "Nurses are in high demand globally and in Australia, and consistently feature in the skills shortage list for Australian PR.",
+        "courseInfoByLevel": [
+          {
+            "level": "Certificate IV",
+            "info": [
+              {
+                "iconSrc": "/home/achievement.png",
+                "title": "Average Fees:",
+                "shortDesc": "AUD 10,000 - 15,000 Per year"
+              },
+              {
+                "iconSrc": "/home/rate.png",
+                "title": "Course Duration:",
+                "shortDesc": "18 to 24 Months"
+              },
+              {
+                "iconSrc": "/home/bussiness-man.png",
+                "title": "Course Intake:",
+                "shortDesc": "FEB | JULY | SEP"
+              }
+            ]
+          },
+          {
+            "level": "Bachelor Of Nursing",
+            "info": [
+              {
+                "iconSrc": "/home/achievement.png",
+                "title": "Average Fees:",
+                "shortDesc": "AUD 20,000-30,000 per year"
+              },
+              {
+                "iconSrc": "/home/rate.png",
+                "title": "Course Duration:",
+                "shortDesc": "36 to 48 Months"
+              },
+              {
+                "iconSrc": "/home/bussiness-man.png",
+                "title": "Course Intake:",
+                "shortDesc": "FEB | JULY | SEP"
+              }
+            ]
+          },
+          {
+            "level": "Master of Nursing",
+            "info": [
+              {
+                "iconSrc": "/home/achievement.png",
+                "title": "Average Fees:",
+                "shortDesc": "AUD 20,000 - 30,000 Per year"
+              },
+              {
+                "iconSrc": "/home/rate.png",
+                "title": "Course Duration:",
+                "shortDesc": "24 to 48 Months"
+              },
+              {
+                "iconSrc": "/home/bussiness-man.png",
+                "title": "Course Intake:",
+                "shortDesc": "FEB | JULY | SEP"
+              }
+            ]
+          }
+        ]
+      },
+      "sectionVisaOptions": {
+        "title": "Visa Options for Nurses After Completing Nursing Courses in Australia",
+        "featureImage": "/service/uni-college-how-it-works.png",
+        "alt": "Key Reasons",
+        "shortDesc": "Graduating with a nursing qualification from Australia opens doors to exciting career opportunities and a pathway to permanent residency. Here are some visa options available for nurses after completing their studies:",
+        "isLanding": false,
+        "visaOptions": [
+          {
+            "title": "Skilled Independent Visa (Subclass 189)",
+            "options": [
+              "This visa allows skilled professionals to live and work permanently in Australia.",
+              "Nurses are on the Skilled Occupation List (SOL), making them eligible to apply.",
+              "Applicants must meet specific points-based criteria, including work experience, skills, and English language proficiency."
+            ]
+          },
+          {
+            "title": "Skilled Nominated Visa (Subclass 190)",
+            "options": [
+              "This visa allows skilled professionals nominated by an Australian state or territory to live and work permanently in Australia.",
+              "Some states and territories offer nomination opportunities for nurses, especially in regional areas.",
+              "Points-based criteria and specific state/territory requirements apply."
+            ]
+          },
+          {
+            "title": "Skilled Regional Visa (Subclass 491)",
+            "options": [
+              "This visa allows skilled professionals to live and work in designated regional areas of Australia for five years.",
+              "Nurses are on the Regional Occupation List (ROL), making them eligible to apply.",
+              "Offers a pathway to permanent residency after meeting specific regional work experience requirements."
+            ]
+          },
+          {
+            "title": "Temporary Graduate Visa (Subclass 485)",
+            "options": [
+              "This visa allows international graduates to work in Australia for 18 months (Bachelor's degree) or two years (Master's degree) after completing their studies.",
+              "Provides valuable work experience and can be used as a stepping stone towards permanent residency."
+            ]
+          },
+          {
+            "title": "Temporary Graduate Visa (Subclass 485)",
+            "options": [
+              "This visa allows international graduates to work in Australia for 18 months (Bachelor's degree) or two years (Master's degree) after completing their studies.",
+              "Provides valuable work experience and can be used as a stepping stone towards permanent residency."
+            ]
+          },
+          {
+            "title": "Global Talent Visa (GTI)",
+            "options": [
+              "This visa attracts highly skilled and talented individuals who can make significant contributions to the Australian economy.",
+              "Nurses with exceptional skills and achievements in their field may be eligible for this visa.",
+              "Offers a fast-tracked pathway to permanent residency."
+            ]
+          },
+          {
+            "title": "Additional factors to consider:",
+            "options": [
+              "Each visa has different requirements and English language skills may be required.",
+              "Registration with the Australian Health Practitioner Regulation Agency (AHPRA) is necessary to practice as a nurse in Australia.",
+              "State and territory variations may exist regarding visa sponsorship and registration processes."
+            ]
+          },
+          {
+            "title": "Resources:",
+            "options": [
+              "Australian Department of Home Affairs:<a href=https://immi.homeaffairs.gov.au class=text-secondary> https://immi.homeaffairs.gov.au</a>",
+              "Australian Health Practitioner Regulation Agency:<a href=https://www.ahpra.gov.au class=text-secondary> https://www.ahpra.gov.au/</a>",
+              "SkillSelect: <a href=https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list class=text-secondary> https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list</a>"
+            ]
+          }
+        ]
+      },
+      "readyToBeing": {
+        "imageSrc": "/service/ready-to-being.png",
+        "title": "Ready to Begin?",
+        "shortDesc": "Visit your nearest Moves International office or schedule an appointment through the enquiry form on the right. Your educational adventure awaits!"
+      },
+
+      "faq": [
+        {
+          "question": "What are the different nursing courses available in Australia?",
+          "answer": "<p class=mb-2>There are several nursing courses available in Australia to suit your educational background and career goals. Here are some of the most common:<p/><ul class=mb-3><li>Diploma of Nursing/Certificate IV in Nursing: This 18-24 month program prepares individuals to become Enrolled Nurses, providing basic care in various settings.</li><li>Bachelor of Nursing: This 3-4 year program equips graduates with the knowledge and skills to become Registered Nurses, offering diverse career options in clinical practice, leadership, and research.</li><li>Master of Nursing: This postgraduate program provides advanced knowledge and expertise in a chosen specialization, opening doors to leadership roles, research opportunities, and advanced practice.</li></ul>"
+        },
+        {
+          "question": "What are the entry requirements for nursing courses in Australia?",
+          "answer": "<p class=mb-2>Entry requirements vary depending on the program and institution. However, some general requirements include:<p/><ul class=mb-3><li>Completion of Year 12 or equivalent qualification</li><li>Meeting English language proficiency standards</li><li>Demonstrating academic achievement</li></ul>"
+        },
+        {
+          "question": "How much do nursing courses cost in Australia?",
+          "answer": "<p class=mb-2>The cost of nursing courses in Australia varies depending on the program, institution, and duration. However, you can expect to pay an average of:</p> <ul class=list-disc><li>AUD 10,000-15,000 per year for a Diploma/Certificate</li><li>AUD 20,000-30,000 per year for a Bachelor's degree</li><li>AUD 40,845-90,000 for a Master's degree</li></ul>"
+        },
+        {
+          "question": "Are there scholarships and financial assistance options available for nursing courses?",
+          "answer": "<p class=mb-2>Yes, numerous scholarships and financial assistance options are available to help with the cost of nursing education in Australia. These may include:</p> <ul class=list-disc><li>Government grants and loans</li><li>University scholarships</li><li>Industry-specific scholarships</li><li>Nursing scholarships for international students</li></ul>"
+        },
+        {
+          "question": "What are the job prospects for nurses in Australia?",
+          "answer": "<p class=mb-2>The job market for nurses in Australia is extremely strong, with high demand across various settings. The Australian government projects a need for over 80,000 additional nurses by 2025."
+        },
+        {
+          "question": "What are the average salaries for nurses in Australia?",
+          "answer": "<p class=mb-2>Nurses in Australia earn competitive salaries, with an average of:</p> <ul class=list-disc><li>AUD 70,000-80,000 per year for Registered Nurses</li><li>AUD 90,000-100,000 per year for Nurse Practitioners</li><li>AUD 110,000+ per year for Nurse Managers and specialists</li></ul>"
+        },
+        {
+          "question": "What are the different work settings for nurses in Australia?",
+          "answer": "<p class=mb-2>Nurses can work in various settings, including:</p> <ul class=list-disc><li>Hospitals</li><li>Aged care facilities</li><li>Community health centers</li><li>Schools</li><li>Occupational health services</li><li>Research institutions</li></ul>"
+        },
+        {
+          "question": "What are the career progression opportunities for nurses in Australia?",
+          "answer": "<p class=mb-2>Specializing in a specific area of nursing</p> <ul class=list-disc><li>Specializing in a specific area of nursing</li><li>Taking on leadership roles, such as Nurse Manager or Director of Nursing</li><li>Completing a Master's degree and becoming a Nurse Practitioner</li><li>Pursuing a career in research or education</li></ul>"
+        },
+        {
+          "question": "How can I register as a nurse in Australia?",
+          "answer": "<p class=mb-2>To practice as a nurse in Australia, you must register with the Australian Health Practitioner Regulation Agency (AHPRA). This involves meeting specific registration requirements, including:</p> <ul class=list-disc><li>Completion of an approved nursing program</li><li>Passing the National Council Licensure Examination (NCLEX-RN) for international graduates</li><li>Meeting English language proficiency standards</li></ul>"
+        },
+        {
+          "question": "What are the visa options for international nurses who want to work in Australia?",
+          "answer": "<p class=mb-2>Several visa options are available for international nurses, including:</p> <ul class=list-disc><li>Skilled Independent Visa (Subclass 189)</li><li>Skilled Nominated Visa (Subclass 190)</li><li>Skilled Regional Visa (Subclass 491)</li><li>Temporary Graduate Visa (Subclass 485)</li><li>Global Talent Visa (GTI)</li></ul>"
+        },
+        {
+          "question": "What are the benefits of studying nursing in Australia?",
+          "answer": "<p class=mb-2>Studying nursing in Australia offers several benefits, including:</p> <ul class=list-disc><li>Globally recognized qualifications</li><li>High-quality education and training</li><li>Strong job market and excellent career prospects</li><li>Competitive salaries and benefits</li><li>Diverse work settings and career pathways</li><li>A high quality of life in a beautiful country</li></ul>"
+        },
+        {
+          "question": "What are some of the challenges of studying nursing in Australia?",
+          "answer": "<p class=mb-2>Some challenges to consider when studying nursing in Australia include:</p> <ul class=list-disc><li>Competitive entry requirements</li><li>The cost of education</li><li>Meeting English language proficiency standards</li><li>Adapting to a new culture and environment</li></ul>"
+        }
+      ],
+
+      "sectionOtherService": {
+        "title": "Other Services",
+        "services": [
+          {
+            "title": "RPL",
+            "slug": "/services/rpl",
+            "imgSrc": "/service/sudent-consultancy.png",
+            "shortDesc": "Recognition of Prior Learning"
+          },
+          {
+            "title": "PYP",
+            "slug": "/services/professional-year-program",
+            "imgSrc": "/service/professional-year-admission.png",
+            "shortDesc": "Professional Year Program"
+          },
+          {
+            "title": "Student Visa Extension",
+            "slug": "#",
+            "imgSrc": "/service/visa-extension.png",
+            "shortDesc": "Extending Your Student Visa: Simplified"
+          },
+          {
+            "title": "University Admission",
+            "slug": "#",
+            "imgSrc": "/service/university-admission.png",
+            "shortDesc": "Your Future is Starts Here"
+          },
+          {
+            "title": "Migration",
+            "slug": "#",
+            "imgSrc": "/service/485-visa-application.png",
+            "shortDesc": "Migration Advice & Visa Application"
+          },
+          {
+            "title": "OSHC & OVHC",
+            "slug": "#",
+            "imgSrc": "/service/oshc-ovhc.png",
+            "shortDesc": "Health Cover, Your Safety Net"
+          }
+        ]
+      }
+    }
+  ]
+}
