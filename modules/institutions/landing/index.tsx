@@ -159,19 +159,13 @@ const InstitutionsLanding = () => {
     setQueryParams((prev: any) => ({ ...prev, stateSlug: checkedValues }));
   };
   const queryString = generateQueryString(queryParams);
-  console.log("queryString", queryString);
 
   const { data: institutionData, isLoading } = useGetAllInstitutionQuery({
     queryString,
   });
   const dataArray = institutionData && institutionData?.data;
 
-  console.log("dataArray", dataArray);
-
   const totalCount = institutionData?.totalCount;
-  console.log("totalCount", totalCount);
-
-  console.log("dataArray", dataArray);
 
   useEffect(() => {
     const stateString = queryParams.stateSlug.join("_");

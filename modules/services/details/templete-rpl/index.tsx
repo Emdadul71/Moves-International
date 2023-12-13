@@ -19,8 +19,6 @@ const ServiceDetailsTempleteRPL = ({ data, params }: any) => {
       <RPLKeyAdvantage data={data} />
       <WhoUse data={data} />
       <RplIndustries data={data} />
-      {/* <ProviderService />
-      <ServiceSection /> */}
       <LeadForm />
       <Faq data={data} />
       <ReadyToGo />

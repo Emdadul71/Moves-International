@@ -1,8 +1,6 @@
 import React from "react";
 
 const TeamDetailsHero = ({ data }: any) => {
-  console.log(data);
-
   return (
     <section className="bg-primary pt-5 lg:pt-[100px]">
       <div className="container">

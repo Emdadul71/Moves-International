@@ -8,6 +8,7 @@
       "metaImage": "images/services/free-education-counselling-details.jpg",
       "metaKeywords": "free education, counselling",
       "slug": "university-and-college-admissions",
+      "type": "sdfd",
       "path": "University and College Admissions",
       "sectionHero": {
         "title": "<span class=text-secondary>University</span> & <span class=text-secondary>College Admissions</span>",
@@ -111,6 +112,7 @@
         ]
       }
     },
+
     {
       "id": 2,
       "title": "Education & Career Counselling",
@@ -120,7 +122,7 @@
       "metaKeywords": "free education, counselling",
       "slug": "education-and-career-counselling",
       "path": "Education & Career Counselling",
-      "type": "career-counselling",
+      "type": "career",
       "sectionHero": {
         "title": "Education & Career Counselling ",
         "shortDescription": "Empowering Your Academic Journey Abroad: Expert Student Counseling at Moves International",
@@ -215,6 +217,7 @@
         ]
       }
     },
+
     {
       "id": 3,
       "title": "Health Insurance OSHC/OVHC",
@@ -318,6 +321,7 @@
         ]
       }
     },
+
     {
       "id": 4,
       "title": "Health Insurance OSHC/OVHC",
@@ -399,6 +403,7 @@
         ]
       }
     },
+
     {
       "id": 5,
       "title": "Health Insurance OSHC/OVHC",
@@ -585,6 +590,7 @@
         ]
       }
     },
+
     {
       "id": 6,
       "title": "What is RPL and how does it work?",

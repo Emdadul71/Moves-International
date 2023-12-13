@@ -6,8 +6,6 @@ import LatestBlog from "../@components/latest-blog";
 import BlogHero from "./blog-hero";
 
 const BlogLanding = ({ data }: any) => {
-  console.log("data1", data);
-
   const dataTop = data ? data?.slice(0, 5) : [];
   const serverData = data ? data?.slice(5) : [];
   const handleChange = (value: string) => {

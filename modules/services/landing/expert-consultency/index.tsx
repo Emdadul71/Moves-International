@@ -6,32 +6,38 @@ import { RiArrowRightLine } from "react-icons/ri";
 
 const serviceData = [
   {
-    title: "Student Consultancy",
+    title: "RPL",
+    slug: "/services/rpl",
     imgSrc: "/service/sudent-consultancy.png",
-    shortDesc: "Your Student Consultancy Partner",
+    shortDesc: "Recognition of Prior Learning",
   },
   {
-    title: "Professional Year Admission",
+    title: "PYP",
+    slug: "/services/professional-year-program",
     imgSrc: "/service/professional-year-admission.png",
-    shortDesc: "Your Career: Professional Year",
-  },
-  {
-    title: "485 Visa Application",
-    imgSrc: "/service/485-visa-application.png",
-    shortDesc: "Your Future: 485 Visa Pathway",
-  },
-  {
-    title: "University Admission",
-    imgSrc: "/service/university-admission.png",
-    shortDesc: "Your Future is Starts Here",
+    shortDesc: "Professional Year Program",
   },
   {
     title: "Student Visa Extension",
+    slug: "#",
     imgSrc: "/service/visa-extension.png",
     shortDesc: "Extending Your Student Visa: Simplified",
   },
   {
+    title: "University Admission",
+    slug: "#",
+    imgSrc: "/service/university-admission.png",
+    shortDesc: "Your Future is Starts Here",
+  },
+  {
+    title: "Migration",
+    slug: "#",
+    imgSrc: "/service/485-visa-application.png",
+    shortDesc: "Migration Advice & Visa Application",
+  },
+  {
     title: "OSHC & OVHC",
+    slug: "#",
     imgSrc: "/service/oshc-ovhc.png",
     shortDesc: "Health Cover, Your Safety Net",
   },

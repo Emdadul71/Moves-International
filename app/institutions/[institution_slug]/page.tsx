@@ -1,5 +1,4 @@
 import InstitutionDetails from "@/modules/institutions/details";
-import React from "react";
 import { notFound } from "next/navigation";
 const apiUrl = process.env.NEXT_PUBLIC_API_URI;
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;

@@ -75,7 +75,7 @@ const OurPartners = ({ classes }: propTypes) => {
                 key={i}
               >
                 <a
-                  href={item?.link}
+                  href="#"
                   rel="nofollow"
                   target="_blank"
                   className="flex items-center justify-center w-full h-full p-4"

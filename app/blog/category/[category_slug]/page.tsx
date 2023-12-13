@@ -18,7 +18,6 @@ async function getData(catSlug: any) {
     }
     return res.json();
   } catch (error) {
-    console.error(error);
     return null;
   }
 }

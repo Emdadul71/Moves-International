@@ -1,11 +1,8 @@
-import ServiceDetailsTempleteOne from "@/modules/services/details/templete-one";
-import { notFound } from "next/navigation";
 // Fetching data from the JSON file
+import PYPDetails from "@/modules/services/details/templete-two/pyp-details";
 import fsPromises from "fs/promises";
 import path from "path";
-import ServiceDetailsTempleteTwo from "@/modules/services/details/templete-two";
-import ServiceDetailsTempleteRPL from "@/modules/services/details/templete-rpl";
-import PYPDetails from "@/modules/services/details/templete-two/pyp-details";
+import { notFound } from "next/navigation";
 
 async function getData(params: any) {
   const filePath = path.join(process.cwd(), "/data/pyp-single-page-data.json");

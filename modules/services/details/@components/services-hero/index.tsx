@@ -5,7 +5,6 @@ import React from "react";
 
 const ServiceHero = ({ data, params }: any) => {
   const sectionHeroData = data && data?.sectionHero && data?.sectionHero;
-  // const serviceSlug = params?.service_slug;
 
   return (
     <section className="grid grid-cols-1 h-full">

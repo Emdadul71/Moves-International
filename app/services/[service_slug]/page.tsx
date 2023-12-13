@@ -1,5 +1,4 @@
 import ServiceDetailsTempleteOne from "@/modules/services/details/templete-one";
-import { notFound } from "next/navigation";
 // Fetching data from the JSON file
 import fsPromises from "fs/promises";
 import path from "path";
@@ -8,42 +7,52 @@ import ServiceDetailsTempleteRPL from "@/modules/services/details/templete-rpl";
 import ServiceDetailsCareerCounselling from "@/modules/services/details/templete-career";
 import ServiceDetailsTempleteMigration from "@/modules/services/details/templete-migration";
 import ServiceDetailsTempleteHealthInsurance from "@/modules/services/details/templete-health-insurance";
+import { notFound } from "next/navigation";
 
 const render = (data: any, params: any) => {
-  if (data.type == "professional") {
+  if (data?.type == "professional") {
+    console.log("data?.type", data?.type);
     return (
       <ServiceDetailsTempleteTwo data={data} params={params?.service_slug} />
     );
-  } else if (data.type == "rpl") {
+  }
+
+  if (data?.type == "rpl") {
     return (
       <ServiceDetailsTempleteRPL data={data} params={params?.service_slug} />
     );
-  } else if (data.type == "career-counselling") {
+  }
+
+  if (data?.type == "career") {
     return (
       <ServiceDetailsCareerCounselling
         data={data}
         params={params?.service_slug}
       />
     );
-  } else if (data.type == "migration") {
+  }
+
+  if (data?.type == "migration") {
     return (
       <ServiceDetailsTempleteMigration
         data={data}
         params={params?.service_slug}
       />
     );
-  } else if (data.type == "health") {
+  }
+
+  if (data?.type == "health") {
     return (
       <ServiceDetailsTempleteHealthInsurance
         data={data}
         params={params?.service_slug}
       />
     );
-  } else {
-    return (
-      <ServiceDetailsTempleteOne data={data} params={params?.service_slug} />
-    );
   }
+
+  return (
+    <ServiceDetailsTempleteOne data={data} params={params?.service_slug} />
+  );
 };
 
 async function getData(params: any) {
