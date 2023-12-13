@@ -42,6 +42,7 @@ const BlogCard = ({ classes, isCenter, data }: propTypes) => {
           className={`object-cover w-full rounded ${
             classes?.imageStyle ? classes.imageStyle : ""
           }`}
+          priority
         />
       </Link>
 
