@@ -47,7 +47,7 @@ const MigrationDetailsPage = async ({ params }: any) => {
   // const data = await fetchData(params);
   const data = await getData(params);
 
-  return <MigrationDetails data={data} />;
+  return <MigrationDetails data={data} params={params.details_slug} />;
 };
 
 export default MigrationDetailsPage;

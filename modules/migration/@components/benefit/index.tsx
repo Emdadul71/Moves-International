@@ -18,7 +18,7 @@ const Benefits = ({ data }: any) => {
             />
           </div>
           <div>
-            <h2>{benefitsData?.title}</h2>
+            <h2 className="h3">{benefitsData?.title}</h2>
             <div className="flex flex-col gap-5 lg:gap-[30px] ">
               {benefitsData?.benefits?.map((item: any, i: any) => {
                 return (
@@ -28,7 +28,7 @@ const Benefits = ({ data }: any) => {
                   >
                     <div>
                       <Image
-                        src="/misc/engage.png"
+                        src={item?.iconSrc}
                         alt="Study International Logo"
                         width={60}
                         height={60}

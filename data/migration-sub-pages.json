@@ -3,26 +3,55 @@
     {
       "id": "1",
       "slug": "student-visa-subclass-500",
+      "path": "Student visa",
       "sectionHero": {
-        "title": "<span class=text-secondary>Subclass 500</span> <span>Student visa</span>",
+        "title": "<span class=text-secondary>Student visa</span>",
         "shortDescription": "Find out all you need to know about the subclass 500 Student Visa, including processing time, eligibility and estimated fees.",
         "link": "",
-        "imgSrc": "",
+        "featuredImage": "/migration/student-visa-hero.png",
         "alt": ""
       },
       "detailInfo": {
         "title": "Our Gateway to Studying in Australia",
         "description": "The Subclass 500 Student visa is your key to unlocking a world-class education in Australia. This visa allows you to pursue a full-time course of study at a registered Australian educational institution, including: Higher education: Universities, colleges, and vocational institutions offering degrees, diplomas, and advanced diplomas. Vocational Education and Training (VET): Courses focused on developing specific skills for employment in various industries. English language courses: Programs designed to improve your English language proficiency to meet academic or professional requirements."
       },
+      "sectionBenefits": {
+        "title": "Benefits of the Subclass 500 Visa",
+        "benefits": [
+          {
+            "iconSrc": "/icons/migration/renowned-institutions.png",
+            "title": "Study at renowned institutions",
+            "desc": "Access a diverse range of educational opportunities from leading Australian universities and colleges."
+          },
+          {
+            "iconSrc": "/icons/migration/internship.png",
+
+            "title": "Work while you study",
+            "desc": "Gain valuable work experience and supplement your income with up to 40 hours of work per fortnight (when your course is in session)."
+          },
+          {
+            "iconSrc": "/icons/migration/extend-stay.png",
+
+            "title": "Extend your stay",
+            "desc": "Apply for subsequent student visas to continue your studies or transition to a work visa."
+          },
+          {
+            "iconSrc": "/icons/migration/explore-aus.png",
+
+            "title": "Explore Australia",
+            "desc": "Meet the minimum English language requirements for your chosen course."
+          }
+        ]
+      },
       "sectionEligibility": {
-        "title": "Basic Requirements for Student visa Subclass 500 Eligibility ",
+        "title": "Eligibility Requirements",
         "eligibility": [
           {
             "title": "Genuine student",
             "desc": "You must genuinely intend to pursue full-time study in Australia."
           },
           {
-            "title": "Financial resources",
+            "title": "Financial resources ",
             "desc": "Demonstrate sufficient financial resources to support yourself during your studies."
           },
           {
@@ -35,43 +64,27 @@
           }
         ]
       },
-      "sectionBenefits": {
-        "title": "Key Benefits of the Subclass 500 Visa",
-        "benefits": [
-          {
-            "title": "Study at renowned institutions",
-            "desc": "Access a diverse range of educational opportunities from leading Australian universities and colleges."
-          },
-          {
-            "title": "Work while you study",
-            "desc": "Gain valuable work experience and supplement your income with up to 40 hours of work per fortnight (when your course is in session)."
-          },
-          {
-            "title": "Extend your stay",
-            "desc": "Apply for subsequent student visas to continue your studies or transition to a work visa."
-          },
-          {
-            "title": "Explore Australia",
-            "desc": "Meet the minimum English language requirements for your chosen course."
-          }
-        ]
-      },
       "sectionProcess": {
-        "title": "Application Process",
-        "process": [
+        "title": "Who uses RPL?",
+        "shortDesc": "Recognition of Prior Learning (RPL) is utilized by a diverse group of individuals, including:",
+        "useCardData": [
           {
+            "iconSrc": "/icons/working-professionals.png",
             "title": "Choose your course and institution",
             "desc": "Research and select your desired course and educational provider."
           },
           {
-            "title": "Receive a Confirmation of Enrolment (COE): ",
+            "iconSrc": "/icons/skill-tradespeople.png",
+            "title": "Receive a Confirmation of Enrolment (COE)",
             "desc": "Obtain a COE from your chosen institution."
           },
           {
+            "iconSrc": "/icons/overseas-worker.png",
             "title": "Meet the visa requirements",
             "desc": "Ensure you meet all eligibility criteria and gather the necessary documentation."
           },
           {
+            "iconSrc": "/icons/career-changers.png",
             "title": "Submit your visa application",
             "desc": "Apply online through the Department of Home Affairs website."
           }

@@ -1,5 +1,5 @@
 import Faq from "@/modules/@common/faq";
-import Process from "@/modules/migration/@components/process";
+import Process from "@/modules/migration/@components/application-process";
 import Recognition from "../@components/recognition";
 import RplHero from "../@components/rpl-hero";
 import RplIndustries from "../@components/rpl-industries";
