@@ -70,21 +70,21 @@
         "grandChld": [
           {
             "title": "Visitor (subclass 600)",
-            "link": "visitor-subclass-600"
+            "link": "/migration/visitor-subclass-600"
           },
           {
             "title": "Work and Holiday visa (subclass 462)",
-            "link": "work-and-holiday-visa-subclass-462"
+            "link": "/migration/work-and-holiday-visa-subclass-462"
           },
           {
             "title": "Working Holiday visa (subclass 417)",
-            "link": "working-holiday-visa-subclass-417"
+            "link": "/migration/working-holiday-visa-subclass-417"
           }
         ]
       },
       {
         "title": "Family & Partner Visas",
-        "link": "family-and-partner-visas"
+        "link": "/migration/family-and-partner-visas"
       },
       {
         "title": "Working and Skilled Visa"
@@ -97,7 +97,7 @@
         "grandChld": [
           {
             "title": "Business(Short Stay) visa (subclass 456)",
-            "link": "business-visa-subclass-456"
+            "link": "/migration/business-visa-subclass-456"
           },
           {
             "title": "Business Skills (Provisional) visa (subclass 160 and 165)",

@@ -5,7 +5,7 @@ const ApplicationProcess = ({ data }: any) => {
   const processData = data && data?.sectionProcess && data?.sectionProcess;
 
   return (
-    <section className="bg-grey  pt-5 lg:pt-[80px]">
+    <section className="bg-grey  pt-5 lg:pt-[80px] lg:mb-[80px]">
       <div className="container">
         <div className="max-w-[790px] w-full mx-auto mb-5 lg:mb-[60px]">
           <h2 className="text-center mb-5">{processData?.title}</h2>

@@ -10,6 +10,8 @@ import ExpertAdmission from "@/modules/home/expert-admission";
 import LeadForm from "@/modules/services/details/@components/lead-form";
 import Eligibility from "@/modules/@common/eligibility";
 import ApplicationProcess from "../@components/application-process";
+import EligibilityRequirements from "../@components/eligiility-requirements";
+import MIGuide from "../@components/mi-guide";
 
 const MigrationDetails = ({ data, params }: any) => {
   return (
@@ -17,10 +19,11 @@ const MigrationDetails = ({ data, params }: any) => {
       <MigrationHero data={data} params={params} />
       <MigrationDetailInfo data={data} />
       <Benefits data={data} />
+      <EligibilityRequirements data={data} />
       <ApplicationProcess data={data} />
-      {/* <KeyAdvantage data={data} /> */}
+      <MIGuide data={data} />
       <LeadForm />
-      <Faq data={data} />
+      <Faq data={data} classes={{ root: `lg:pt-[80px]` }} />
       <ReadyToGo />
     </>
   );

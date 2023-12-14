@@ -9,7 +9,7 @@ const Benefits = ({ data }: any) => {
         <div className="grid lg:grid-cols-2 gap-[30px]">
           <div className="self-start lg:sticky top-[140px]">
             <Image
-              src="/migration/eligibility.jpg"
+              src={benefitsData?.imgSrc}
               alt="Study International Logo"
               width={630}
               height={540}

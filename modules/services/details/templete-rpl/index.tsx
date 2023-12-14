@@ -15,7 +15,6 @@ const ServiceDetailsTempleteRPL = ({ data, params }: any) => {
       <RplHero data={data} params={params} />
       <RPLCertificate data={data} />
       <Recognition />
-      <Process data={data} />
       <RPLKeyAdvantage data={data} />
       <WhoUse data={data} />
       <RplIndustries data={data} />
