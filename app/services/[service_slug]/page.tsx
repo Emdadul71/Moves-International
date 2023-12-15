@@ -8,6 +8,7 @@ import ServiceDetailsCareerCounselling from "@/modules/services/details/templete
 import ServiceDetailsTempleteMigration from "@/modules/services/details/templete-migration";
 import ServiceDetailsTempleteHealthInsurance from "@/modules/services/details/templete-health-insurance";
 import { notFound } from "next/navigation";
+import { ServiceData } from "@/data/services";
 
 const render = (data: any, params: any) => {
   if (data?.type == "professional") {
@@ -55,30 +56,14 @@ const render = (data: any, params: any) => {
   );
 };
 
-async function getData(params: any) {
-  const filePath = path.join(
-    process.cwd(),
-    "/data/services-single-page-data.json"
-  );
-
-  const jsonData = await fsPromises.readFile(filePath);
-  const objectData = JSON.parse(jsonData.toString());
-
-  const res = objectData.data?.find(
-    (item: { slug: string }) => item.slug === params.service_slug
-  );
-
-  if (!res) {
-    return notFound();
-  } else {
-    return res;
-  }
-}
-
 const ServiceDetailPage = async ({ params }: any) => {
-  const data = await getData(params);
-
-  return <> {render(data, params)}</>;
+  const singleData = ServiceData?.find(
+    (d: any) => d.slug == params.service_slug
+  );
+  if (!singleData) {
+    return notFound();
+  }
+  return <> {render(singleData, params)}</>;
 };
 
 export default ServiceDetailPage;
