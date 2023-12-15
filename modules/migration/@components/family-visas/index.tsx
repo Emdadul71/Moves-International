@@ -11,10 +11,10 @@ const FamilyVisas = ({ data }: any) => {
       {familyVisaData ? (
         <section className="lg:pt-[60px]">
           <div className="container">
-            <div className="grid grid-cols-2 gap-[30px]">
+            <div className="grid lg:grid-cols-2 gap-[30px] items-center">
               <div>
                 <Image
-                  src={familyVisaData?.imageSrc}
+                  src={familyVisaData?.imgSrc}
                   alt="Eligibility Criteria"
                   width={960}
                   height={540}

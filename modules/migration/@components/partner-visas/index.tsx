@@ -11,7 +11,7 @@ const PartnerVisas = ({ data }: any) => {
       {partnerVisaData ? (
         <section className="lg:pt-[60px]">
           <div className="container">
-            <div className="grid grid-cols-2 gap-[30px]">
+            <div className="grid grid-cols-2 gap-[30px] items-center">
               <div className="flex flex-col gap-[30px]">
                 <h2 className="mb-0">{partnerVisaData?.title}</h2>
                 <div>
@@ -38,7 +38,7 @@ const PartnerVisas = ({ data }: any) => {
               </div>
               <div>
                 <Image
-                  src={partnerVisaData?.imageSrc}
+                  src={partnerVisaData?.imgSrc}
                   alt="Eligibility Criteria"
                   width={960}
                   height={540}

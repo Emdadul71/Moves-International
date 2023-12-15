@@ -13,8 +13,6 @@ const Benefits = ({ data }: any) => {
               alt="Study International Logo"
               width={630}
               height={540}
-              blurDataURL="/misc/engage.png"
-              placeholder="blur"
             />
           </div>
           <div>
@@ -32,8 +30,6 @@ const Benefits = ({ data }: any) => {
                         alt="Study International Logo"
                         width={60}
                         height={60}
-                        blurDataURL="/misc/engage.png"
-                        placeholder="blur"
                       />
                     </div>
                     <div>

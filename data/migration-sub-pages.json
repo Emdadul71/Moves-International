@@ -17,6 +17,7 @@
       },
       "sectionBenefits": {
         "title": "Benefits of the Subclass 500 Visa",
+        "imgSrc": "/migration/student-visa-benefit.png",
         "benefits": [
           {
             "iconSrc": "/icons/migration/renowned-institutions.png",
@@ -91,7 +92,7 @@
         ]
       },
       "sectionGuide": {
-        "imageSrc": "/migration/mi-guide.png",
+        "imageSrc": "/migration/mi-student-visa-guide.png",
         "title": "Move International - Your Guide to a Smooth Transition",
         "shortDesc": "Moving to a new country can be challenging, especially with the added responsibility of caring for a young student. Move International's experienced team provides tailored advice and assistance throughout the application process and beyond. We help you navigate visa requirements, find suitable accommodation, and settle into life in Australia."
       },
@@ -128,6 +129,7 @@
       },
       "sectionBenefits": {
         "title": "Benefits of the Subclass 590 Visa:",
+        "imgSrc": "/migration/student-gurdian-benefit.png",
         "benefits": [
           {
             "iconSrc": "/icons/migration/support.png",
@@ -373,7 +375,7 @@
       },
       "sectionBenefits": {
         "title": "Benefits of the Subclass 600 Visa",
-        "imgSrc": "/migration/traning-visa-benefit.png",
+        "imgSrc": "/migration/visitor-visa-benefit.png",
         "benefits": [
           {
             "iconSrc": "/icons/migration/skills-and-knowledge.png",
@@ -700,7 +702,7 @@
       },
       "sectionPartnerVisas": {
         "title": "Partner Visas",
-        "imgSrc": "",
+        "imgSrc": "/migration/partner-visa.png",
         "subclasses": [
           "<span class=font-semibold>Subclass 309/100 (Partner visa):</span> Allows married or de facto partners to live in Australia permanently.",
           "<span class=font-semibold>Subclass 820/801 (Prospective marriage visa):</span> Facilitates marriage in Australia and subsequent permanent residency."
@@ -708,7 +710,7 @@
       },
       "sectionFamilyVisas": {
         "title": "Family Visas",
-        "imgSrc": "",
+        "imgSrc": "/migration/family-visa.png",
         "subclasses": [
           "<span class=font-semibold>Subclass 103/143 (Parent visa):</span>Enables parents of Australian citizens or permanent residents to reside permanently in Australia.",
           "<span class=font-semibold>Subclass 101 (Child visa):</span> Allows children of Australian citizens or permanent residents to live in Australia permanently.",
@@ -719,11 +721,12 @@
     {
       "id": "7",
       "slug": "business-visa-subclass-456",
+      "path": "Business (Short Stay) visa (subclass 456)",
       "sectionHero": {
-        "title": "<span class=text-secondary>Subclass 456 </span><span> Business (Short Stay) visa</span>",
+        "title": "<span class=text-secondary>Business</span> (Short Stay) visa (subclass 456)",
         "shortDescription": "",
         "link": "",
-        "imgSrc": "/migration/family-and-partner-hero.png",
+        "featuredImage": "/migration/business-short-stay-hero.png",
         "alt": ""
       },
       "detailInfo": {
@@ -731,8 +734,35 @@
         "description": "The Subclass 456 Business (Short Stay) visa is your passport to conducting business activities efficiently and conveniently in Australia. This visa allows:"
       },
 
+      "sectionBenefits": {
+        "title": "Benefits of the Subclass 456 Visa:",
+        "imgSrc": "/migration/business-short-stay-benefit.png",
+        "benefits": [
+          {
+            "iconSrc": "/icons/migration/Fast-and-flexible.png",
+            "title": "Fast and flexible",
+            "desc": "Apply online and receive a decision within a short timeframe, allowing you to plan your business trip efficiently."
+          },
+          {
+            "iconSrc": "/icons/migration/Explore-Australia.png",
+            "title": "Multiple entry options",
+            "desc": "Choose visa durations ranging from three to twelve months, depending on your specific business needs."
+          },
+          {
+            "iconSrc": "/icons/migration/improve-skills.png",
+            "title": "Seamless business operations",
+            "desc": "Conduct your business activities with ease and confidence."
+          },
+          {
+            "iconSrc": "/icons/migration/increase-career-opportunity.png",
+            "title": "Multiple stays within validity period",
+            "desc": "Enjoy the flexibility to enter and exit Australia multiple times within the validity period of your visa."
+          }
+        ]
+      },
+
       "sectionEligibility": {
-        "title": "Basic Requirements for Business (Short Stay) visa Subclass 456 Eligibility ",
+        "title": "Eligibility Requirements:",
         "eligibility": [
           {
             "title": "Genuine business purpose",
@@ -752,48 +782,35 @@
           }
         ]
       },
-
-      "sectionBenefits": {
-        "title": "Key Benefits of the Subclass 456 Visa",
-        "benefits": [
-          {
-            "title": "Fast and flexible",
-            "desc": "Apply online and receive a decision within a short timeframe, allowing you to plan your business trip efficiently."
-          },
-          {
-            "title": "Multiple entry options",
-            "desc": "Choose visa durations ranging from three to twelve months, depending on your specific business needs."
-          },
-          {
-            "title": "Seamless business operations",
-            "desc": "Conduct your business activities with ease and confidence."
-          },
-          {
-            "title": "Multiple stays within validity period",
-            "desc": "Enjoy the flexibility to enter and exit Australia multiple times within the validity period of your visa."
-          }
-        ]
-      },
       "sectionProcess": {
         "title": "Application Process",
-        "process": [
+        "useCardData": [
           {
+            "iconSrc": "/icons/migration/businss-purpose.png",
             "title": "Determine your business purpose",
             "desc": "Identify the specific business activities you will be conducting in Australia."
           },
           {
+            "iconSrc": "/icons/migration/gather-documentation.png",
             "title": "Gather documentation",
             "desc": "Prepare the necessary documents, including your passport, travel itinerary, evidence of financial resources, and business invitation letters."
           },
           {
+            "iconSrc": "/icons/migration/online-registration.png",
             "title": "Apply online",
             "desc": "Submit your visa application electronically through the Department of Home Affairs website."
           },
           {
+            "iconSrc": "/icons/migration/await-a-decision.png",
             "title": "Await a decision",
             "desc": "The Department of Home Affairs will assess your application and notify you of the outcome."
           }
         ]
+      },
+      "sectionGuide": {
+        "imageSrc": "/migration/mi-business-guide.png",
+        "title": "Move International - Your Reliable Business Partner:",
+        "shortDesc": "Move International simplifies the Subclass 456 visa application process for business travelers and entrepreneurs. We provide expert guidance, assist with documentation, and offer valuable advice for maximizing your business success in Australia."
       }
     }
   ]
