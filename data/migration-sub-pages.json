@@ -462,9 +462,9 @@
     {
       "id": "4",
       "slug": "work-and-holiday-visa-subclass-462",
-      "path": "Work and Holiday visa (subclass 462) ",
+      "path": "Work and Holiday visa (subclass 462)",
       "sectionHero": {
-        "title": "<span class=text-secondary>Work</span> and <span class=text-secondary>Holiday</span> visa (subclass 462) ",
+        "title": "<span class=text-secondary>Work</span> and <span class=text-secondary>Holiday</span> visa (subclass 462)",
         "shortDescription": "",
         "link": "",
         "featuredImage": "/migration/work-and-holiday-hero.png",
@@ -665,7 +665,7 @@
         "title": "<span class=text-secondary>Family </span> & <span class=text-secondary>Partner</span><span> visas</span>",
         "shortDescription": "",
         "link": "",
-        "imgSrc": "",
+        "featuredImage": "/migration/family-and-partner-hero.png",
         "alt": ""
       },
       "detailInfo": {
@@ -673,77 +673,46 @@
         "description": "Family and Partner Visas are designed to facilitate the reunion and permanent residence of families and loved ones in Australia. These visas allow individuals to:"
       },
       "sectionBenefits": {
-        "title": "Benefits of the Subclass 417 Visa:",
+        "title": "Benefits of Choosing Move International:",
         "imgSrc": "/migration/Working-Holiday-benefits.png",
         "benefits": [
           {
             "iconSrc": "/icons/migration/skills-and-knowledge.png",
-            "title": "Extend your stay",
-            "desc": "Enjoy up to 12 months of exploring and working in Australia, allowing you to tailor your experience to your interests and travel plans."
+            "title": "Expert guidance and assistance",
+            "desc": "Our team of MARA-registered agents possesses extensive knowledge and experience in family and partner visa applications."
           },
           {
             "iconSrc": "/icons/migration/career-opportunities.png",
-            "title": "Multiple work opportunities",
-            "desc": "Explore a diverse range of job options in various industries and discover your hidden talents and passions."
+            "title": "Stress-free application process",
+            "desc": "We handle all the paperwork, documentation, and communication with the Department of Home Affairs, ensuring a smooth and efficient process."
           },
           {
             "iconSrc": "/icons/migration/young-to-adults.png",
-            "title": "Open to young adults",
-            "desc": "Individuals aged 18-30 (or 35 for some countries) can apply for this visa, making it a perfect opportunity for young adventurers."
+            "title": "Personalized support and advice",
+            "desc": "We provide tailored guidance and answer all your questions throughout the journey."
           },
           {
             "iconSrc": "/icons/migration/Explore-Australia.png",
-            "title": "Experience different regions",
-            "desc": "Travel freely across different states and territories, each offering its unique charm and cultural experiences."
+            "title": "Increased success rate",
+            "desc": "Our expertise helps maximize your chances of visa approval."
           }
         ]
       },
-
-      "sectionEligibility": {
-        "title": "Basic Requirements for Work and Holiday Visa Subclass 462 Eligibility ",
-        "eligibility": [
-          {
-            "title": "Hold a passport from an eligible country",
-            "desc": "Check the Department of Home Affairs website for the list of eligible countries."
-          },
-          {
-            "title": "Be aged 18-30 (or 35 for some countries)",
-            "desc": "Meet the age requirement for your specific nationality."
-          },
-          {
-            "title": "Meet health and character requirements",
-            "desc": "Pass health checks and demonstrate good character."
-          },
-          {
-            "title": "Financial resources",
-            "desc": "Show sufficient funds to support yourself during the initial stage of your stay."
-          },
-          {
-            "title": "English language proficiency",
-            "desc": "Meet the minimum English language requirements for the visa."
-          }
+      "sectionPartnerVisas": {
+        "title": "Partner Visas",
+        "imgSrc": "",
+        "subclasses": [
+          "<span class=font-semibold>Subclass 309/100 (Partner visa):</span> Allows married or de facto partners to live in Australia permanently.",
+          "<span class=font-semibold>Subclass 820/801 (Prospective marriage visa):</span> Facilitates marriage in Australia and subsequent permanent residency."
         ]
       },
-
-      "sectionProcess": {
-        "title": "Application Process",
-        "process": [
-          {
-            "title": "Check your eligibility",
-            "desc": "Confirm you meet all the requirements for the Subclass 462 visa."
-          },
-          {
-            "title": "Gather documentation",
-            "desc": "Prepare the necessary documents, including your passport, travel itinerary, and evidence of financial resources."
-          },
-          {
-            "title": "Register online",
-            "desc": "Create an ImmiAccount and lodge your visa application online."
-          },
-          {
-            "title": "Attend a visa appointment",
-            "desc": "You may be required to attend a visa appointment depending on your circumstances."
-          }
+      "sectionFamilyVisas": {
+        "title": "Family Visas",
+        "imgSrc": "",
+        "subclasses": [
+          "<span class=font-semibold>Subclass 103/143 (Parent visa):</span>Enables parents of Australian citizens or permanent residents to reside permanently in Australia.",
+          "<span class=font-semibold>Subclass 101 (Child visa):</span> Allows children of Australian citizens or permanent residents to live in Australia permanently.",
+          "<span class=font-semibold>Subclass 143 (Contributory parent visa):</span>  Provides another pathway for parents of Australian citizens or permanent residents to migrate to Australia."
         ]
       }
     },
@@ -754,7 +723,7 @@
         "title": "<span class=text-secondary>Subclass 456 </span><span> Business (Short Stay) visa</span>",
         "shortDescription": "",
         "link": "",
-        "imgSrc": "",
+        "imgSrc": "/migration/family-and-partner-hero.png",
         "alt": ""
       },
       "detailInfo": {

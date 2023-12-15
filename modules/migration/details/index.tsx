@@ -12,6 +12,8 @@ import Eligibility from "@/modules/@common/eligibility";
 import ApplicationProcess from "../@components/application-process";
 import EligibilityRequirements from "../@components/eligiility-requirements";
 import MIGuide from "../@components/mi-guide";
+import PartnerVisas from "../@components/partner-visas";
+import FamilyVisas from "../@components/family-visas";
 
 const MigrationDetails = ({ data, params }: any) => {
   return (
@@ -19,6 +21,8 @@ const MigrationDetails = ({ data, params }: any) => {
       <MigrationHero data={data} params={params} />
       <MigrationDetailInfo data={data} />
       <Benefits data={data} />
+      <PartnerVisas data={data} />
+      <FamilyVisas data={data} />
       <EligibilityRequirements data={data} />
       <ApplicationProcess data={data} />
       <MIGuide data={data} />
