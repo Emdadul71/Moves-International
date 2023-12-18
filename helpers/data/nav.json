@@ -87,10 +87,8 @@
         "link": "/migration/family-and-partner-visas"
       },
       {
-        "title": "Working and Skilled Visa"
-      },
-      {
-        "title": "Other Visas"
+        "title": "Working and Skilled Visa",
+        "link": "/migration/working-and-skilled-visa"
       },
       {
         "title": "Repealed Visas",
@@ -101,7 +99,7 @@
           },
           {
             "title": "Business Skills (Provisional) visa (subclass 160 and 165)",
-            "link": "#"
+            "link": "/migration/business-skills-visa-subclass-160-and-165"
           }
         ]
       }

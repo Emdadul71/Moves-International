@@ -812,6 +812,196 @@
         "title": "Move International - Your Reliable Business Partner:",
         "shortDesc": "Move International simplifies the Subclass 456 visa application process for business travelers and entrepreneurs. We provide expert guidance, assist with documentation, and offer valuable advice for maximizing your business success in Australia."
       }
+    },
+    {
+      "id": "8",
+      "slug": "business-skills-visa-subclass-160-and-165",
+      "path": "Business Skills visa (subclass 160 and 165)",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Business Skills</span> (Provisional)  visa (subclass 160 and 165)",
+        "shortDescription": "",
+        "link": "",
+        "featuredImage": "/migration/business-short-stay-hero.png",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Unlock Your Entrepreneurial Potential with the Subclass 160/165 Business Skills Visa (Provisional)",
+        "description": "Are you a successful business owner or senior executive seeking to establish or expand your business operations in Australia? The Subclass 160/165 Business Skills (Provisional) Visa provides an exceptional pathway to achieving your entrepreneurial dreams."
+      },
+
+      "sectionBenefits": {
+        "title": "Benefits of the Subclass 160/165 Visa:",
+        "imgSrc": "/migration/business-short-stay-benefit.png",
+        "benefits": [
+          {
+            "iconSrc": "/icons/migration/invest.png",
+            "title": "Start or invest in a business",
+            "desc": "Establish a new business, purchase an existing business, or invest in an Australian company."
+          },
+          {
+            "iconSrc": "/icons/migration/economy.png",
+            "title": "Contribute to the Australian economy",
+            "desc": "Create jobs and generate economic growth through your business activities."
+          },
+          {
+            "iconSrc": "/icons/migration/valuable-experience.png",
+            "title": "Gain valuable experience",
+            "desc": "Build your business acumen and network within the Australian business community."
+          },
+          {
+            "iconSrc": "/icons/migration/pr.png",
+            "title": "Pathway to permanent residency",
+            "desc": "Upon fulfilling specific requirements, you can transition to a permanent business visa."
+          }
+        ]
+      },
+
+      "sectionEligibility": {
+        "title": "Eligibility Requirements:",
+        "eligibility": [
+          {
+            "title": "Successful business background",
+            "desc": "Demonstrate substantial experience and achievements as a business owner or senior executive."
+          },
+          {
+            "title": "Business plan",
+            "desc": "Submit a comprehensive and viable business plan outlining your proposed business activities and potential contribution to the Australian economy."
+          },
+          {
+            "title": "Financial resources",
+            "desc": "Possess sufficient financial resources to invest in your business and support yourself during your stay in Australia."
+          },
+          {
+            "title": "English language proficiency",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "useCardData": [
+          {
+            "iconSrc": "/icons/migration/businss-purpose.png",
+            "title": "Assess your eligibility",
+            "desc": "Verify your suitability for the Subclass 160/165 visa based on the specific stream and requirements."
+          },
+          {
+            "iconSrc": "/icons/migration/gather-documentation.png",
+            "title": "Develop a compelling business plan",
+            "desc": "Craft a detailed and well-defined business plan showcasing the viability and potential of your business in Australia."
+          },
+          {
+            "iconSrc": "/icons/migration/gather-documentation.png",
+            "title": "Gather supporting documentation",
+            "desc": "Prepare all necessary documents, including financial statements, business licenses, and relevant qualifications."
+          },
+          {
+            "iconSrc": "/icons/migration/visa-application.png",
+            "title": "Lodge your visa application",
+            "desc": "Submit your application online through the Department of Home Affairs website."
+          }
+        ]
+      },
+      "sectionGuide": {
+        "imageSrc": "/migration/mi-business-guide.png",
+        "title": "Move International - Your Trusted Partner in Business Immigration:",
+        "shortDesc": "Move International provides expert guidance and comprehensive support throughout your Subclass 160/165 visa journey. We assist with:"
+      }
+    },
+    {
+      "id": "8",
+      "slug": "working-and-skilled-visa",
+      "path": "Business Skills visa (subclass 160 and 165)",
+      "sectionHero": {
+        "title": "<span class=text-secondary>Working </span> and <span class=text-secondary> Skilled </span> Visa",
+        "shortDescription": "",
+        "link": "",
+        "featuredImage": "/migration/business-short-stay-hero.png",
+        "alt": ""
+      },
+      "detailInfo": {
+        "title": "Unlock Your Career Potential in Australia: Your Guide to Working and Skilled Visas",
+        "description": "Australia offers a multitude of opportunities for skilled professionals and workers seeking to live and work in this vibrant and diverse nation. Move International guides you through the complex world of visas, helping you find the perfect pathway to achieve your career aspirations."
+      },
+
+      "sectionBenefits": {
+        "title": "Benefits of the Subclass 160/165 Visa:",
+        "imgSrc": "/migration/business-short-stay-benefit.png",
+        "benefits": [
+          {
+            "iconSrc": "/icons/migration/invest.png",
+            "title": "Start or invest in a business",
+            "desc": "Establish a new business, purchase an existing business, or invest in an Australian company."
+          },
+          {
+            "iconSrc": "/icons/migration/economy.png",
+            "title": "Contribute to the Australian economy",
+            "desc": "Create jobs and generate economic growth through your business activities."
+          },
+          {
+            "iconSrc": "/icons/migration/valuable-experience.png",
+            "title": "Gain valuable experience",
+            "desc": "Build your business acumen and network within the Australian business community."
+          },
+          {
+            "iconSrc": "/icons/migration/pr.png",
+            "title": "Pathway to permanent residency",
+            "desc": "Upon fulfilling specific requirements, you can transition to a permanent business visa."
+          }
+        ]
+      },
+
+      "sectionEligibility": {
+        "title": "Eligibility Requirements:",
+        "eligibility": [
+          {
+            "title": "Successful business background",
+            "desc": "Demonstrate substantial experience and achievements as a business owner or senior executive."
+          },
+          {
+            "title": "Business plan",
+            "desc": "Submit a comprehensive and viable business plan outlining your proposed business activities and potential contribution to the Australian economy."
+          },
+          {
+            "title": "Financial resources",
+            "desc": "Possess sufficient financial resources to invest in your business and support yourself during your stay in Australia."
+          },
+          {
+            "title": "English language proficiency",
+            "desc": "Meet the minimum English language requirements for the visa."
+          }
+        ]
+      },
+      "sectionProcess": {
+        "title": "Application Process",
+        "useCardData": [
+          {
+            "iconSrc": "/icons/migration/businss-purpose.png",
+            "title": "Assess your eligibility",
+            "desc": "Verify your suitability for the Subclass 160/165 visa based on the specific stream and requirements."
+          },
+          {
+            "iconSrc": "/icons/migration/gather-documentation.png",
+            "title": "Develop a compelling business plan",
+            "desc": "Craft a detailed and well-defined business plan showcasing the viability and potential of your business in Australia."
+          },
+          {
+            "iconSrc": "/icons/migration/gather-documentation.png",
+            "title": "Gather supporting documentation",
+            "desc": "Prepare all necessary documents, including financial statements, business licenses, and relevant qualifications."
+          },
+          {
+            "iconSrc": "/icons/migration/visa-application.png",
+            "title": "Lodge your visa application",
+            "desc": "Submit your application online through the Department of Home Affairs website."
+          }
+        ]
+      },
+      "sectionGuide": {
+        "imageSrc": "/migration/mi-business-guide.png",
+        "title": "Move International - Your Trusted Partner in Business Immigration:",
+        "shortDesc": "Move International provides expert guidance and comprehensive support throughout your Subclass 160/165 visa journey. We assist with:"
+      }
     }
   ]
 }

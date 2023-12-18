@@ -11,7 +11,7 @@ const MigrationDetailInfo = ({ data }: any) => {
               {data?.path}
             </div>
           </div>
-          <h2 className="h3 mb-0 lg:leading-[48px]">{detailInfoData?.title}</h2>
+          <h2 className="mb-0">{detailInfoData?.title}</h2>
           <p>{detailInfoData?.description}</p>
         </div>
       </div>
