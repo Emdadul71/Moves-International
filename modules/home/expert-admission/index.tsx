@@ -8,33 +8,33 @@ import { useInView } from "framer-motion";
 
 const expertData = [
   {
-    imgSrc: "/home/student-consultency.jpg",
-    link: "#",
-    title: "Student Consultancy",
-  },
-  {
     imgSrc: "/home/university-admission.png",
-    link: "#",
+    link: "/services/university-and-college-admissions",
     title: "University Admission",
   },
   {
+    imgSrc: "/home/education-and-career.jpg",
+    link: "/services/education-and-career-counselling",
+    title: "Education & Career Counselling",
+  },
+  {
     imgSrc: "/home/professional-year-admission.png",
-    link: "#",
+    link: "/services/professional-year-program",
     title: "Professional Year Admission",
   },
   {
     imgSrc: "/home/student-visa-extension.png",
-    link: "#",
-    title: "Student Visa Extension",
+    link: "/services/migration-advice-and-visa-application",
+    title: "Migration Advice & Visa Application",
   },
   {
     imgSrc: "/home/485-visa-application.png",
-    link: "#",
-    title: "485 Visa Application",
+    link: "/services/rpl",
+    title: "RPL",
   },
   {
     imgSrc: "/home/OSHC-OVHC.png",
-    link: "#",
+    link: "/services/health-insurance-oshc-ovhc",
     title: "OSHC & OVHC",
   },
 ];
@@ -167,7 +167,7 @@ const ExpertAdmission = () => {
           >
             {expertData?.map((item, i) => {
               return (
-                <Link href="#" key={i}>
+                <Link href={item?.link} key={i}>
                   <Image
                     src={item?.imgSrc}
                     alt="Study International Logo"

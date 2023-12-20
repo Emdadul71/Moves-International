@@ -26,7 +26,7 @@ const PopularCourse = () => {
           {data?.data?.map((item: any, i: any) => {
             return (
               <Link
-                href="/study"
+                href={item?.slug}
                 key={i}
                 className="flex flex-col h-full hover:shadow-[0_10px_16px_rgba(0,0,0,0.15)] rounded-md group/coursecard"
               >
@@ -43,10 +43,7 @@ const PopularCourse = () => {
                     <h5 className="hover:text-secondary mb-[10px] line-clamp-2">
                       {item?.name}
                     </h5>
-                    <p className="mb-0">
-                      Construct the ideal world you’d love to live in through a
-                      career in the building industry.
-                    </p>
+                    <p className="mb-0">{item?.shortDesc}</p>
                     <div className="w-full h-[1px] bg-[#D9D9D9] my-[15px]"></div>
                     <ul className="flex flex-col gap-1">
                       {item?.category?.map((cat: any, i: any) => {

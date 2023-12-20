@@ -1,16 +1,17 @@
 {
   "data": [
     {
-      "name": "Architecture & Building",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "name": "Nursing Course",
+      "shortDesc": "Pursue your passion for helping others and build a rewarding career with nursing courses in Australia.",
       "imgSrc": "/home/popular-course.png",
       "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
+        "Acute Care Nurse",
+        "Paediatrics' Nurse",
+        "Mental Health Nurse"
       ],
-      "slug": "test"
+      "slug": "/courses/top-courses/nursing-course"
     },
+
     {
       "name": "Business, Commerce & Management",
       "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
