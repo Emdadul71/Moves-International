@@ -38,7 +38,7 @@ const PopularCourse = () => {
                   blurDataURL="/misc/logo.png"
                   placeholder="blur"
                 />
-                <div className="flex flex-col h-full p-5 border border-[#D9D9D9] rounded-b-md group-hover/coursecard:border-transparent">
+                <div className="flex flex-col h-full p-5 border border-[#D9D9D9] border-t-0 rounded-b-md group-hover/coursecard:border-transparent">
                   <div className="mb-4 h-full">
                     <h5 className="hover:text-secondary mb-[10px] line-clamp-2">
                       {item?.name}

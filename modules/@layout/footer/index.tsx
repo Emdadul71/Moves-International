@@ -1,3 +1,4 @@
+import SocialLinks from "@/modules/@common/social_links";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -7,113 +8,157 @@ const Footer = () => {
     <footer className="mt-auto bg-primary z-10">
       <div className="container">
         <div className="py-8 lg:pt-[100px] pb-8">
-          <div className="grid lg:grid-cols-[1fr_900px]">
-            <Link href="/">
-              <Image
-                src="/misc/logo-dark.png"
-                alt="Moves International"
-                width={154}
-                height={80}
-                blurDataURL="/misc/logo-dark.png"
-                placeholder="blur"
-              />
-            </Link>
+          <div className="grid lg:grid-cols-[1fr_1000px]">
+            <div className="flex flex-col gap-5">
+              <Link href="/">
+                <Image
+                  src="/misc/logo-dark.png"
+                  alt="Moves International"
+                  width={154}
+                  height={80}
+                  blurDataURL="/misc/logo-dark.png"
+                  placeholder="blur"
+                />
+              </Link>
 
-            <div className="grid grid-cols-1 md:grid-cols-[auto_auto_326px] gap-5 justify-between ">
+              <SocialLinks
+                classes={{
+                  root: `justify-start `,
+                  iconStyle: `text-white`,
+                }}
+              />
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-[auto_auto_auto_300px] gap-5 justify-between ">
               <ul className="flex flex-col gap-[10px]">
+                <li className="text-white font-semibold">About</li>
                 <li>
                   <Link
-                    href="/services"
-                    className="text-white hover:text-secondary"
+                    href="/about-us"
+                    className="text-white hover:text-secondary transition-all"
                   >
-                    Education Services
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-white hover:text-secondary">
-                    Study to Migration
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/study"
-                    className="text-white hover:text-secondary"
-                  >
-                    Study in Australia
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/life-in-australia"
-                    className="text-white hover:text-secondary"
-                  >
-                    Life in Australia
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-white hover:text-secondary">
-                    Top Courses
+                    About Us
                   </Link>
                 </li>
                 <li>
                   <Link
                     href="/team"
-                    className="text-white hover:text-secondary"
+                    className="text-white hover:text-secondary transition-all"
                   >
                     Team
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/contact-us"
-                    className="text-white hover:text-secondary"
+                    href="/virtual-counselling"
+                    className="text-white hover:text-secondary transition-all"
                   >
-                    Contact Us
+                    Free Counselling
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/about-us"
-                    className="text-white hover:text-secondary"
+                    href="/contact-us"
+                    className="text-white hover:text-secondary transition-all"
                   >
-                    About Us
+                    Contact Us
                   </Link>
                 </li>
               </ul>
 
               <ul className="flex flex-col gap-[10px]">
+                <li className="text-white font-semibold">Services</li>
                 <li>
                   <Link
-                    href="/services/student-consultancy"
-                    className="text-white hover:text-secondary"
+                    href="/services/university-and-college-admissions"
+                    className="text-white hover:text-secondary transition-all"
                   >
-                    Student Consultancy
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#" className="text-white hover:text-secondary">
-                    University Admission
+                    University & College Admissions
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="#" className="text-white hover:text-secondary">
-                    Professional Year Admission
+                  <Link
+                    href="/services/education-and-career-counselling"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Education & Career Counselling
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-white hover:text-secondary">
-                    Student Visa Extension
+                  <Link
+                    href="/services/migration-advice-and-visa-application"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Migration Advice & Visa Application
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-white hover:text-secondary">
-                    485 Visa Application
+                  <Link
+                    href="/services/professional-year-program"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Professional Year Courses
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-white hover:text-secondary">
-                    OSHC & OVHC
+                  <Link
+                    href="/services/health-insurance-oshc-ovhc"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Health Insurance OSHC/OVHC
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/services/rpl"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    RPL
+                  </Link>
+                </li>
+              </ul>
+              <ul className="flex flex-col gap-[10px]">
+                <li className="text-white font-semibold">Migration</li>
+                <li>
+                  <Link
+                    href="/migration/student-visa-subclass-500"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Studying & Training Visas
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/migration/visitor-subclass-600"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Visitor Visas
+                  </Link>
+                </li>
+
+                <li>
+                  <Link
+                    href="/migration/family-and-partner-visas"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Family & Partner Visas
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/migration/working-and-skilled-visa"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Working and Skilled Visa
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/migration/business-visa-subclass-456"
+                    className="text-white hover:text-secondary transition-all"
+                  >
+                    Repealed Visas
                   </Link>
                 </li>
               </ul>

@@ -23,7 +23,7 @@
     {
       "name": "Engineering",
       "shortDesc": "Spark community solutions: Unleash innovation for resilient, inclusive, and vibrant spaces.",
-      "imgSrc": "/home/popular-course.png",
+      "imgSrc": "/home/engineering.png",
 
       "category": [
         "Automotive",
@@ -47,7 +47,7 @@
     {
       "name": "Architecture & Building",
       "shortDesc": "Blueprint the Future: Designing a Better World with Your Building Career.",
-      "imgSrc": "/home/popular-course-4.png",
+      "imgSrc": "/home/Architecture-Building.png",
 
       "category": [
         "Architecture and Building",
@@ -59,7 +59,7 @@
     {
       "name": "Society and Culture",
       "shortDesc": "Ignite your curiosity, explore the tapestry of life, and weave meaningful bonds along the way.",
-      "imgSrc": "/home/popular-course-7.png",
+      "imgSrc": "/home/society-and-culture.png",
       "category": ["Community Services", "Psychology", "Social Work"],
       "slug": "/courses?page=1&&broad=09%20-%20Society%20and%20Culture&"
     },
