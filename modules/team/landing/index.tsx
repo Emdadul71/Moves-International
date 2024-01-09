@@ -9,7 +9,7 @@ import TeamCard from "../@component/team-card";
 import Skeleton from "@/modules/@common/skeleton";
 
 const TeamLanding = () => {
-  const { data, isLoading, isError } = useGetTeamQuery({ page: 1, limit: 1 });
+  const { data, isLoading, isError } = useGetTeamQuery({ page: 1, limit: 10 });
   const dataArray = data && data?.data;
 
   return (
@@ -48,16 +48,16 @@ const TeamLanding = () => {
                 if (len == 1) {
                   return "sm:max-w-[300px] mx-auto grid-cols-1";
                 } else if (len == 2) {
-                  return "sm:max-w-[600px] mx-auto grid-cols-1 sm:grid-cols-2";
+                  return "sm:max-w-[630px] mx-auto grid-cols-1 sm:grid-cols-2";
                 } else if (len == 3) {
-                  return "lg:max-w-[900px] mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
+                  return "lg:max-w-[960px] mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
                 } else {
-                  return "lg:max-w-[1200px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
+                  return "lg:max-w-[1290px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
                 }
               };
 
               return (
-                <div key={i}>
+                <div key={i} className="mb-10">
                   {item?.teams?.length > 0 && item?.name && (
                     <h3 className="text-center mb-8 lg:mb-[50px]">
                       {item?.name}

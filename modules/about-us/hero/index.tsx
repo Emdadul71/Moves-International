@@ -14,7 +14,7 @@ const AboutUsHero = () => {
             <div className="max-w-[598px]">
               <p className="text-white text-lg">
                 We are registered migration agents & education consultants in
-                Australia. We have 175k+ Satisfied Clients.
+                Australia. We have 5k+ Satisfied Clients.
               </p>
             </div>
           </div>

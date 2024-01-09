@@ -67,9 +67,33 @@ const Header = () => {
     },
   ];
 
+  const topUniversities = [
+    { title: "Nursing Course", link: "/courses/top-courses/nursing-course" },
+    { title: "Health Course", link: "/health-course" },
+    {
+      title: "Information Technology Course",
+      link: "/information-technology-course",
+    },
+    {
+      title: "Engineering Course",
+      link: "/engineering-course",
+    },
+    {
+      title: "Trading Course",
+      link: "/trading-course",
+    },
+    {
+      title: "Cookery Course",
+      link: "/cookery-course",
+    },
+    {
+      title: "PR Pathway Course",
+      link: "/pr-pathway-course",
+    },
+  ];
+
   const newItem = [
-    { title: "Top courses in Australia", link: "/test", grandChld: topCourse },
-    { title: "Top Universities in Australia", link: "/test" },
+    { title: "Top courses in Australia", link: "#", grandChld: topCourse },
   ];
 
   const mergeItem = course && course?.length > 0 && newItem.concat(course);

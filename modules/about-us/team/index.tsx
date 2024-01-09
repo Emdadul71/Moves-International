@@ -1,118 +1,87 @@
+"use client";
+import { useGetTeamQuery } from "@/appstore/team/team_api";
+import Skeleton from "@/modules/@common/skeleton";
 import QualityAndPrestigious from "@/modules/home/quality-and-prestigious";
+import TeamCard from "@/modules/team/@component/team-card";
 import Image from "next/image";
 import React from "react";
-const teamData = [
-  {
-    name: "Waqas Charania",
-    imgSrc: "/misc/team-1.jpg",
-    designation: "Managing Director - Visa Services",
-  },
-  {
-    name: "Sahar Sultan",
-    imgSrc: "/misc/team-2.png",
-    designation: "Admissions Manager",
-  },
-  {
-    name: "Van Phuong Doan",
-    imgSrc: "/misc/team-3.png",
-    designation: "Educational Consultant",
-  },
-  {
-    name: "Sayra Hasan Juthy",
-    imgSrc: "/misc/team-2.png",
-    designation: "Business Development Executive",
-  },
-  {
-    name: "Waqas Charania",
-    imgSrc: "/misc/team-1.jpg",
-    designation: "Managing Director - Visa Services",
-  },
-  {
-    name: "Sahar Sultan",
-    imgSrc: "/misc/team-2.png",
-    designation: "Admissions Manager",
-  },
-  {
-    name: "Van Phuong Doan",
-    imgSrc: "/misc/team-3.png",
-    designation: "Educational Consultant",
-  },
-  {
-    name: "Waqas Charania",
-    imgSrc: "/misc/team-1.jpg",
-    designation: "Managing Director - Visa Services",
-  },
-  {
-    name: "Waqas Charania",
-    imgSrc: "/misc/team-1.jpg",
-    designation: "Managing Director - Visa Services",
-  },
-  {
-    name: "Sahar Sultan",
-    imgSrc: "/misc/team-2.png",
-    designation: "Admissions Manager",
-  },
-  {
-    name: "Sahar Sultan",
-    imgSrc: "/misc/team-2.png",
-    designation: "Admissions Manager",
-  },
-  {
-    name: "Van Phuong Doan",
-    imgSrc: "/misc/team-3.png",
-    designation: "Educational Consultant",
-  },
-  {
-    name: "Sayra Hasan Juthy",
-    imgSrc: "/misc/team-2.png",
-    designation: "Business Development Executive",
-  },
-  {
-    name: "Van Phuong Doan",
-    imgSrc: "/misc/team-3.png",
-    designation: "Educational Consultant",
-  },
-  {
-    name: "Sayra Hasan Juthy",
-    imgSrc: "/misc/team-2.png",
-    designation: "Business Development Executive",
-  },
-  {
-    name: "Waqas Charania",
-    imgSrc: "/misc/team-1.jpg",
-    designation: "Managing Director - Visa Services",
-  },
-];
-const Team = () => {
-  return (
-    <section className="pt-5 lg:pt-[80px]">
-      <div className="container">
-        <div className="max-w-[613px] w-full mx-auto text-center">
-          <h2>Moves International’s Team</h2>
-          <p>Experts, Visionaries and ACHIEVERS</p>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[30px]">
-          {teamData?.map((item, i) => {
-            return (
-              <div key={i} className="flex flex-col">
-                <Image
-                  src={item?.imgSrc}
-                  alt="CEO"
-                  width={300}
-                  height={330}
-                  className="w-full"
-                />
-                <div className="flex flex-col h-full p-5 text-center  border-[0.5px] border-t-0 border-[#D9D9D9] rounded-b-md shadow-[0_10px_26px_0_rgba(0,0,0,0.05)] mt-auto">
-                  <h5 className="mb-1">{item?.name}</h5>
 
-                  <p className="mb-0 mt-auto">{item?.designation}</p>
-                </div>
-              </div>
-            );
-          })}
+const Team = () => {
+  const { data, isLoading, isError } = useGetTeamQuery({ page: 1, limit: 10 });
+  const dataArray = data && data?.data;
+  return (
+    <>
+      <section className="pb-5">
+        <div className="container">
+          <div className="max-w-[613px] w-full mx-auto text-center">
+            <h2>Moves International’s Team</h2>
+            <p>Experts, Visionaries and ACHIEVERS</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      {isLoading && !isError ? (
+        <>
+          <section className="pt-5">
+            <div className="container">
+              <>
+                <Skeleton className={"h-[40px] w-[300px] mx-auto mb-[50px] "} />
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[30px]">
+                  {new Array(8).fill(1).map((_, i) => {
+                    return (
+                      <div className="h-full" key={i}>
+                        <Skeleton className={"h-[330px] "} />
+                        <Skeleton
+                          className={"h-[100px] mt-2 dark:!bg-neutral-800"}
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            </div>
+          </section>
+        </>
+      ) : (
+        <section className="pt-5">
+          <div className="container">
+            {dataArray?.map((item: any, i: any) => {
+              const teams = item?.teams;
+              const len = teams?.length;
+
+              const maxWidth = () => {
+                if (len == 1) {
+                  return "sm:max-w-[300px] mx-auto grid-cols-1";
+                } else if (len == 2) {
+                  return "sm:max-w-[630px] mx-auto grid-cols-1 sm:grid-cols-2";
+                } else if (len == 3) {
+                  return "lg:max-w-[960px] mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3";
+                } else {
+                  return "lg:max-w-[1290px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4";
+                }
+              };
+
+              return (
+                <div key={i} className="mb-10">
+                  {item?.teams?.length > 0 && item?.name && (
+                    <h3 className="text-center mb-8 lg:mb-[50px]">
+                      {item?.name}
+                    </h3>
+                  )}
+
+                  {teams?.length > 0 && (
+                    <div className={`grid  ${maxWidth()} gap-[30px]`}>
+                      {teams?.map((tm: any, i: any) => {
+                        return <TeamCard data={tm} key={i} />;
+                      })}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+    </>
   );
 };
 

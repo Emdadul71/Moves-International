@@ -8,6 +8,7 @@ import Team from "./team";
 import WebStories from "../home/web-stories";
 import OurPartners from "../@common/our-partners";
 import ReadyToGo from "../@common/ready-to-go";
+import OurCommitment from "./our-commitment";
 
 const AboutUs = () => {
   return (
@@ -15,10 +16,11 @@ const AboutUs = () => {
       <AboutUsHero />
       <OurStory />
       <AboutAgency />
+      <OurCommitment />
       <MessageFromCeo />
       <Team />
       <WebStories />
-      <OurPartners />
+      <OurPartners classes={{ root: "px-5" }} />
       <ReadyToGo />
     </>
   );

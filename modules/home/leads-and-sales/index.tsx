@@ -10,7 +10,7 @@ const LeadsAndSales = () => {
           <div className="flex justify-center items-center gap-5">
             <div className="w-[80px] h-[80px]">
               <Image
-                src="/misc/user-2.jpg"
+                src="/misc/support-team.jpg"
                 alt="Moves International"
                 width={80}
                 height={80}
@@ -20,20 +20,20 @@ const LeadsAndSales = () => {
               />
             </div>
             <div>
-              <p className="mb-0 font-medium text-black">Sandy Reiff</p>
-              <p className="mb-0 text-sm">Marketing Consultant Expert</p>
+              <p className="mb-0 font-medium text-black">Upendra Adhikari</p>
+              <p className="mb-0 text-sm">Support Team</p>
             </div>
           </div>
           <div>
-            <h5 className="text-[26px] text-center leading-[33px] mb-0">
+            {/* <h5 className="text-[26px] text-center leading-[33px] mb-0">
               Drive Leads and Sales with Moves International
-            </h5>
+            </h5> */}
           </div>
           <div className="flex justify-center">
             <div className="inline-flex items-center gap-[10px] bg-[#FEEFE7] px-[30px] py-4 rounded-md">
               <RiPhoneFill className="text-secondary" />
-              <a href="tel:880 0280689051" className="block text-secondary">
-                (02) 8068 9051
+              <a href="tel:+61 450 885 019" className="block text-secondary">
+                +61 450 885 019
               </a>
             </div>
           </div>

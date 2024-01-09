@@ -21,7 +21,7 @@ const featureData = [
     shortDesc:
       "Get FREE education counselling and migration consultation from our experts. Reserve your spot",
     bgColor: "bg-[#B7F598]",
-    link: "#",
+    link: "/team",
   },
   {
     title: "Our offices are open",
@@ -29,7 +29,7 @@ const featureData = [
     shortDesc:
       "Talk to our counsellors face to face at our office. Book an appointment today.",
     bgColor: "bg-[#82DBF7]",
-    link: "#",
+    link: "/contact-us",
   },
 ];
 

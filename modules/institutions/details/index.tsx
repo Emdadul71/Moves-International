@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { FiChevronRight } from "react-icons/fi";
 import { Select, Table } from "antd";
 import { ColumnsType } from "antd/es/table";
@@ -11,49 +11,78 @@ interface DataType {
   courseName: string;
 }
 
-const columns: ColumnsType<DataType> = [
-  {
-    title: "Course Locations",
-    dataIndex: "courseName",
-    render: (_, record) => (
-      <Link
-        href="/courses/courses-name"
-        className="hover:text-secondary font-medium"
-      >
-        {record?.courseName}
-      </Link>
-    ),
-  },
-];
-
-const data: DataType[] = [
-  {
-    key: "1",
-    courseName: "UniLink Bridging Program (Business)",
-  },
-  {
-    key: "1",
-    courseName: "UniLink Bridging Program (Business)",
-  },
-  {
-    key: "1",
-    courseName: "UniLink Bridging Program (Business)",
-  },
-  {
-    key: "1",
-    courseName: "UniLink Bridging Program (Business)",
-  },
-  {
-    key: "1",
-    courseName: "UniLink Bridging Program (Business)",
-  },
-];
 const InstitutionDetails = ({ data: instituteData }: any) => {
+  const [activeSection, setActiveSection] = useState(null);
+  const sectionRefs: any = useRef([]);
+
   const handleChange = (value: string) => {
     console.log(`selected ${value}`);
   };
+  console.log("test", instituteData);
 
-  console.log("instituteData", instituteData);
+  const locationData = instituteData?.location;
+  const mapData = instituteData?.location?.map((item: any, i: any) => {
+    item?.locationName;
+  });
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition: any = window.scrollY;
+
+      // Iterate through sectionRefs to find the active section
+
+      sectionRefs.current.forEach((ref: any, index: any) => {
+        if (ref && ref.offsetTop <= scrollPosition + 300) {
+          setActiveSection(index);
+        }
+      });
+    };
+
+    // Add scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  const columns: ColumnsType<DataType> = [
+    {
+      title: "Location Name",
+      dataIndex: "courseName",
+      render: (_, record: any) => (
+        <Link
+          href={`/courses?location=${record?.locationName}`}
+          className="hover:text-secondary font-medium"
+        >
+          {record?.locationName}
+        </Link>
+      ),
+    },
+    {
+      title: "State",
+      dataIndex: "courseName",
+      render: (_, record: any) => (
+        <Link
+          href={`/courses?location=${record?.locationName}`}
+          className="hover:text-secondary font-medium"
+        >
+          <span className="uppercase">{record?.city?.state?.slug}</span>
+        </Link>
+      ),
+    },
+    {
+      title: "Number of Courses",
+      render: (_, record: any) => (
+        <Link
+          href={`/courses?location=${record?.locationName}`}
+          className="flex justify-center hover:text-secondary font-medium"
+        >
+          <span className="uppercase ">{record?._count?.Course}</span>
+        </Link>
+      ),
+    },
+  ];
   const contactData =
     instituteData && instituteData?.contacts && instituteData?.contacts?.[0];
   console.log("contactData", contactData ? true : false);
@@ -74,156 +103,120 @@ const InstitutionDetails = ({ data: instituteData }: any) => {
       <section className="pt-10">
         <div className="container">
           <div className="grid lg:grid-cols-[300px_1fr_300px] gap-[30px]">
-            <div>
-              <p className="mb-0 text-primary text-lg font-semibold">
+            <div className="self-start lg:sticky top-[130px]">
+              <Link
+                href="#institution_details"
+                className={`mb-0 text-primary text-lg font-semibold  ${
+                  activeSection === 0 ? "active" : ""
+                }`}
+              >
                 Institution Details
-              </p>
+              </Link>
+
               <div className="bg-primary w-full h-[1px] my-4"></div>
 
-              <p className="mb-0  text-lg text-black">Contact Details</p>
+              <Link
+                href="#list_of_course"
+                className={`mb-0 text-primary text-lg font-semibold  ${
+                  activeSection === 1 ? "active" : ""
+                }`}
+              >
+                List of Courses Offered by the Institution
+              </Link>
+
+              <div className="bg-primary w-full h-[1px] my-4"></div>
+              <Link
+                href="#contact_details"
+                className={`mb-0 text-primary text-lg font-semibold  ${
+                  activeSection === 2 ? "active" : ""
+                }`}
+              >
+                Contact Details
+              </Link>
               <div className="bg-primary w-full h-[1px] my-4"></div>
             </div>
-            <div>
-              <p className="mb-0 text-primary text-lg font-semibold">
-                Institution Details
-              </p>
-              <div className="bg-[#DBDADE] w-full h-[1px] mt-2 mb-6"></div>
-              <div className="flex flex-col gap-3">
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Institution Name</p>
-                  {instituteData?.institutionName && (
-                    <p className="mb-0">: {instituteData?.institutionName}</p>
-                  )}
-                </div>
 
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Institution Type</p>
-                  <p className="mb-0">: {instituteData?.institutionType}</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">CRICOS Provider Code</p>
-                  {instituteData?.providerCode && (
-                    <p className="mb-0">: {instituteData?.providerCode}</p>
-                  )}
-                </div>
-                {/*
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Course Sector</p>
-                  <p className="mb-0">: No</p>
-                </div>
-                <p className="text-black font-semibold my-2">
-                  Field of Education- 1st Qualification
-                </p>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Broad Field</p>
-                  <p className="mb-0">
-                    : 05 - Agriculture, Environmental and Related Studies
-                  </p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Narrow Field</p>
-                  <p className="mb-0">: 0501 - Agriculture</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Detailed Field</p>
-                  <p className="mb-0">: 050199 - Agriculture, n.e.c</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Course Level</p>
-                  <p className="mb-0">: Advanced Diploma</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Foundation Studies</p>
-                  <p className="mb-0">: No</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Work Component</p>
-                  <p className="mb-0">: Yes</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Work Component Hours/Week</p>
-                  <p className="mb-0">: 38.00</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Work Component Total Hours</p>
-                  <p className="mb-0">: 4</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Course Language</p>
-                  <p className="mb-0">: English</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Duration (Weeks)</p>
-                  <p className="mb-0">: 36</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Tuition Fee</p>
-                  <p className="mb-0">: $AU 51,060</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Non Tuition Fee</p>
-                  <p className="mb-0">: $AU 23,060</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Estimated Total Course Cost</p>
-                  <p className="mb-0">: $AU 74,060</p>
-                </div>
-                <div className="my-5">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.2818364065456!2d90.38491307589682!3d23.737327089277105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8c780d8921d%3A0x548a98b9b05efa42!2sM4YOURS%20IT!5e0!3m2!1sen!2sbd!4v1698222569472!5m2!1sen!2sbd"
-                    width="100%"
-                    height="450"
-                    style={{ border: `0px` }}
-                    loading="lazy"
-                  ></iframe>
-                </div>
-                <p className="mb-0 text-primary text-lg font-semibold">
-                  Course Location
-                </p>
-                <div className="bg-[#DBDADE] w-full h-[1px] mt-2 mb-6"></div>
-                <Table
-                  columns={columns}
-                  dataSource={data}
-                  pagination={false}
-                  size="middle"
-                  className="border"
-                /> */}
-              </div>
-              {/* <div className="my-[30px]">
+            <div>
+              <div
+                id="institution_details"
+                ref={(ref) => (sectionRefs.current[0] = ref)}
+                className="pt-[125px] mt-[-125px] mb-[30px]"
+              >
                 <p className="mb-0 text-primary text-lg font-semibold">
                   Institution Details
                 </p>
                 <div className="bg-[#DBDADE] w-full h-[1px] mt-2 mb-6"></div>
+                <div className="flex flex-col gap-3">
+                  <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
+                    <p className="mb-0">Institution Name</p>
+                    {instituteData?.institutionName && (
+                      <p className="mb-0">: {instituteData?.institutionName}</p>
+                    )}
+                  </div>
+
+                  <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
+                    <p className="mb-0">Institution Type</p>
+                    <p className="mb-0">: {instituteData?.institutionType}</p>
+                  </div>
+                  <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
+                    <p className="mb-0">CRICOS Provider Code</p>
+                    {instituteData?.providerCode && (
+                      <p className="mb-0">: {instituteData?.providerCode}</p>
+                    )}
+                  </div>
+
+                  {instituteData?.institutionCapacity && (
+                    <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
+                      <p className="mb-0">
+                        Total capacity across all provider's locations:
+                      </p>
+                      {instituteData?.institutionCapacity && (
+                        <p className="mb-0">
+                          : {instituteData?.institutionCapacity}
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
               </div>
-              <div className="flex flex-col gap-3">
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">CRICOS Provider Code</p>
-                  <p className="mb-0">: 00306D</p>
+
+              <div className="my-5">
+                <iframe
+                  className="w-full h-[250px] lg:h-[450px]"
+                  src={`https://maps.google.com/maps?q=${instituteData?.institutionName},Australia,&t=&z=4&ie=UTF8&iwloc=&output=embed`}
+                />
+              </div>
+
+              <div
+                id="list_of_course"
+                className="pt-[125px] mt-[-125px]"
+                ref={(ref) => (sectionRefs.current[1] = ref)}
+              >
+                <p className="mb-0 text-primary text-lg font-semibold ">
+                  List of Courses Offered by the Institution
+                </p>
+                <div className="bg-[#DBDADE] w-full h-[1px] mt-2 mb-6"></div>
+                <div className="mb-[30px]">
+                  <Table
+                    columns={columns}
+                    dataSource={locationData}
+                    pagination={false}
+                    size="middle"
+                    className="border"
+                  />
                 </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Institution Name</p>
-                  <p className="mb-0">: Marcus Oldham College</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">Institution Type</p>
-                  <p className="mb-0">: Private</p>
-                </div>
-                <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                  <p className="mb-0">
-                    Total capacity across all provider's locations
-                  </p>
-                  <p className="mb-0">: 30</p>
-                </div>
-              </div> */}
+              </div>
 
               {contactData && (
-                <>
-                  <div className="my-[30px]">
-                    <p className="mb-0 text-primary text-lg font-semibold">
-                      Contact Details
-                    </p>
-                    <div className="bg-[#DBDADE] w-full h-[1px] mt-2 mb-6"></div>
-                  </div>
+                <div
+                  id="contact_details"
+                  className="pt-[125px] mt-[-125px]"
+                  ref={(ref) => (sectionRefs.current[2] = ref)}
+                >
+                  <p className="mb-0 text-primary text-lg font-semibold">
+                    Contact Details
+                  </p>
+                  <div className="bg-[#DBDADE] w-full h-[1px] mt-2 mb-6"></div>
 
                   <div className="flex flex-col gap-3">
                     {contactData?.Name && (
@@ -256,10 +249,10 @@ const InstitutionDetails = ({ data: instituteData }: any) => {
                     )}
                     {contactData?.["Email Address"] && (
                       <div className="grid grid-cols-[1fr_1.5fr] gap-[30px]">
-                        <p className="mb-0">Email Address</p>
+                        <p className="mb-0 ">Email Address</p>
                         <a
                           href={`mailto:${contactData?.["Email Address"]}`}
-                          className="mb-0"
+                          className="mb-0 !hover:text-primary"
                         >
                           : {contactData?.["Email Address"]}
                         </a>
@@ -286,9 +279,10 @@ const InstitutionDetails = ({ data: instituteData }: any) => {
                       </div>
                     )}
                   </div>
-                </>
+                </div>
               )}
             </div>
+
             <div className="flex flex-col gap-[26px] p-4 lg:px-[20px] lg:py-[30px] border border-dashed self-start lg:sticky top-[130px] bg-grey">
               <div className="max-w-[496px] w-full">
                 <h2 className="mb-3 h3">Premium Expert Admission Guidance</h2>

@@ -3,91 +3,81 @@
     {
       "name": "Nursing Course",
       "shortDesc": "Pursue your passion for helping others and build a rewarding career with nursing courses in Australia.",
-      "imgSrc": "/home/popular-course.png",
+      "imgSrc": "/home/popular-course-6.png",
       "category": [
         "Acute Care Nurse",
         "Paediatrics' Nurse",
         "Mental Health Nurse"
       ],
-      "slug": "/courses/top-courses/nursing-course"
+      "slug": "/courses?page=1&&broad=06%20-%20Health&"
     },
 
     {
-      "name": "Business, Commerce & Management",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
-      "imgSrc": "/home/popular-course-two.png",
-      "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
-      ],
-      "slug": "test"
-    },
-    {
-      "name": "Business, Commerce & Management",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
-      "imgSrc": "/home/popular-course-3.png",
-      "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
-      ],
-      "slug": "test"
-    },
-    {
-      "name": "Business, Commerce & Management",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
-      "imgSrc": "/home/popular-course-4.png",
-      "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
-      ],
-      "slug": "test"
-    },
-    {
-      "name": "Business, Commerce & Management",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
-      "imgSrc": "/home/popular-course-5.png",
-      "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
-      ],
-      "slug": "test"
-    },
-    {
-      "name": "Business",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
-      "imgSrc": "/home/popular-course-6.png",
-      "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
-      ],
-      "slug": "test"
-    },
-    {
-      "name": "Business, Commerce & Management",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
-      "imgSrc": "/home/popular-course-7.png",
-      "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
-      ],
-      "slug": "test"
-    },
-    {
-      "name": "Business, Commerce",
-      "shortDesc": "Construct the ideal world you’d love to live in through a career in the building industry.",
+      "name": "Information Technology",
+      "shortDesc": "Think big, code bold: The IT revolution awaits, write the future, connect the world.",
       "imgSrc": "/home/popular-course-8.png",
+
+      "category": ["Cyber Security", "Plumbing", "Painting & Decorating"],
+      "slug": "/courses?page=1&&broad=02%20-%20Information%20Technology&"
+    },
+    {
+      "name": "Engineering",
+      "shortDesc": "Spark community solutions: Unleash innovation for resilient, inclusive, and vibrant spaces.",
+      "imgSrc": "/home/popular-course.png",
+
       "category": [
-        "Building & Construction",
-        "Plumbing",
-        "Painting & Decorating"
+        "Automotive",
+        "Civil Engineering",
+        "Electrical and Electronic Engineering"
       ],
-      "slug": "test"
+      "slug": "/courses?broad=03%20-%20Engineering%20and%20Related%20Technologies"
+    },
+    {
+      "name": "Education",
+      "shortDesc": "Plant the seeds of curiosity, cultivate brilliant minds: Guide the next generation toward a brighter future.",
+      "imgSrc": "/home/popular-course-3.png",
+
+      "category": [
+        "Teacher Education",
+        "Curriculum and Education Studie",
+        "Other Education"
+      ],
+      "slug": "/courses?page=1&&broad=07%20-%20Education&"
+    },
+    {
+      "name": "Architecture & Building",
+      "shortDesc": "Blueprint the Future: Designing a Better World with Your Building Career.",
+      "imgSrc": "/home/popular-course-4.png",
+
+      "category": [
+        "Architecture and Building",
+        "Architecture and Urban Environment",
+        "Building"
+      ],
+      "slug": "/courses?page=1&&broad=04%20-%20Architecture%20and%20Building&"
+    },
+    {
+      "name": "Society and Culture",
+      "shortDesc": "Ignite your curiosity, explore the tapestry of life, and weave meaningful bonds along the way.",
+      "imgSrc": "/home/popular-course-7.png",
+      "category": ["Community Services", "Psychology", "Social Work"],
+      "slug": "/courses?page=1&&broad=09%20-%20Society%20and%20Culture&"
+    },
+    {
+      "name": "Food & Hospitality",
+      "shortDesc": "Taste the world's flavors, embrace sun-kissed shores: Hospitality careers that fuel wanderlust.",
+      "imgSrc": "/home/popular-course-5.png",
+
+      "category": ["Cookery & Hospitality", "Personal Services"],
+      "slug": "/courses?page=1&&broad=11%20-%20Food%2C%20Hospitality%20and%20Personal%20Services&"
+    },
+    {
+      "name": "Management and Commerce",
+      "shortDesc": "Unlock your leadership potential: Rule the future of any industry.",
+      "imgSrc": "/home/popular-course-two.png",
+
+      "category": ["Business and Managemen", "Accounting", "Banking & Finance"],
+      "slug": "/courses?page=1&&broad=08%20-%20Management%20and%20Commerce&"
     }
   ]
 }

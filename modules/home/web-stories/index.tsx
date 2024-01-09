@@ -5,54 +5,49 @@ import Slider from "react-slick";
 
 const dataLocal = [
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-1.jpg",
+    title: "Why study in Australia",
+    imgSrc: "/misc/web-stories/why-study-in-australia.png",
   },
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-22.jpg",
+    title: "Top university in Australia",
+    imgSrc: "/misc/web-stories/top-university.png",
   },
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-1.jpg",
+    title: "5 Star Review",
+    imgSrc: "/misc/web-stories/5-star-review.png",
   },
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-3.jpg",
+    title: "Our Services",
+    imgSrc: "/misc/web-stories/our-services.png",
   },
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-44.jpg",
+    title: "Migration services",
+    imgSrc: "/misc/web-stories/Migration-services.png",
   },
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-1.jpg",
+    title: "Top courses",
+    imgSrc: "/misc/web-stories/top-courses-in-australia.png",
   },
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-55.jpg",
-  },
-
-  {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-1.jpg",
-  },
-  {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-22.jpg",
-  },
-  {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-1.jpg",
-  },
-  {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-3.jpg",
+    title: "RPL",
+    imgSrc: "/misc/web-stories/RPL.png",
   },
 
   {
-    title: "STEM vs Non-STEM courses: an insightful comparison",
-    imgSrc: "/misc/web-stories-1.jpg",
+    title: "Professional Year",
+    imgSrc: "/misc/web-stories/professional-year.png",
+  },
+  {
+    title: "University Admission",
+    imgSrc: "/misc/web-stories/university-admission.png",
+  },
+  {
+    title: "OSHC and OVHC",
+    imgSrc: "/misc/web-stories/OSHC-and-OVHC.png",
+  },
+  {
+    title: "Team",
+    imgSrc: "/misc/web-stories/Our-Team.png",
   },
 ];
 const WebStories = () => {

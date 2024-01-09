@@ -106,28 +106,28 @@
     ]
   },
   {
-    "title": "Study in Australia",
+    "title": "Top Universities in Australia",
     "link": "#",
     "children": [
       {
         "title": "Sydney",
-        "link": "/migration/gsm-visa",
+        "link": "/migration",
         "grandChld": [
           {
             "title": "University of Sydney",
-            "link": "/migration/gsm-visa/skilled-graduate"
+            "link": "/institutions/the-university-of-sydney"
           },
           {
             "title": "Western Sydney University",
-            "link": "/migration/gsm-visa/skilled-independent"
+            "link": "/institutions/western-sydney-university"
           },
           {
             "title": "University of Technology Sydney",
-            "link": "/migration/gsm/details"
+            "link": "/institutions/university-of-technology-sydney-uts"
           },
           {
             "title": "University Of New South Wales",
-            "link": "/migration/gsm/details"
+            "link": "/institutions/the-university-of-new-south-wales-unsw"
           }
         ]
       },
@@ -137,19 +137,19 @@
         "grandChld": [
           {
             "title": "The University of Melbourne",
-            "link": "/migration/gsm-visa/skilled-graduate"
+            "link": "/institutions/the-university-of-melbourne-unimelb"
           },
           {
             "title": "RMIT University",
-            "link": "/migration/gsm-visa/skilled-independent"
+            "link": "/institutions/rmit-training-pty-ltd"
           },
           {
             "title": "Monash University Clayton Campus",
-            "link": "/migration/gsm/details"
+            "link": "/institutions/monash-university-monash"
           },
           {
             "title": "Victoria University",
-            "link": "/migration/gsm/details"
+            "link": "/institutions/victoria-university"
           }
         ]
       },
@@ -158,54 +158,30 @@
         "link": "/migration/gsm-visa",
         "grandChld": [
           {
-            "title": "Student visa (subclass 500)",
-            "link": "/migration/gsm-visa/skilled-graduate"
+            "title": "University of Canberra",
+            "link": "/institutions/university-of-canberra"
           },
           {
-            "title": "Student Guardian visa (subclass 590)",
-            "link": "/migration/gsm-visa/skilled-independent"
+            "title": "The Australian National University",
+            "link": "/institutions/australian-national-university"
           },
           {
-            "title": "Training visa (subclass 407)",
-            "link": "/migration/gsm/details"
+            "title": "Australian Catholic University Limited",
+            "link": "/institutions/australian-catholic-university-limited"
+          },
+          {
+            "title": "Canberra Institute of Technology (CIT)",
+            "link": "/institutions/canberra-institute-of-technology"
           }
         ]
       },
       {
         "title": "Perth",
-        "link": "/migration/gsm-visa",
-        "grandChld": [
-          {
-            "title": "Student visa (subclass 500)",
-            "link": "/migration/gsm-visa/skilled-graduate"
-          },
-          {
-            "title": "Student Guardian visa (subclass 590)",
-            "link": "/migration/gsm-visa/skilled-independent"
-          },
-          {
-            "title": "Training visa (subclass 407)",
-            "link": "/migration/gsm/details"
-          }
-        ]
+        "link": "/institutions?totalInstitute=134&page=1&stateSlug=wa"
       },
       {
         "title": "Tasmania",
-        "link": "/migration/gsm-visa",
-        "grandChld": [
-          {
-            "title": "Student visa (subclass 500)",
-            "link": "/migration/gsm-visa/skilled-graduate"
-          },
-          {
-            "title": "Student Guardian visa (subclass 590)",
-            "link": "/migration/gsm-visa/skilled-independent"
-          },
-          {
-            "title": "Training visa (subclass 407)",
-            "link": "/migration/gsm/details"
-          }
-        ]
+        "link": "/institutions?totalInstitute=134&page=1&&stateSlug=tas"
       }
     ]
   },

@@ -26,27 +26,29 @@ const OurStory = () => {
               <p className="text-p1 mb-0 text-primary font-medium">Our Story</p>
             </div>
             <h2 className="mb-0">
-              <span className="text-secondary ">Moves International</span> was
-              founded on the vital premise
+              <span className="text-secondary ">Moves International </span>
+              Your Bridge to Success in Australia{" "}
             </h2>
             <p className="text-p1 mb-0">
-              At Moves International, we believe our potential is independent of
-              our nation’s potential, and that we have the right to separate our
-              trajectory from that of our birthplace. We are the true ‘masters
-              of our fate, the captains of our souls.’ We control and determine
-              our destinies, not our birthplaces.
+              Moves International is Australia's leading education and migration
+              services provider, empowering international students to achieve
+              their academic and career aspirations. Our dedicated team of
+              experienced professionals offers comprehensive guidance and
+              support throughout the entire journey, from choosing the right
+              course and obtaining the necessary visa to settling into your new
+              life in Australia.
             </p>
-            <div className="flex justify-start items-center btn px-0 text-secondary hover:text-primary mt-auto transition-all">
+            {/* <div className="flex justify-start items-center btn px-0 text-secondary hover:text-primary mt-auto transition-all">
               <span className="text-base"> Read More</span>
               <RiArrowRightLine className="text-base" />
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-col gap-[30px]">
             <div className="px-[27px] py-[44px] text-center bg-grey rounded-md">
               <h2 className="text-secondary mb-[6px]">
                 <CountUp
                   start={focus ? 0 : undefined}
-                  end={20000}
+                  end={5000}
                   duration={2}
                   redraw={true}
                 >
@@ -72,7 +74,7 @@ const OurStory = () => {
               <h2 className="text-secondary mb-[6px]">
                 <CountUp
                   start={focus ? 0 : undefined}
-                  end={50}
+                  end={100}
                   duration={2}
                   redraw={true}
                 >
@@ -98,10 +100,10 @@ const OurStory = () => {
               <h2 className="text-secondary mb-[6px]">
                 <CountUp
                   start={focus ? 0 : undefined}
-                  end={2}
+                  end={20000}
                   duration={2}
                   redraw={true}
-                  suffix=" Million"
+                  // suffix=" Million"
                 >
                   {({ countUpRef }) => (
                     <div>
@@ -121,7 +123,7 @@ const OurStory = () => {
               </h2>
               <p className="text-lg font-medium">Student Counselling's</p>
             </div>
-            <div className="px-[27px] py-[44px] text-center bg-grey rounded-md">
+            {/* <div className="px-[27px] py-[44px] text-center bg-grey rounded-md">
               <h2 className="text-secondary mb-[6px]">
                 {" "}
                 <CountUp
@@ -129,7 +131,7 @@ const OurStory = () => {
                   end={80}
                   duration={2}
                   redraw={true}
-                  suffix=" Million"
+                  // suffix=" Million"
                 >
                   {({ countUpRef }) => (
                     <div>
@@ -148,7 +150,7 @@ const OurStory = () => {
                 </CountUp>
               </h2>
               <p className="text-lg font-medium">Website Users</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -27,8 +27,8 @@ const MessageFromCeo = () => {
                   <div className="flex mb-[6px]">
                     <div className="inline-flex items-center gap-[10px]  rounded-md">
                       <RiPhoneFill className="text-secondary" />
-                      <a href="tel:880 0280689051" className="block">
-                        (02) 8068 9051
+                      <a href="tel:+61 434 051 189" className="block">
+                        +61 434 051 189
                       </a>
                     </div>
                   </div>
@@ -36,10 +36,10 @@ const MessageFromCeo = () => {
                     <div className="inline-flex items-center gap-[10px]  rounded-md">
                       <HiEnvelope className="text-secondary" />
                       <a
-                        href="mailto:michelle.rivera@example.com"
+                        href="mailto:shakil@mieducation.com.au"
                         className="block text-sm"
                       >
-                        michelle.rivera@example.com
+                        shakil@mieducation.com.au
                       </a>
                     </div>
                   </div>
@@ -54,12 +54,14 @@ const MessageFromCeo = () => {
               </h2>
             </div>
             <p className="text-lg">
-              Embark on a transformative journey with us at Moves International!
-              Our passion is guiding you towards world-class education in
-              Australia. Experience cultural diversity, academic excellence, and
-              unforgettable memories. Your global future starts here, as we
-              ensure your study abroad dreams become a successful reality.
-              Welcome to boundless opportunities!
+              I started this for all those who dream of studying or migrating to
+              beautiful Australia. Therefore, we have started building a strong
+              bond with so many Australian universities for a long time. The
+              purpose is to ensure the right info with the interested
+              candidates, turn their dream into reality, and ultimately allow
+              them to reach their future goals. of Australia and your visa is
+              expired, you will need to wait for the arrival of the visa before
+              entering Australia. Call us for any further queries.
             </p>
           </div>
         </div>

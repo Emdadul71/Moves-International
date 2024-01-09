@@ -20,7 +20,7 @@ export const Home = () => {
       <LeadsAndSales />
       <QualityAndPrestigious />
       <WebStories />
-      <OurPartners classes={{ root: `pt-5 lg:pt-[50px]` }} />
+      <OurPartners classes={{ root: `px-5 pt-5 lg:pt-[50px]` }} />
       <ReadyToGo />
     </>
   );

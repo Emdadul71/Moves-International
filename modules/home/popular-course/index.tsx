@@ -49,8 +49,8 @@ const PopularCourse = () => {
                       {item?.category?.map((cat: any, i: any) => {
                         return (
                           <li key={i}>
-                            <div className="flex items-center gap-[10px]">
-                              <IoIosArrowDroprightCircle className="text-secondary text-base" />
+                            <div className="flex items-start gap-[10px]">
+                              <IoIosArrowDroprightCircle className="text-secondary text-base mt-1" />
                               <p className="mb-0 text-black">{cat}</p>
                             </div>
                           </li>
