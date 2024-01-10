@@ -66,7 +66,7 @@ const QualityAndPrestigious = ({ classes }: propTypes) => {
                       </Link>
                     </div>
                   </div>
-                  <div className="grid md:grid-cols-2 place-content-start	gap-[30px]">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
                     {dataArray?.map((item: any, i: any) => {
                       const yellowStar = parseInt(item?.rating);
                       const greyStar = 5 - item?.rating;
@@ -105,7 +105,7 @@ const QualityAndPrestigious = ({ classes }: propTypes) => {
                       );
                     })}
                     {total > limit && (
-                      <div className="col-span-2 flex justify-center">
+                      <div className="md:col-span-2 flex justify-center">
                         <Link href="/testimonials" className="btn btn-primary ">
                           View All
                         </Link>

@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="mt-auto bg-primary z-10">
       <div className="container">
         <div className="py-8 lg:pt-[100px] pb-8">
-          <div className="grid lg:grid-cols-[1fr_800px] gap-[100px] mb-5">
+          <div className="grid lg:grid-cols-[1fr_800px] gap-5 lg:gap-[100px] mb-5">
             <div className="flex flex-col gap-5">
               <Link href="/">
                 <Image
@@ -185,7 +185,7 @@ const Footer = () => {
               updates.
             </p>
           </div>
-          <div className="w-full h-[1px] bg-[#fff] my-11"></div>
+          <div className="w-full h-[1px] bg-[#fff] mb-11 mt-6"></div>
           <p className="mb-0 text-white">
             Copyright © {new Date().getFullYear()} Moves International. All
             rights reserved. Design & Developed by:{" "}
