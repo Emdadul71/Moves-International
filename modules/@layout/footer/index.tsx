@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="mt-auto bg-primary z-10">
       <div className="container">
         <div className="py-8 lg:pt-[100px] pb-8">
-          <div className="grid lg:grid-cols-[1fr_1000px]">
+          <div className="grid lg:grid-cols-[1fr_800px] gap-[100px] mb-5">
             <div className="flex flex-col gap-5">
               <Link href="/">
                 <Image
@@ -21,6 +21,9 @@ const Footer = () => {
                 />
               </Link>
 
+              <p className="text-white mb-0">
+                Address: Level 2/251 Elizabeth St, Sydney NSW 2000 Australia
+              </p>
               <SocialLinks
                 classes={{
                   root: `justify-start `,
@@ -29,7 +32,7 @@ const Footer = () => {
               />
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-[auto_auto_auto_300px] gap-5 justify-between ">
+            <div className="grid grid-cols-1 md:grid-cols-[auto_auto_auto] gap-5 justify-between ">
               <ul className="flex flex-col gap-[10px]">
                 <li className="text-white font-semibold">About</li>
                 <li>
@@ -162,26 +165,25 @@ const Footer = () => {
                   </Link>
                 </li>
               </ul>
-
-              <div>
-                <p className="text-white">
-                  Sign up to our newsletter and get all of the latest news and
-                  updates.
-                </p>
-                <div className="relative">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    className="w-full pl-5 pr-[120px] py-3 rounded-md focus:outline-none placeholder:text-black"
-                    placeholder="Your email"
-                  />
-                  <button className="btn btn-primary absolute top-[50%] translate-y-[-50%] right-[6px] rounded-md">
-                    Subscribe
-                  </button>
-                </div>
-              </div>
             </div>
+          </div>
+          <div className="max-w-[550px] mx-auto">
+            <div className="relative mb-4">
+              <input
+                type="text"
+                name=""
+                id=""
+                className="w-full pl-5 pr-[120px] py-3 rounded-md focus:outline-none placeholder:text-black"
+                placeholder="Your email"
+              />
+              <button className="btn btn-primary absolute top-[50%] translate-y-[-50%] right-[6px] rounded-md">
+                Subscribe
+              </button>
+            </div>
+            <p className="text-white mb-0 text-center">
+              Sign up to our newsletter and get all of the latest news and
+              updates.
+            </p>
           </div>
           <div className="w-full h-[1px] bg-[#fff] my-11"></div>
           <p className="mb-0 text-white">

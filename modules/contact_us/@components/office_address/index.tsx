@@ -12,7 +12,7 @@ const OfficeAddress = () => {
             <div className="flex flex-col items-center justify-center">
               <div>
                 <Image
-                  src={staticAsset("/images/contact/bangladesh.png")}
+                  src="/misc/bangladesh.png"
                   width={50}
                   height={50}
                   alt="bangladesh office"
@@ -29,7 +29,7 @@ const OfficeAddress = () => {
             <div className="flex flex-col items-center justify-center">
               <div>
                 <Image
-                  src={staticAsset("/images/contact/blacktown.png")}
+                  src="/misc/sydney.png"
                   width={50}
                   height={50}
                   alt="bangladesh office"
@@ -45,7 +45,7 @@ const OfficeAddress = () => {
             <div className="flex flex-col items-center justify-center">
               <div>
                 <Image
-                  src={staticAsset("/images/contact/paramatta.png")}
+                  src="/misc/perth.png"
                   width={50}
                   height={50}
                   alt="bangladesh office"

@@ -137,13 +137,13 @@ const Header = () => {
 
   return (
     <>
-      <header className="sticky top-0 z-[999]">
+      <header className="sticky top-0  z-[999]">
         <div className="bg-primary">
           <div className="container">
             <div className="grid grid-cols-1 lg:grid-cols-[auto_1fr] justify-between items-center lg:gap-5 py-2">
               <SocialLinks
                 classes={{
-                  root: `justify-start `,
+                  root: `justify-center `,
                   iconStyle: `text-white`,
                 }}
               />
@@ -519,7 +519,7 @@ const Header = () => {
                   )}
                 </div>
                 <SearchIcon classess={{ root: `!text-primary` }} />
-                <Link href="#" className="btn btn-primary rounded-md">
+                <Link href="/contact-us" className="btn btn-primary rounded-md">
                   Get in Touch
                 </Link>
                 <div className="block lg:hidden order-2">
@@ -578,6 +578,7 @@ const Header = () => {
                                   <span className="text-left text-base font-medium">
                                     {item.title}
                                   </span>
+
                                   {item?.children && (
                                     <>
                                       {selected == i ? (
