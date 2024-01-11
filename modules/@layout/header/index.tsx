@@ -44,53 +44,56 @@ const Header = () => {
 
   const topCourse = [
     { title: "Nursing Course", link: "/courses/top-courses/nursing-course" },
-    { title: "Health Course", link: "/health-course" },
+    {
+      title: "Health Course",
+      link: "/courses?page=1&broad=06 - Health&",
+    },
     {
       title: "Information Technology Course",
-      link: "/information-technology-course",
+      link: "/courses?page=1&broad=02 - Information Technology",
     },
     {
       title: "Engineering Course",
-      link: "/engineering-course",
+      link: "/courses?page=1&broad=03 - Engineering and Related Technologies",
     },
-    {
-      title: "Trading Course",
-      link: "/trading-course",
-    },
+    // {
+    //   title: "Trading Course",
+    //   link: "/trading-course",
+    // },
     {
       title: "Cookery Course",
-      link: "/cookery-course",
+      link: "/courses?page=1&broad=11 - Food, Hospitality and Personal Services",
     },
-    {
-      title: "PR Pathway Course",
-      link: "/pr-pathway-course",
-    },
+    // {
+    //   title: "PR Pathway Course",
+    //   link: "/pr-pathway-course",
+    // },
   ];
 
-  const topUniversities = [
-    { title: "Nursing Course", link: "/courses/top-courses/nursing-course" },
-    { title: "Health Course", link: "/health-course" },
-    {
-      title: "Information Technology Course",
-      link: "/information-technology-course",
-    },
-    {
-      title: "Engineering Course",
-      link: "/engineering-course",
-    },
-    {
-      title: "Trading Course",
-      link: "/trading-course",
-    },
-    {
-      title: "Cookery Course",
-      link: "/cookery-course",
-    },
-    {
-      title: "PR Pathway Course",
-      link: "/pr-pathway-course",
-    },
-  ];
+  // const topUniversities = [
+  //   { title: "Nursing Course", link: "/courses/top-courses/nursing-course" },
+  //   { title: "Health Course", link: "/health-course" },
+  //   {
+  //     title: "Information Technology Course",
+  //     link: "/information-technology-course",
+  //   },
+  //   {
+  //     title: "Engineering Course",
+  //     link: "/engineering-course",
+  //   },
+  //   {
+  //     title: "Trading Course",
+  //     link: "/trading-course",
+  //   },
+  //   {
+  //     title: "Cookery Course",
+  //     link: "/cookery-course",
+  //   },
+  //   {
+  //     title: "PR Pathway Course",
+  //     link: "/pr-pathway-course",
+  //   },
+  // ];
 
   const newItem = [
     { title: "Top courses in Australia", link: "#", grandChld: topCourse },
