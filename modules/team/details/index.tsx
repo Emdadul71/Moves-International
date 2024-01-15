@@ -12,11 +12,81 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMdPin } from "react-icons/io";
 import SocialLinks from "@/modules/@common/social_links";
 import { htmlParse } from "@/helpers/utils";
+import { useCreateParticipantMutation } from "@/appstore/events/participant/participant_api";
+import Swal from "sweetalert2";
+import { Field, Form, Formik } from "formik";
+import { useGetCounsellorServicesQuery } from "@/appstore/appointment/api";
+import countryData from "../../@data/country.json";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
+import * as Yup from "yup";
+import { useCreateInquiryMutation } from "@/appstore/lead/api";
+import Spinner from "@/modules/@common/loading_spinner";
+import { usePathname, useRouter } from "next/navigation";
+import TeamCounselorAppoint from "../@component/counsellor-appointment";
 
 const TeamDetails = ({ data }: any) => {
-  const handleChange = (value: string) => {
-    console.log(`selected ${value}`);
+  const pathName = usePathname();
+  const [createInquiry, { isLoading }] = useCreateInquiryMutation();
+  const { data: services, isLoading: serviceLoading } =
+    useGetCounsellorServicesQuery("");
+  const formSchema = {
+    name: "",
+    email: "",
+    mobile: "",
+    teamServiceSlug: "",
+    countryOfPassport: "",
+    message: "",
   };
+
+  const createHandler = async (values: any, actions: any) => {
+    try {
+      const res: any = await createInquiry({
+        name: values?.name,
+        email: values?.email,
+        mobile: values?.mobile,
+        leadSource: pathName,
+        teamServiceSlug: values?.teamServiceSlug,
+        message: values?.message,
+        countryOfPassport: values?.countryOfPassport,
+        leadType: "Lead",
+      });
+
+      if (!res?.error) {
+        actions.resetForm();
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Registration Successful",
+          html: "Thank you for successfully registering! We are delighted to have you as part of our community. Your registration details have been received and processed.",
+          showConfirmButton: true,
+          confirmButtonText: "OK",
+          confirmButtonColor: "#ffe835",
+          customClass: {
+            confirmButton: "swl_custom_class",
+          },
+        });
+      } else {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+          footer: false,
+        });
+      }
+    } catch (err) {}
+  };
+  const validationSchema = Yup.object().shape({
+    name: Yup.string().required("Name is required"),
+    email: Yup.string().email("Invalid email").required("Email is required"),
+    mobile: Yup.string()
+      .min(7, "Mobile number must be at least 7 characters")
+      .required("Mobile number is required"),
+    teamServiceSlug: Yup.string().required("Book for is required"),
+    countryOfPassport: Yup.string().required("Country of passport is required"),
+    message: Yup.string().required("Enquiry is required"),
+  });
+
   return (
     <>
       <TeamDetailsHero data={data} />
@@ -50,13 +120,11 @@ const TeamDetails = ({ data }: any) => {
                     </div>
                     <div className="flex items-start gap-[10px]">
                       <IoMdPin className="text-secondary text-lg" />
-                      <div className="text-black">{data?.location}</div>
+                      <div className="text-black">{data?.address}</div>
                     </div>
                   </div>
                   <div>
-                    <p className="mb-0 text-primary mb-[10px]">
-                      Social Profiles
-                    </p>
+                    <p className="mb-0 text-primary">Social Profiles</p>
                     <SocialLinks
                       classes={{
                         root: `justify-start `,
@@ -67,7 +135,10 @@ const TeamDetails = ({ data }: any) => {
                   </div>
                 </div>
               </div>
-              <div>{htmlParse(data?.description)}</div>
+              <div className="from_texteditor_wrapper">
+                {htmlParse(data?.education)}
+              </div>
+              <div>{htmlParse(data?.biography)}</div>
             </div>
             <div className="flex flex-col gap-[26px] p-4 lg:px-[30px] lg:py-[50px] border border-dashed self-start md:sticky top-[130px]">
               <div className="max-w-[496px] w-full">
@@ -123,61 +194,160 @@ const TeamDetails = ({ data }: any) => {
                   </li>
                 </ul>
               </div>
-              <div className="flex flex-col gap-[15px]">
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Full Name"
-                    className="border border-[#DBDBDB] rounded-[2px] w-full px-[15px] py-[8px] focus:outline-none"
-                  />
-                </div>
-                <div>
-                  <input
-                    type="email"
-                    placeholder="Email"
-                    className="border border-[#DBDBDB] rounded-[2px] w-full px-[15px] py-[8px] focus:outline-none"
-                  />
-                </div>
-                <div>
-                  <input
-                    type="number"
-                    placeholder="Mobile Number"
-                    className="border border-[#DBDBDB] rounded-[2px] w-full px-[15px] py-[8px] focus:outline-none"
-                  />
-                </div>
-                <div>
-                  <Select
-                    defaultValue="Service Type"
-                    style={{ width: "100%" }}
-                    className="ant_selector_custom"
-                    size="large"
-                    onChange={handleChange}
-                    options={[{ value: "studentVisa", label: "Student Visa" }]}
-                  />
-                </div>
-                <div>
-                  <Select
-                    defaultValue="Country of Passpost"
-                    style={{ width: "100%" }}
-                    className="ant_selector_custom"
-                    size="large"
-                    onChange={handleChange}
-                    options={[{ value: "bangladesh", label: "Bangladesh" }]}
-                  />
-                </div>
-                <div>
-                  <textarea
-                    placeholder="Enquiry in Short"
-                    className="w-full border px-[15px] py-[8px] focus:outline-none rounded-[2px]"
-                    rows={4}
-                  />
-                </div>
-              </div>
-              <div>
-                <button className="btn btn-primary w-full rounded">
-                  Submit
-                </button>
-              </div>
+              {data?.isCounsellor === true ? (
+                <TeamCounselorAppoint teamId={data?.id} />
+              ) : (
+                <Formik
+                  initialValues={formSchema}
+                  enableReinitialize={false}
+                  validationSchema={validationSchema}
+                  onSubmit={(values: any, actions: any) => {
+                    createHandler(values, actions);
+                  }}
+                >
+                  {({
+                    handleSubmit,
+                    setFieldValue,
+                    errors,
+                    values,
+                    touched,
+                  }: any) => (
+                    <Form>
+                      <div>
+                        <div className="flex flex-col gap-[15px]">
+                          <div>
+                            <Field
+                              type="text"
+                              value={values?.name}
+                              onChange={(e: any) => {
+                                setFieldValue("name", e.target.value);
+                              }}
+                              placeholder="Full Name"
+                              className="border border-[#DBDBDB] rounded-[2px] w-full px-[15px] py-[8px] focus:outline-none"
+                            />
+                            {errors?.name && touched?.name ? (
+                              <p className="text-red-500 text-[12px] m-0">
+                                {errors?.name}
+                              </p>
+                            ) : null}
+                          </div>
+                          <div>
+                            <Field
+                              type="email"
+                              value={values?.email}
+                              onChange={(e: any) => {
+                                setFieldValue("email", e.target.value);
+                              }}
+                              placeholder="Email"
+                              className="border border-[#DBDBDB] rounded-[2px] w-full px-[15px] py-[8px] focus:outline-none"
+                            />
+                            {errors?.email && touched?.email ? (
+                              <p className="text-red-500 text-[12px] m-0">
+                                {errors?.email}
+                              </p>
+                            ) : null}
+                          </div>
+                          <div>
+                            <PhoneInput
+                              inputClass="react_phone_style"
+                              placeholder="Mobile number"
+                              country={"au"}
+                              countryCodeEditable={true}
+                              value={values?.mobile ? values?.mobile : ""}
+                              onChange={(
+                                _value,
+                                country,
+                                _event,
+                                formattedValue
+                              ) => {
+                                setFieldValue("mobile", formattedValue);
+                              }}
+                            />
+                            {errors?.mobile && touched?.mobile ? (
+                              <p className="text-red-500 text-[12px] m-0">
+                                {errors?.mobile}
+                              </p>
+                            ) : null}
+                          </div>
+                          <div>
+                            <Select
+                              placeholder="Service"
+                              style={{ width: "100%" }}
+                              className="ant_selector_custom"
+                              size="large"
+                              onChange={(e) => {
+                                setFieldValue("teamServiceSlug", e);
+                              }}
+                              options={services}
+                              value={
+                                values?.teamServiceSlug
+                                  ? values?.teamServiceSlug
+                                  : undefined
+                              }
+                            />
+                            {errors?.teamServiceSlug &&
+                            touched?.teamServiceSlug ? (
+                              <p className="text-red-500 text-[12px] m-0">
+                                {errors?.teamServiceSlug}
+                              </p>
+                            ) : null}
+                          </div>
+                          <div>
+                            <Select
+                              showSearch
+                              placeholder="Country of passport"
+                              style={{ width: "100%" }}
+                              className="ant_selector_custom"
+                              size="large"
+                              onChange={(_val, item: any) => {
+                                setFieldValue("countryOfPassport", item?.label);
+                              }}
+                              options={countryData}
+                              value={
+                                values?.countryOfPassport
+                                  ? values?.countryOfPassport
+                                  : undefined
+                              }
+                            />
+                            {errors?.countryOfPassport &&
+                            touched?.countryOfPassport ? (
+                              <p className="text-red-500 text-[12px] m-0">
+                                {errors?.countryOfPassport}
+                              </p>
+                            ) : null}
+                          </div>
+                          <div>
+                            <Field
+                              type="text"
+                              as="textarea"
+                              onChange={(e: any) => {
+                                setFieldValue("message", e.target.value);
+                              }}
+                              placeholder="Enquiry in Short"
+                              value={values?.message}
+                              className="w-full border px-[15px] py-[8px] focus:outline-none rounded-[2px]"
+                              rows={4}
+                            />
+                            {errors?.message && touched?.message ? (
+                              <p className="text-red-500 text-[12px] m-0">
+                                {errors?.message}
+                              </p>
+                            ) : null}
+                          </div>
+                        </div>
+                        <div>
+                          <button
+                            disabled={isLoading}
+                            className="btn btn-primary w-full rounded"
+                          >
+                            {isLoading && <Spinner height="20px" />} Submit
+                          </button>
+                        </div>
+                      </div>
+                    </Form>
+                  )}
+                </Formik>
+              )}
             </div>
           </div>
         </div>

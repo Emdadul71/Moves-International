@@ -23,7 +23,6 @@ async function getData(params: any) {
 }
 const TeamDetailsPage = async ({ params }: any) => {
   const data = await getData(params);
-  console.log("team", data);
 
   return <TeamDetails data={data} />;
 };

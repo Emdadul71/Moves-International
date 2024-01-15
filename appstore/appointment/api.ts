@@ -21,8 +21,8 @@ export const appointmentApi = apiSlice.injectEndpoints({
       keepUnusedDataFor: 0,
     }),
     getCounsellorServices: build.query({
-      query: () => {
-        return `public/team-service`;
+      query: (queryString) => {
+        return `public/team-service${queryString}`;
       },
     }),
   }),
