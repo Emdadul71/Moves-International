@@ -119,8 +119,6 @@ const CourseLanding = ({ data }: any) => {
     courseQueryString,
   });
 
-  console.log("courseData", courseData);
-
   const { data: courseLevel, isLoading: isLevelLoading } = useGetlevelQuery({});
 
   const totalCount = courseData && courseData?.totalCount;
