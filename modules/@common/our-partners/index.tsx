@@ -179,6 +179,7 @@ const OurPartners = ({ classes }: propTypes) => {
               key={i}
             >
               <Link
+                scroll={false}
                 href={`/institutions${item?.link}`}
                 className="flex items-center justify-center w-full h-full p-4"
               >

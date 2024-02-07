@@ -37,6 +37,7 @@ const Footer = () => {
                 <li className="text-white font-semibold">About</li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/about-us"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -45,6 +46,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/team"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -53,6 +55,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/virtual-counselling"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -61,6 +64,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/contact-us"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -73,6 +77,7 @@ const Footer = () => {
                 <li className="text-white font-semibold">Services</li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/services/university-and-college-admissions"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -82,6 +87,7 @@ const Footer = () => {
 
                 <li>
                   <Link
+                    scroll={false}
                     href="/services/education-and-career-counselling"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -90,6 +96,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/services/migration-advice-and-visa-application"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -98,6 +105,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/services/professional-year-program"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -106,6 +114,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/services/health-insurance-oshc-ovhc"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -114,6 +123,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/services/rpl"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -125,6 +135,7 @@ const Footer = () => {
                 <li className="text-white font-semibold">Migration</li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/migration/student-visa-subclass-500"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -133,6 +144,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link
+                    scroll={false}
                     href="/migration/visitor-subclass-600"
                     className="text-white hover:text-secondary transition-all"
                   >
@@ -142,6 +154,7 @@ const Footer = () => {
 
                 <li>
                   <Link
+                    scroll={false}
                     href="/migration/family-and-partner-visas"
                     className="text-white hover:text-secondary transition-all"
                   >

@@ -106,6 +106,7 @@ const ServiceLandingHero = () => {
       </div>
     );
   };
+
   return (
     <section className="bg-primary pt-5 lg:pt-[80px] z-10">
       <div className="container">

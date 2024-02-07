@@ -23,7 +23,8 @@ const ReadyToBegin = ({ data }: any) => {
             <p className="text-lg">{readyToBeingData?.shortDesc}</p>
             <div>
               <Link
-                href="#"
+                scroll={false}
+                href="/contact-us"
                 className="inline-flex gap-3 btn btn-secondary rounded-md"
               >
                 <span> Contact Us</span>

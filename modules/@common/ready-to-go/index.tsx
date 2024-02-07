@@ -22,6 +22,7 @@ const ReadyToGo = () => {
             </div>
             <div>
               <Link
+                scroll={false}
                 href="/virtual-counselling"
                 className="btn btn-white inline-flex gap-[10px] px-[30px] py-5 rounded-md"
               >

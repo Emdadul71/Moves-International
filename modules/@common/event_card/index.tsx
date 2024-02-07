@@ -8,6 +8,7 @@ import moment from "moment";
 export const EventCard = ({ item }: any) => {
   return (
     <Link
+      scroll={false}
       href={`/events/${item?.slug}`}
       className="hover:text-inherit border border-greylight rounded-md overflow-hidden hover:shadow-md bg-[#FFFFFF]"
     >

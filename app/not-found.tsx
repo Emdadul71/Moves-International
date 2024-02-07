@@ -19,7 +19,7 @@ const NotFound = () => {
               className={`mb-2 `}
             />
           </div>
-          <Link href="/" className="btn btn-primary rounded">
+          <Link scroll={false} href="/" className="btn btn-primary rounded">
             Go Home
           </Link>
         </div>

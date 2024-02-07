@@ -1,32 +1,22 @@
 "use client";
+import useScrollEffect from "@/hooks/use-scroll-effect";
+import SearchIcon from "@/modules/@common/search/search-icon";
 import SocialLinks from "@/modules/@common/social_links";
-import {
-  Button,
-  Divider,
-  Drawer,
-  DrawerProps,
-  RadioChangeEvent,
-  Select,
-  Space,
-} from "antd";
-import { Fragment, useEffect, useState } from "react";
+import { Drawer, DrawerProps, RadioChangeEvent, Select } from "antd";
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Fragment, useState } from "react";
+import { CgMenu } from "react-icons/cg";
 import { CiClock2 } from "react-icons/ci";
 import { FaMobileAlt, FaRegMap } from "react-icons/fa";
-import { CgMenu } from "react-icons/cg";
-import { HiOutlineEnvelope } from "react-icons/hi2";
-import { usePathname } from "next/navigation";
-import Link from "next/link";
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
-import Image from "next/image";
-import { BiSearch } from "react-icons/bi";
-import Search from "@/modules/@common/search";
-import SearchIcon from "@/modules/@common/search/search-icon";
+import { HiOutlineEnvelope } from "react-icons/hi2";
 import styles from "./header.module.scss";
-import useScrollEffect from "@/hooks/use-scroll-effect";
 
+import { useGetBroadFieldQuery } from "@/appstore/course/course-api";
 import dataBurgerMenu from "@/helpers/data/burger-nav.json";
 import navData1 from "@/helpers/data/nav.json";
-import { useGetBroadFieldQuery } from "@/appstore/course/course-api";
 import { insert } from "@/helpers/utils";
 
 const Header = () => {
@@ -325,7 +315,7 @@ const Header = () => {
             <div className="grid grid-cols-[1fr_auto] lg:grid-cols-[230px_auto_auto] justify-between items-center relative">
               <div>
                 <div className="absolute top-0 left-0 hidden lg:block">
-                  <Link href="/">
+                  <Link href="/" scroll={false}>
                     <Image
                       src="/misc/logo.png"
                       alt="Study International Logo"
@@ -335,7 +325,7 @@ const Header = () => {
                     />
                   </Link>
                 </div>
-                <Link href="/">
+                <Link href="/" scroll={false}>
                   <Image
                     src="/misc/logo.png"
                     alt="Study International Logo"
@@ -380,6 +370,7 @@ const Header = () => {
                           >
                             {item?.link ? (
                               <Link
+                                scroll={false}
                                 href={item.link}
                                 className="flex items-center gap-2  cursor-pointer px-3 py-6 hover:text-inherit "
                               >
@@ -431,6 +422,7 @@ const Header = () => {
                                             {cldn?.link ? (
                                               <>
                                                 <Link
+                                                  scroll={false}
                                                   href={`${
                                                     cldn?.link ? cldn?.link : ""
                                                   }`}
@@ -474,6 +466,7 @@ const Header = () => {
                                                       ) : (
                                                         <>
                                                           <Link
+                                                            scroll={false}
                                                             href={index?.link}
                                                             className="whitespace-nowrap flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition "
                                                           >
@@ -517,6 +510,7 @@ const Header = () => {
                         return (
                           <li className="overflow-hidden" key={i}>
                             <Link
+                              scroll={false}
                               href={item?.link || "#"}
                               className="flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition delay-200"
                             >
@@ -530,7 +524,11 @@ const Header = () => {
                   )}
                 </div>
                 <SearchIcon classess={{ root: `!text-primary` }} />
-                <Link href="/contact-us" className="btn btn-primary rounded-md">
+                <Link
+                  scroll={false}
+                  href="/contact-us"
+                  className="btn btn-primary rounded-md"
+                >
                   Get in Touch
                 </Link>
                 <div className="block lg:hidden order-2">

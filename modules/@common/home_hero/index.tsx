@@ -45,6 +45,7 @@ const HomeHero = () => {
 
             <div className="mb-12">
               <Link
+                scroll={false}
                 href="/virtual-counselling"
                 className="btn btn-primary inline-flex gap-[10px] px-[30px] py-5 rounded-md"
               >

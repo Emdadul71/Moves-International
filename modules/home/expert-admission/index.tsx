@@ -38,7 +38,7 @@ const expertData = [
     title: "OSHC & OVHC",
   },
 ];
-const ExpertAdmission = () => {
+const ExpertAdmission = ({ scroll }: any) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const handleChange = (value: string) => {
@@ -167,14 +167,12 @@ const ExpertAdmission = () => {
           >
             {expertData?.map((item, i) => {
               return (
-                <Link href={item?.link} key={i}>
+                <Link href={item?.link} key={i} scroll={false}>
                   <Image
                     src={item?.imgSrc}
-                    alt="Study International Logo"
+                    alt="Moves International Logo"
                     width={960}
                     height={420}
-                    blurDataURL="/misc/logo.png"
-                    placeholder="blur"
                   />
                   <div className="flex justify-between items-center px-[30px] py-[20px] shadow-one rounded-b-md">
                     <p className="mb-0 font-semibold text-black text-lg">

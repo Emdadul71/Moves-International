@@ -404,12 +404,12 @@ const CourseLanding = ({ data }: any) => {
                 })}
               </Checkbox.Group> */}
 
-              <div className="w-full h-[1px] bg-[#DBDADE] my-7"></div>
+              {/* <div className="w-full h-[1px] bg-[#DBDADE] my-7"></div>
               <p className="text-primary font-medium mb-5">Tuition Fees</p>
               <div className="flex items-center justify-between mb-4">
                 <p className="mb-0 text-sm">$4.5k</p>
                 <p className="mb-0 text-sm">$ 80k</p>
-              </div>
+              </div> */}
               {/* <Slider
                 range
                 defaultValue={[20, 50]}
@@ -418,26 +418,26 @@ const CourseLanding = ({ data }: any) => {
                 className="search_slider"
               /> */}
 
-              <Slider
+              {/* <Slider
                 range
                 min={0}
                 max={700000}
                 defaultValue={[0, 700000]}
-                // onChange={(val: any) =>
-                //   setQueryParams((prev: any) => ({
-                //     ...prev,
-                //     feeFrom: val,
-                //     feeTo: val,
-                //   }))
-                // }
-                // onAfterChange={(val: any) =>
-                //   setQueryParams((prev: any) => ({
-                //     ...prev,
-                //     feeTo: val,
-                //   }))
-                // }
+                onChange={(val: any) =>
+                  setQueryParams((prev: any) => ({
+                    ...prev,
+                    feeFrom: val,
+                    feeTo: val,
+                  }))
+                }
+                onAfterChange={(val: any) =>
+                  setQueryParams((prev: any) => ({
+                    ...prev,
+                    feeTo: val,
+                  }))
+                }
                 className="search_slider"
-              />
+              /> */}
             </div>
             <div>
               <div className="lg:grid lg:grid-cols-[400px_1fr]  pb-4 px-5 gap-5 lg:gap-[30px] items-center w-full rounded hidden">

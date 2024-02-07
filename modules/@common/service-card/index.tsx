@@ -6,6 +6,7 @@ const ServiceCard = ({ data }: any) => {
   return (
     <Link
       href={data?.slug}
+      scroll={false}
       className="w-full mb-5 relative block service_card_parent group/test"
     >
       <div className="w-full h-full absolute service_card_overley rounded-md"></div>

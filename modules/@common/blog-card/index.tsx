@@ -29,6 +29,7 @@ const BlogCard = ({ classes, isCenter, data }: propTypes) => {
        ${classes?.root ? classes.root : ""}`}
     >
       <Link
+        scroll={false}
         href={`/blog/${data?.slug}`}
         className={`block w-full ${
           classes?.imageWrapper ? classes.imageWrapper : ""
@@ -48,6 +49,7 @@ const BlogCard = ({ classes, isCenter, data }: propTypes) => {
 
       <div>
         <Link
+          scroll={false}
           href={catLink}
           className={`inline-block rounded transition-all mb-1.5  ${
             classes?.category ? classes.category : ""
@@ -55,7 +57,7 @@ const BlogCard = ({ classes, isCenter, data }: propTypes) => {
         >
           {cat?.title}
         </Link>
-        <Link href={`/blog/${data?.slug}`}>
+        <Link scroll={false} href={`/blog/${data?.slug}`}>
           <h3
             className={`line-clamp-2 text-[28px] lg:leading-[36px] mb-0 hover:text-secondary transition-all mb-2 ${
               classes?.title ? classes.title : ""

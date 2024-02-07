@@ -7,7 +7,7 @@ interface propTypes {
 }
 const RplIndustryCard = ({ data }: propTypes) => {
   return (
-    <Link href="#" className="flex flex-col group">
+    <Link href="#" className="flex flex-col group" scroll={false}>
       <div className="rounded-t-md">
         <Image
           src={data?.imgSrc}

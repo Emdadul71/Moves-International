@@ -12,6 +12,7 @@ const ServiceCard = ({ data }: propsType) => {
     <Link
       href={`/services/professional-year-program/${data?.slug}`}
       className="flex flex-col gap-6 group "
+      scroll={false}
     >
       <div>
         <Image
