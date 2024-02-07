@@ -488,12 +488,18 @@ const LeadForm = ({ classes }: propTypes) => {
                         >
                           <span className="text-base">
                             I agree to Moves International{" "}
-                            <Link href="#" className="hover:text-secondary">
+                            <Link
+                              href="/terms-and-conditions"
+                              className="hover:text-secondary"
+                            >
                               {" "}
                               Terms{" "}
                             </Link>
                             and{" "}
-                            <Link href="#" className="hover:text-secondary">
+                            <Link
+                              href="/privacy-policy"
+                              className="hover:text-secondary"
+                            >
                               privacy policy
                             </Link>
                           </span>

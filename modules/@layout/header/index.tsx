@@ -315,7 +315,7 @@ const Header = () => {
             <div className="grid grid-cols-[1fr_auto] lg:grid-cols-[230px_auto_auto] justify-between items-center relative">
               <div>
                 <div className="absolute top-0 left-0 hidden lg:block">
-                  <Link href="/" scroll={false}>
+                  <Link href="/">
                     <Image
                       src="/misc/logo.png"
                       alt="Study International Logo"
@@ -325,7 +325,7 @@ const Header = () => {
                     />
                   </Link>
                 </div>
-                <Link href="/" scroll={false}>
+                <Link href="/">
                   <Image
                     src="/misc/logo.png"
                     alt="Study International Logo"
@@ -370,7 +370,6 @@ const Header = () => {
                           >
                             {item?.link ? (
                               <Link
-                                scroll={false}
                                 href={item.link}
                                 className="flex items-center gap-2  cursor-pointer px-3 py-6 hover:text-inherit "
                               >
@@ -422,7 +421,6 @@ const Header = () => {
                                             {cldn?.link ? (
                                               <>
                                                 <Link
-                                                  scroll={true}
                                                   href={`${
                                                     cldn?.link ? cldn?.link : ""
                                                   }`}
@@ -466,7 +464,6 @@ const Header = () => {
                                                       ) : (
                                                         <>
                                                           <Link
-                                                            scroll={true}
                                                             href={index?.link}
                                                             className="whitespace-nowrap flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition "
                                                           >
@@ -510,7 +507,6 @@ const Header = () => {
                         return (
                           <li className="overflow-hidden" key={i}>
                             <Link
-                              scroll={true}
                               href={item?.link || "#"}
                               className="flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition delay-200"
                             >
@@ -524,11 +520,7 @@ const Header = () => {
                   )}
                 </div>
                 <SearchIcon classess={{ root: `!text-primary` }} />
-                <Link
-                  scroll={true}
-                  href="/contact-us"
-                  className="btn btn-primary rounded-md"
-                >
+                <Link href="/contact-us" className="btn btn-primary rounded-md">
                   Get in Touch
                 </Link>
                 <div className="block lg:hidden order-2">

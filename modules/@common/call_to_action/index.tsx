@@ -18,7 +18,6 @@ const CallToAction = () => {
             </div>
             <div>
               <Link
-                scroll={false}
                 href="/contact-us"
                 className="btn bg-primary bg-white text-secondary font-semibold rounded-md"
               >

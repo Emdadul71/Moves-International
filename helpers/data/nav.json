@@ -131,7 +131,7 @@
       },
       {
         "title": "Melbourne",
-        "link": "/migration/gsm-visa",
+        "link": "/migration",
         "grandChld": [
           {
             "title": "The University of Melbourne",
@@ -153,7 +153,7 @@
       },
       {
         "title": "Canberra",
-        "link": "/migration/gsm-visa",
+        "link": "/migration",
         "grandChld": [
           {
             "title": "University of Canberra",
@@ -175,11 +175,13 @@
       },
       {
         "title": "Perth",
-        "link": "/institutions?totalInstitute=134&page=1&stateSlug=wa"
+        "link": "/institutions?totalInstitute=134&page=1&stateSlug=wa",
+        "isAnchor": true
       },
       {
         "title": "Tasmania",
-        "link": "/institutions?totalInstitute=134&page=1&&stateSlug=tas"
+        "link": "/institutions?totalInstitute=134&page=1&&stateSlug=tas",
+        "isAnchor": true
       }
     ]
   },
