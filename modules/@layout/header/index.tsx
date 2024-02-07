@@ -422,7 +422,7 @@ const Header = () => {
                                             {cldn?.link ? (
                                               <>
                                                 <Link
-                                                  scroll={false}
+                                                  scroll={true}
                                                   href={`${
                                                     cldn?.link ? cldn?.link : ""
                                                   }`}
@@ -466,7 +466,7 @@ const Header = () => {
                                                       ) : (
                                                         <>
                                                           <Link
-                                                            scroll={false}
+                                                            scroll={true}
                                                             href={index?.link}
                                                             className="whitespace-nowrap flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition "
                                                           >
@@ -510,7 +510,7 @@ const Header = () => {
                         return (
                           <li className="overflow-hidden" key={i}>
                             <Link
-                              scroll={false}
+                              scroll={true}
                               href={item?.link || "#"}
                               className="flex p-2 hover:text-inherit text-black font-normal items-center gap-2 translate-x-[-30px] hover:translate-x-0 transition delay-200"
                             >
@@ -525,7 +525,7 @@ const Header = () => {
                 </div>
                 <SearchIcon classess={{ root: `!text-primary` }} />
                 <Link
-                  scroll={false}
+                  scroll={true}
                   href="/contact-us"
                   className="btn btn-primary rounded-md"
                 >

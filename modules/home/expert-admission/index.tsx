@@ -167,7 +167,7 @@ const ExpertAdmission = ({ scroll }: any) => {
           >
             {expertData?.map((item, i) => {
               return (
-                <Link href={item?.link} key={i} scroll={false}>
+                <Link href={item?.link} key={i} scroll={true}>
                   <Image
                     src={item?.imgSrc}
                     alt="Moves International Logo"

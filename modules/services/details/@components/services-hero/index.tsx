@@ -38,13 +38,14 @@ const ServiceHero = ({ data, params }: any) => {
               <div className="flex items-center gap-5">
                 <Link
                   href="/"
-                  scroll={false}
+                  scroll={true}
                   className="text-white text-lg hover:text-secondary"
                 >
                   Home
                 </Link>
                 <span className="w-[4px] h-[4px] bg-grey rounded-full"></span>
                 <Link
+                  scroll={true}
                   href="/services"
                   className="text-white text-lg hover:text-secondary"
                 >
@@ -55,7 +56,7 @@ const ServiceHero = ({ data, params }: any) => {
                     <span className="w-[4px] h-[4px] bg-grey rounded-full"></span>
 
                     <Link
-                      scroll={false}
+                      scroll={true}
                       href={`${data?.parentSlug}`}
                       className={`text-lg hover:text-secondary text-white`}
                     >
@@ -69,7 +70,7 @@ const ServiceHero = ({ data, params }: any) => {
 
                     <Link
                       href="#"
-                      scroll={false}
+                      scroll={true}
                       className={`text-lg hover:text-secondary ${
                         data?.slug == params ? `text-secondary` : ``
                       }`}
