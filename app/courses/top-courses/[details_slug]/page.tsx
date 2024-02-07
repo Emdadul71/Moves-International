@@ -28,6 +28,7 @@ async function getData(params: any) {
 const TopCoursesDetailsPage = async ({ params }: any) => {
   const data = await getData(params);
 
+  console.log("params", params);
   console.log("data", data);
 
   return <TopCoursesDetails data={data} params={params?.details_slug} />;

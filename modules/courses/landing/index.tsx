@@ -125,8 +125,6 @@ const CourseLanding = ({ data }: any) => {
   const dataArray = courseData?.data;
   const len = courseData?.totalCount;
 
-  console.log("dataArray", dataArray);
-
   const onChange = (pageNumber: any) => {
     setQueryParams((prev: any) => ({ ...prev, page: pageNumber }));
   };
@@ -188,6 +186,8 @@ const CourseLanding = ({ data }: any) => {
     countrySlug: "australia",
   });
 
+  console.log("courseName", courseName);
+
   return (
     <>
       <section className="bg-primary lg:pt-[100px]">
@@ -208,7 +208,10 @@ const CourseLanding = ({ data }: any) => {
                   </>
                 )}
                 courses were found for
-                <span className="text-secondary pl-[6px]"> {courseName}</span> .
+                <span className="text-secondary pl-[6px]">
+                  {`${courseName || fieldBroad}`}
+                </span>{" "}
+                .
               </h1>
               <p className="mb-0">
                 To display a particular course's details please click on the

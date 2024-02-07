@@ -17,8 +17,8 @@ const Study = () => {
       <StudyFeature />
       <WhyStudy />
       <CourseInfo />
-      <OurPartners classes={{ root: `bg-grey pt-[50px]` }} />
-      <RegistrationProcess />
+      <OurPartners classes={{ root: ` pt-[50px]` }} />
+      {/* <RegistrationProcess /> */}
       <LeadForm />
       <WebStories />
       <SectionFaq />

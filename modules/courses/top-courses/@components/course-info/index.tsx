@@ -405,7 +405,7 @@ const CourseInfo = ({ data }: any) => {
     },
   ];
   return (
-    <section className="pt-5 lg:pt-[100px] lg:mb-[80px] bg-grey">
+    <section className="pt-5 lg:pt-[100px] bg-grey">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-[30px]">
           <div className="flex flex-col gap-5 lg:gap-[50px] self-start lg:sticky top-[160px]">
