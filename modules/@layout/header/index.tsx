@@ -43,18 +43,25 @@ const Header = () => {
   }));
 
   const topCourse = [
-    { title: "Nursing Course", link: "/courses/top-courses/nursing-courses" },
+    {
+      title: "Nursing Course",
+      link: "/courses/top-courses/nursing-courses",
+      isAnchor: true,
+    },
     {
       title: "Health Course",
       link: "/courses?page=1&broad=06 - Health&",
+      isAnchor: true,
     },
     {
       title: "Information Technology Course",
       link: "/courses?page=1&broad=02 - Information Technology",
+      isAnchor: true,
     },
     {
       title: "Engineering Course",
       link: "/courses?page=1&broad=03 - Engineering and Related Technologies",
+      isAnchor: true,
     },
     // {
     //   title: "Trading Course",
@@ -63,6 +70,7 @@ const Header = () => {
     {
       title: "Cookery Course",
       link: "/courses?page=1&broad=11 - Food, Hospitality and Personal Services",
+      isAnchor: true,
     },
     // {
     //   title: "PR Pathway Course",
